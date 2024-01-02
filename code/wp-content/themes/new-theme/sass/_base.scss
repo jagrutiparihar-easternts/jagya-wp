@@ -1,0 +1,79 @@
+// Colours
+$mcblue: #0057B8;
+$mcdarkgrey: #707070;
+$mclightgrey: #E6E6E6;
+$sep: #E6E6E6;
+$error: #d90000;
+
+
+// used for creating columns of equal width and margins
+@function semiguttermargin($colwidth, $columns){
+	@return ((100 - ($colwidth * $columns))  / (($columns - 1) * 2)) * 1%
+}
+
+
+//Mixins
+
+@mixin opensans {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+}
+@mixin opensansbold {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+}
+@mixin mytransition {
+	transition: all .2s ease-in-out;
+}
+@mixin button {
+	display: inline-block;
+	background: $mcblue;
+	color: #fff;
+	@include opensans;
+	text-decoration: none;
+	line-height: 1;
+	font-size: 1em;
+	padding: 13px 50px;
+	font-size: .9em;
+	border: none;
+	border-radius: 25px;
+	position: relative;
+	@include mytransition;
+	&:hover {
+		cursor: pointer;
+		background: lighten($mcblue, 5%);
+	}
+	
+}
+
+
+@mixin textinput {
+	@include opensans;
+	border: none;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 5px 10px;
+	font-size: 1em;
+	color: #000;
+	outline: none;
+	border: 1px solid #000;
+}
+
+
+
+@mixin resetlist {
+	list-style-type: none;
+	margin: 0; padding: 0;
+}
+@mixin trueclear {
+	&:before {
+		content: "";
+		display: table;
+		clear: both;
+	}
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}

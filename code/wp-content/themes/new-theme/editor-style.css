@@ -1,0 +1,80 @@
+body {
+	font-family: arial, sans-serif;
+}
+h1 { font-size: 1.8em; }
+h2 { font-size: 1.6em;}
+h3 { font-size: 1.4em;}
+h4 { font-size: 1.2em; }
+h5 { font-size: 1.1em; }
+h6 { font-size: 1em; }
+
+img.alignleft, img.alignright, img.aligncenter, img.alignnone,
+div.alignleft img, div.alignright img, div.aligncenter img, div.alignnone img {
+	max-width: 100%;
+	height: auto;
+}
+.alignleft {
+    float: left;
+    margin: 0 1em 1em 0;
+}
+.alignright {
+    float:right;
+    margin: 0 0 1em 1em;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 1em auto;
+	max-width: 100%;
+	height: auto;
+}
+.alignnone {
+    margin: 0 0 .5em 0;
+}
+
+.wp-caption {
+    border: 1px solid #eee;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    max-width: 100%;
+    padding: 5px 5px 5px;
+    text-align: center;
+	
+}
+.wp-caption img {
+	border: none;
+	height: auto;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+    width: auto;
+}
+.wp-caption p.wp-caption-text {
+	font-size: .9em;
+	line-height: 1.4;
+	margin: 0;
+}
+
+.gallery-item img {
+	border: none !important;
+	max-width: 100%;
+	height: auto;
+	padding: 5px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	margin: 0 auto;
+}
+.gallery-item .gallery-caption {
+	font-size: .9em;
+	padding: 5px;
+	line-height: 1.4;
+}
+blockquote {
+	max-width: 90%;
+	font-style: italic;
+}

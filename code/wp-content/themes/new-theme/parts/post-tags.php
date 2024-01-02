@@ -1,0 +1,1 @@
+<?php echo get_the_tag_list('<p class="icon-tags"><b>Tags: </b>',', ','</p>'); ?>
