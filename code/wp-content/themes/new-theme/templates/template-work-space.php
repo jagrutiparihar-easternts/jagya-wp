@@ -25,6 +25,7 @@ Template Name: Work Space
                 data-wow-delay="600ms"
               >
                 <h1>OUR WORKING SPACE</h1>
+                <h4>Architecture   |   Interior  |  Urban Design   |  Landscape |   Art  </h4>
                 <div class="sub-heading">
                   <h2>'Jagya Designs'</h2>
                 </div>
@@ -85,7 +86,7 @@ Template Name: Work Space
               </div>
             </div>
             <div class="col-xl-4">
-              <div class="sec-3-img" style="padding: 10px 33px 33px 33px">
+              <div class="sec-3-img desktop-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-4.jpg"
                   class="img-fluid img-shadow img-one"

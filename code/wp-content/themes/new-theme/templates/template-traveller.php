@@ -18,7 +18,7 @@ Template Name: Traveller
     $query = new WP_Query($args); 
 ?>
 <section class="section-one-art">
-    <div class="container-fluid">
+    <div class="container-xxl">
         <div class="row">
             <div class="col-xl-3"></div>
             <div class="col-xl-6">
@@ -37,13 +37,18 @@ Template Name: Traveller
     <section class="section-two-art client-section">
         <div class="container-fluid">
             <div class="row">
+                <div class="col-lg-3">
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+
     
             <?php
             while ($query->have_posts()) : $query->the_post();
                 // Display your custom post content here            
             ?>
                 
-                <div class="col-6 col-lg-6 client-logo <?php echo $termsString; ?>" data-category="transition">
+                <div class="col-12 col-lg-6 client-logo <?php echo $termsString; ?>" data-category="transition">
                     <div class="jagya-thumb">
                         <div class="jagya-thumb-img">
                             <div id="lightgallery_<?php echo $count; ?>" class="myLightgallery"><?php
@@ -82,6 +87,8 @@ Template Name: Traveller
             wp_reset_postdata(); ?>
 
             </div>
+                            </div>
+                </div>
         </div>
     </section>
 

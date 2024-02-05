@@ -42,8 +42,8 @@ Template Name: Design Competition Module
                 while ($query->have_posts()) : $query->the_post();           
             ?>
                 
-                <div class="col-6 col-sm-6 col-md-6 col-lg-3 <?php echo $termsString; ?>" data-category="transition">
-                    <div class="jagya-thumb">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-3 <?php echo $termsString; ?>" data-category="transition">
+                    <div class="jagya-thumb design-module">
                         <div class="jagya-thumb-img">
                             <!-- lightgallery start -->
                             <div id="lightgallery_<?php echo $count; ?>" class="myLightgallery"><?php

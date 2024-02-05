@@ -25,7 +25,7 @@ Template Name: My Self
 
 <p>He has won many awards in the field of design like; Young Architect Award, IIID Anchor Award, Archidesign Award, Young Designer Award, Indian Architect & Builders Awards and many more at the national level.</p>
 
-<p>A passion for Photography gets him featured in the National Geographic Magazine and one of his captured image “Hands” gets an international recognition at Travel Photographer Asia Award and opportunity to travel in Asia, as a part of the Award.</p>
+<p class="white-font">A passion for Photography gets him featured in the National Geographic Magazine and one of his captured image “Hands” gets an international recognition at Travel Photographer Asia Award and opportunity to travel in Asia, as a part of the Award.</p>
 
 <p>Apart from many films, “Varanasi - Steps to salvation” a documentary film and “Kismat Cleaners” a short film directed by himself was officially selected in many cinema festival across India.</p>
 
@@ -39,15 +39,16 @@ Template Name: My Self
               >
                   
                     <div class="myself-photo">
-                        <a href="<?php echo esc_url(home_url('/work-space')); ?>"><img title="Photography" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-photo.png"/></a>
+                        <a href="<?php echo esc_url(home_url('/photography')); ?>"><img id="imguser1" onmouseover="loadGif555();"
+                            onmouseout="loadNormalImage555();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-photo.png"/></a>
                     </div>
                     <div class="myself-cinema">
-                        <a href="<?php echo esc_url(home_url('/work-space')); ?>"><img title="Cinema" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-movie.png"/></a>
+                        <a href="<?php echo esc_url(home_url('/cinema')); ?>"><img id="imguser2" onmouseover="loadGif666();"
+                            onmouseout="loadNormalImage666();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-movie.png"/></a>
                     </div>
                     <div class="screen-l15">
                         <a href="<?php echo esc_url(home_url('/work-space')); ?>"
                         ><img
-							title="Work Space"
                             id="img15"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/work-space.png"
                             onmouseover="loadGif15();"
@@ -56,10 +57,12 @@ Template Name: My Self
                         </a>
                     </div>
                     <div class="myself-gulam">
-                        <a href="<?php echo esc_url(home_url('/gulham')); ?>"><img title="Gulham" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-pen.png"/></a>
+                        <a href="<?php echo esc_url(home_url('/gulham')); ?>"><img id="imguser3" onmouseover="loadGif777();"
+                            onmouseout="loadNormalImage777();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-pen.png"/></a>
                     </div>
                     <div class="myself-traveller">
-                        <a href="<?php echo esc_url(home_url('/gulham')); ?>"><img title="Traveller" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-traveller.png"/></a>
+                        <a href="<?php echo esc_url(home_url('/traveller')); ?>"><img id="imguser4" onmouseover="loadGif888();"
+                            onmouseout="loadNormalImage888();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-traveller.png"/></a>
                     </div>
                
                 <div>
@@ -69,7 +72,7 @@ Template Name: My Self
               </div>
                <div class="myself-right-footer">
                 <div class="head-title">Qualification</div>
-                  <div class="head-sub-title">M.Arch: CEPT University, Ahmedabad, 2009-11</div>
+                  <div class="head-sub-title">M.Arch: CEPT University, Ahmedabad, <br> 2009-11</div>
                   <div class="head-sub-title">B.Arch: SCET, Surat, 2002-07</div>
               </div>
               <div class="myself-right-footer-logo">
@@ -102,3 +105,45 @@ Template Name: My Self
       </div>
        
 <?php get_footer(); ?>
+<script>
+    function loadGif15() {
+    var image = document.getElementById("img15");
+    image.src = "<?php echo get_template_directory_uri(); ?>/images/h-icon/work-space.gif";
+    }
+     function loadNormalImage15() {
+    var image = document.getElementById("img15");
+    image.src = "<?php echo get_template_directory_uri(); ?>/images/h-icon/work-space.png";
+    }
+    function loadGif555() {
+    var image = document.getElementById("imguser1");
+    image.src = "<?php echo get_template_directory_uri(); ?>/images/myself/myself-photo.gif";
+    }
+    function loadNormalImage555() {
+    var image = document.getElementById("imguser1");
+    image.src = "<?php echo get_template_directory_uri(); ?>/images/myself/myself-photo.png";
+    }
+    function loadGif666() {
+    var image = document.getElementById("imguser2");
+    image.src = "<?php echo get_template_directory_uri(); ?>/images/myself/myself-movie.gif";
+    }
+    function loadNormalImage666() {
+    var image = document.getElementById("imguser2");
+    image.src = "<?php echo get_template_directory_uri(); ?>/images/myself/myself-movie.png";
+    }
+    function loadGif777() {
+    var image = document.getElementById("imguser3");
+    image.src = "<?php echo get_template_directory_uri(); ?>/images/myself/myself-pen.gif";
+    }
+    function loadNormalImage777() {
+    var image = document.getElementById("imguser3");
+    image.src = "<?php echo get_template_directory_uri(); ?>/images/myself/myself-pen.png";
+    }
+     function loadGif888() {
+    var image = document.getElementById("imguser4");
+    image.src = "<?php echo get_template_directory_uri(); ?>/images/myself/myself-traveller.gif";
+    }
+    function loadNormalImage888() {
+    var image = document.getElementById("imguser4");
+    image.src = "<?php echo get_template_directory_uri(); ?>/images/myself/myself-traveller.png";
+    }
+</script>

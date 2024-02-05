@@ -23,7 +23,7 @@ Template Name: Colourful Lines
                 </div>
               </div>
               <div class="row">
-                <div class="col-xl-4">
+                <div class="col-xl-4 cen-img">
                   <div class="wow fadeInUp animated" data-wow-delay="200ms">
                     <img
                       src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-1.jpg"
@@ -45,9 +45,9 @@ Template Name: Colourful Lines
                       and something fruitful will comes out while discussing
                       with them. From very first day, client was saying, he
                       wants a colorful house because he wants to relax after
-                      stressful working day. And we have introduced six
+                      stressful working day.<span class="white-font"> And we have introduced six
                       different colors and playful brick elements for his family
-                      (especially for his daughter). Every element is adopting
+                      (especially for his daughter).</span> Every element is adopting
                       the nature of each other and all spaces linked with each
                       other through the single idea or concept.
                     </p>
@@ -66,9 +66,9 @@ Template Name: Colourful Lines
                 <div class="col-xl-8"></div>
               </div>
             </div>
-            <div class="col-xl-5">
+            <div class="col-xl-5 pad-0">
               <div
-                class="wow fadeIn animated"
+                class="wow fadeIn animated sec-mob-padding"
                 data-wow-delay="600ms"
               >
                 <img
@@ -86,7 +86,7 @@ Template Name: Colourful Lines
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-4.jpg"
                   class="img-fluid img-shadow img-one"
@@ -102,7 +102,7 @@ Template Name: Colourful Lines
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-5.jpg"
                   class="img-fluid img-shadow img-one"
@@ -134,7 +134,7 @@ Template Name: Colourful Lines
               </div>
             </div>
           </div>
-          <div class="row" style="padding-top: 24px">
+          <div class="row padding-24">
             <div class="col-xl-6">
               <div class="sec-3-img">
                 <img
@@ -160,7 +160,7 @@ Template Name: Colourful Lines
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-10.jpg"
                   class="img-fluid img-shadow img-one"
@@ -201,7 +201,7 @@ Template Name: Colourful Lines
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="sec-2-img">
+              <div class="sec-2-img last-section">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-13.jpg"
                   class="img-fluid img-shadow img-one"

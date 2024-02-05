@@ -20,7 +20,18 @@ Template Name: Awards Module
 <section class="section-one-art">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-xl-5"></div>
+            <div class="col-xl-5">
+                <div class="awards-category">
+                    <div>Architecture</div>
+                    <div>interior</div>
+                    <div>Landscape</div>
+                    <div>Product</div>
+                    <div>Art/Graphics</div>
+                    <div>Competitions</div>
+                    <div>Photography</div>
+                    <div>Cinema</div>
+                </div>
+            </div>
             <div class="col-xl-7">
                 <div class="awards-details">
                     <h1>AWARDS</h1>
@@ -42,12 +53,13 @@ Template Name: Awards Module
     <section class="section-two-art">
         <div class="container-fluid">
             <div class="row">
-    
+                <div class="col-lg-8 col-md-6 col-sm-12">
+                    <div class="row">
             <?php
                 while ($query->have_posts()) : $query->the_post();           
             ?>
                 
-                <div class="col-lg-3 col-md-6 col-sm-12 <?php echo $termsString; ?>" data-category="transition">
+                <div class="col-6 col-lg-3 col-md-6 col-sm-12 <?php echo $termsString; ?>" data-category="transition">
                     <div class="jagya-thumb">
                         <div class="">
                             <!-- lightgallery start -->
@@ -59,15 +71,13 @@ Template Name: Awards Module
                                         <a class="projects-thumb" title="<?php the_title_attribute(); ?>" style="<?php if($gallcount != 1) echo 'display:none'?>" href="<?php echo  $sub_valueproject_image['url']; ?>" >
 
                                             <!-- edit this part -->
-                                            <div class="awards-box">
-                                                
+                                            <div class="awards-box">                                                
                                                 <div class="awards-img">
                                                     <div><img src="<?php echo  $sub_valueproject_image['sizes']['large-thumbnail']; ?>" class="img-fluid" /></div>
                                                     <div class="awards-title-1">
                                                         <?php the_field('thumb_heading'); ?>
                                                     </div>
                                                 </div>
-                                                <div class="awards-title"></div>
                                             </div>
                                             <!-- edit this part -->
                                             
@@ -97,7 +107,10 @@ Template Name: Awards Module
                 endwhile;
                 wp_reset_postdata(); 
             ?>
-
+</div>
+            </div>
+        
+            <div class="col-lg-4 col-md-6 col-sm-12"></div>
             </div>
         </div>
     </section>

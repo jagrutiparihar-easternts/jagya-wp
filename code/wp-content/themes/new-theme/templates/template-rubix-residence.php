@@ -10,16 +10,16 @@ Template Name: Rubix Residence
       <div class="section" id="section0">
         <div class="container-fluid">
           <div class="row pad-top rubix-residence-well">
-            <div class="col-xl-1">
-              <div class="wow zoomIn animated">
+            <div class="col-6 col-xl-1">
+              <div class="wow zoomIn animated" data-wow-delay="3100ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-10.png"
                   class="img-fluid"
                 />
               </div>
             </div>
-            <div class="col-xl-1">
-              <div class="wow zoomIn animated" data-wow-delay="600ms">
+            <div class="col-6 col-xl-1">
+              <div class="wow zoomIn animated" data-wow-delay="2800ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-9.png"
                   class="img-fluid"
@@ -27,7 +27,7 @@ Template Name: Rubix Residence
               </div>
             </div>
             <div class="col-xl-1">
-              <div class="wow zoomIn animated" data-wow-delay="900ms">
+              <div class="wow zoomIn animated" data-wow-delay="2500ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-8.png"
                   class="img-fluid"
@@ -35,7 +35,7 @@ Template Name: Rubix Residence
               </div>
             </div>
             <div class="col-xl-1">
-              <div class="wow zoomIn animated" data-wow-delay="1200ms">
+              <div class="wow zoomIn animated" data-wow-delay="2100ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-7.png"
                   class="img-fluid"
@@ -43,7 +43,7 @@ Template Name: Rubix Residence
               </div>
             </div>
             <div class="col-xl-1">
-              <div class="wow zoomIn animated" data-wow-delay="1500ms">
+              <div class="wow zoomIn animated" data-wow-delay="1800ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-6.png"
                   class="img-fluid"
@@ -51,7 +51,7 @@ Template Name: Rubix Residence
               </div>
             </div>
             <div class="col-xl-1">
-              <div class="wow zoomIn animated" data-wow-delay="1800ms">
+              <div class="wow zoomIn animated" data-wow-delay="1500ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-5.png"
                   class="img-fluid"
@@ -59,7 +59,7 @@ Template Name: Rubix Residence
               </div>
             </div>
             <div class="col-xl-1">
-              <div class="wow zoomIn animated" data-wow-delay="2100ms">
+              <div class="wow zoomIn animated" data-wow-delay="1200ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-4.png"
                   class="img-fluid"
@@ -67,7 +67,7 @@ Template Name: Rubix Residence
               </div>
             </div>
             <div class="col-xl-1">
-              <div class="wow zoomIn animated" data-wow-delay="2500ms">
+              <div class="wow zoomIn animated" data-wow-delay="900ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-3.png"
                   class="img-fluid"
@@ -75,15 +75,16 @@ Template Name: Rubix Residence
               </div>
             </div>
             <div class="col-xl-1">
-              <div class="wow zoomIn animated" data-wow-delay="2800ms">
+              <div class="wow zoomIn animated" data-wow-delay="600ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-2.png"
                   class="img-fluid"
                 />
               </div>
             </div>
+            <div class="col-xl-1 mob-display"></div>
             <div class="col-xl-1">
-              <div class="wow zoomIn animated" data-wow-delay="3100ms">
+              <div class="wow zoomIn animated">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-1.png"
                   class="img-fluid"
@@ -106,7 +107,7 @@ Template Name: Rubix Residence
                   restricted plot size we decided to go for the third floor
                   also.
                 </p>
-                <p>
+                <p class="white-font">
                   Now because of the three stories-built form, its look like
                   low-rise apartment in nature and also its look to massive in
                   size. So, our main concern was to break the entire built form
@@ -194,7 +195,7 @@ Template Name: Rubix Residence
               </div>
             </div>
           </div>
-          <div class="row" style="padding-top: 24px">
+          <div class="row padding-24">
             <div class="col-xl-6">
               <div class="sec-3-img">
                 <img
@@ -208,6 +209,22 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-7.jpg"
                   class="img-fluid img-four img-shadow"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="section1">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-16.webp"
+                  class="img-fluid img-one img-shadow"
                 />
               </div>
             </div>
@@ -236,7 +253,7 @@ Template Name: Rubix Residence
               </div>
             </div>
           </div>
-          <div class="row" style="padding-top: 24px">
+          <div class="row padding-24">
             <div class="col-xl-6">
               <div class="sec-3-img">
                 <img
@@ -262,7 +279,7 @@ Template Name: Rubix Residence
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-12.jpg"
                   class="img-fluid img-shadow img-one"
@@ -278,7 +295,7 @@ Template Name: Rubix Residence
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-13.jpg"
                   class="img-fluid img-shadow img-one"
@@ -294,7 +311,7 @@ Template Name: Rubix Residence
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-14.jpg"
                   class="img-fluid img-shadow img-one"
@@ -310,11 +327,11 @@ Template Name: Rubix Residence
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
-                <img
+              <div class="sec-mob-padding last-section">
+                <a href="https://www.youtube.com/watch?v=BjuB9bkefVs&ab_channel=JagyaFilms" target="_blank"><img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-15.jpg"
                   class="img-fluid img-shadow img-one"
-                />
+                /></a>
               </div>
             </div>
           </div>

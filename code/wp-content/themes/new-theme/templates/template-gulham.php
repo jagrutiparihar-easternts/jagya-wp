@@ -6,10 +6,10 @@ Template Name: Gulham
 <?php get_header(); ?>
 <section class="section-two-art gulham-section">
 	<div class="container-fluid">
-		<div class="row">																		
+		<div class="row mt-80">																		
 			<?php if( have_rows('repeater') ):
 				while( have_rows('repeater') ) : the_row(); ?>									
-					<div class="col-lg-3">
+					<div class="col-12 col-lg-3">
 						<div class="gulham-img">
 							<?php $image = get_sub_field('repeater_image');
 							if( !empty( $image ) ): ?>

@@ -7,7 +7,7 @@ Template Name: Desire
 
 <div id="fullpage">
       <div class="section" id="section0">
-        <div class="container-fluid">
+        <div class="container-fluid desire-mob">
           <div class="row">
             <div class="col-xl-4">
               <div class="wow zoomIn animated" data-wow-delay="200ms">
@@ -49,7 +49,7 @@ Template Name: Desire
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-3.jpg"
                   class="img-fluid img-shadow img-one"
@@ -65,7 +65,7 @@ Template Name: Desire
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-4.jpg"
                   class="img-fluid img-shadow img-one"
@@ -99,13 +99,29 @@ Template Name: Desire
           </div>
         </div>
       </div>
+      <div class="section" id="section1">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="sec-mob-padding">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-19.gif"
+                  class="img-fluid img-shadow img-one"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="section" id="section4">
         <div
           class="container-sm container-md container-lg container-xl container-xxl"
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-7.jpg"
                   class="img-fluid img-shadow img-one"
@@ -146,7 +162,7 @@ Template Name: Desire
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-10.jpg"
                   class="img-fluid img-shadow img-one"
@@ -178,7 +194,7 @@ Template Name: Desire
               </div>
             </div>
           </div>
-          <div class="row" style="padding-top: 24px">
+          <div class="row padding-24">
             <div class="col-xl-6">
               <div class="sec-3-img">
                 <img
@@ -228,7 +244,7 @@ Template Name: Desire
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-17.jpg"
                   class="img-fluid img-shadow img-one"
@@ -243,7 +259,7 @@ Template Name: Desire
           class="container-sm container-md container-lg container-xl container-xxl"
         >
           <div class="row">
-            <div class="col-xl-4 align-jg-center">
+            <div class="col-xl-4 align-jg-center desire-section">
               <div class="video-section-info">
                 <div>
                   <div class="head-title">Sincere thanks</div>
@@ -259,11 +275,11 @@ Template Name: Desire
               </div>
             </div>
             <div class="col-xl-8">
-              <div class="sec-2-img">
-                <img
+              <div class="sec-2-img last-section">
+                <a href="https://www.youtube.com/watch?v=gNPz8-RasR8&ab_channel=JagyaFilms" target="_blank"><img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-18.jpg"
                   class="img-fluid img-shadow"
-                />
+                /></a>
               </div>
             </div>
           </div>

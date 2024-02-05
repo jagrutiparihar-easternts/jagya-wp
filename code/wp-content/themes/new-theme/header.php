@@ -6,7 +6,8 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<!-- Mobile Meta -->
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- 	<meta name="viewport" content="width=device-width,initial-scale=1"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 	<!-- Favicons and Icons -->
 	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-icon-touch.png">
@@ -35,9 +36,8 @@
       <div>
         <div class="">
           <div class="home-page">
-            <img
+            <img class="home-loder-logo"
               src="<?php echo get_template_directory_uri(); ?>/images/load.gif"
-              style="width: 1200px; height: 243px"
               alt="Jagya"
             />
           </div>

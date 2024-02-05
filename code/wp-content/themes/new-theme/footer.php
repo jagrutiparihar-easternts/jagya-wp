@@ -1,12 +1,42 @@
 <?php wp_footer(); ?>
+
 <?php
 	if (is_front_page()) {
+	    
 ?>	
-<!-- start scrollUp  -->
-<div id="scrollUp" class="orange-color">
-	<i class="fa fa-angle-up"></i>
+<div class="jagya-footer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-xl-2">
+                <div class="foter-icon-left">
+                    <a href="<?php echo esc_url(home_url('/contact-us')); ?>" class="desktop-contact"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/contact-icon.png"></a>
+                </div>
+            </div>
+            <div class="col-12 col-xl-8 text-center copyright-text">
+                <p>Copyright © 2024 JAGYA. All Rights Reserved. <br>| Powered by <a href="http://www.easternts.com/" target="_blank"> : Eastern Techno Solutions</a></p>
+            </div>
+            <div class="col-12 col-xl-2">
+                <div class="foter-icon-right only-desktop">
+                    <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/facebook-icon.png"></a></div>
+                    <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/linkedin-icon.png"></a></div>
+                    <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/youtube-icon.png"></a></div>
+                    <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/insta-icon.png"></a></div>
+                </div>
+                <div class="foter-icon-right-mobile">
+                    <div>
+                        <a href="<?php echo esc_url(home_url('/contact-us')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/contact-icon.png"></a>
+                    </div>
+                    <div class="mobile-fot-icon">
+                        <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/facebook-icon.png"></a></div>
+                        <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/linkedin-icon.png"></a></div>
+                        <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/youtube-icon.png"></a></div>
+                        <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/insta-icon.png"></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<!-- End scrollUp  -->
 <script>
     document.addEventListener("DOMContentLoaded", function () {
     // Array of colors
@@ -15,11 +45,7 @@
 
     // Get the index of the last used color from local storage or set it to 0
     let lastIndex = parseInt(localStorage.getItem("lastIndex")) || 0;
-
-    // Set the background color of the body to the next color in the array
-    // document.body.style.backgroundColor = colors[lastIndex];
-    // document.body.style.backgroundImage = `linear-gradient(${gridColors[lastIndex]} 0.1em, transparent 0.1em), linear-gradient(90deg, ${gridColors[lastIndex]} 0.1em, transparent 0.1em)`;
-
+		
     // Function to get the next index considering the array length
     function getNextIndex(currentIndex) {
         return (currentIndex + 1) % colors.length;
@@ -228,69 +254,74 @@
     var image = document.getElementById("img16");
     image.src = "<?php echo get_template_directory_uri(); ?>/images/h-icon/client.png";
     }
+	
+	<?php if (wp_is_mobile() ) { ?>
+		function delay (URL) {
+			setTimeout( function() { window.location = URL }, 3000 );
+		}
+	<?php  } else { ?>
+		function delay (URL) {
+			setTimeout( function() { window.location = URL }, 0 );
+		}
+	<?php } ?>
+	
 </script>
 <?php
 	} else {
 ?>
-<script type="text/javascript">
-    var myFullpage = new fullpage("#fullpage", {
-        slidesNavigation: true,
-        lazyLoad: true,
-        credits: { enabled: false },
-    });
-    document
-        .querySelector(".back-btn")
-        .addEventListener("click", function () {
-        // Navigate to the previous page in the browsing history
-        window.history.back();
-    });
-</script>
-<script>
-jQuery(function ($) {
-
-var $container = $('#isotope-list'); //The ID for the list with all the blog posts
-$container.isotope({ //Isotope options, 'item' matches the class in the PHP
-    itemSelector : '.item_select', 
-    layoutMode : 'masonry'
-});
-
-//Add the class selected to the item that is clicked, and remove from the others
-var $optionSets = $('#filters'),
-$optionLinks = $optionSets.find('a');
-
-$optionLinks.click(function(){
-var $this = $(this);
-// don't proceed if already selected
-if ( $this.hasClass('selected') ) {
-  return false;
-}
-var $optionSet = $this.parents('#filters');
-$optionSets.find('.selected').removeClass('selected');
-$this.addClass('selected');
-
-//When an item is clicked, sort the items.
- var selector = $(this).attr('data-filter');
-$container.isotope({ filter: selector });
-
-return false;
-});
-
-});    
-</script>
-
-<script type="text/javascript">
+<script type="text/javascript">	
+	
     jQuery(document).ready(function($) {
         for (let i = 1; i < 500; i++) {
             $("#lightgallery_"+i ).lightGallery({
-            download: true,
+            download: false,
             counter: false,
             hash: true,
             galleryId: i,	
 			thumbnail:false
-            });
+            });			
         }
         new WOW().init();
+		
+		var gallery = $('#imagelightgallery'); 
+		gallery.lightGallery({ 
+			selector: '.zoom',
+			thumbnail:false,
+			download: false
+		});
     });
+	
+// 	jQuery(document).keydown(function(event) {
+// 	  if ( event.keyCode == 27 && window.location.href.endsWith("/") ) {
+// 			goBackToSecondLast(); 			
+// 			window.history.back();
+// 		  console.log(window.location.href);
+// 	  }
+// 	});
+	
+	document.querySelector(".back-btn").addEventListener("click", function () { 
+		var urlWin = window.location.href;
+		if ( urlWin.includes("gulham") || urlWin.includes("cinema") || urlWin.includes("photography") || urlWin.includes("traveller") ) {
+			window.location.href = "<?php echo home_url(); ?>/myself";
+		} else if( urlWin.includes("portraits") || urlWin.includes("people") || urlWin.includes("religion") || urlWin.includes("connections") || urlWin.includes("animal") || urlWin.includes("experiments") ) {
+			window.location.href = "<?php echo home_url(); ?>/photography";
+		} else {
+			goBackToSecondLast();
+	 	}
+    }); 
+	
+	function goBackToSecondLast() {
+	  var newUrl = window.location.href.split('/').slice(0, -2).join('/');
+	  window.location.href = newUrl;
+	}  
+		
+	var myFullpage = new fullpage("#fullpage", {
+        slidesNavigation: true,
+        lazyLoad: true,
+        responsiveWidth: 1024,
+        credits: { enabled: false },
+    }); 
+    
 </script>
 
 <?php

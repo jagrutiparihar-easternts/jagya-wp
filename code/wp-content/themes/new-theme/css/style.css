@@ -10303,7 +10303,7 @@ body .search-modal .close:hover {
   width: 60px;
 }
 .home-page img{
-    width:500px !important;
+    width:500px;
     height:100% !important;
 }
 
@@ -11399,6 +11399,7 @@ body .search-modal .close:hover {
   position: absolute;
   bottom: 128px;
   left: 49px;
+  z-index:99;
 }
 
 .screen-l2 img {
@@ -11463,8 +11464,8 @@ body .search-modal .close:hover {
 
 .screen-l6 {
   position: absolute;
-  bottom: 55px;
-  right: 91px;
+  bottom: -15px;
+  right: 125px;
 }
 
 .screen-l6 img {
@@ -11482,8 +11483,8 @@ body .search-modal .close:hover {
 
 .screen-l7 img {
   display: block;
-  width: 110px;
-  max-width: 110px;
+  width: 130px;
+  max-width: 130px;
   height: auto;
 }
 
@@ -11776,7 +11777,14 @@ body .search-modal .close:hover {
   letter-spacing: 0px;
   font-size: 22px;
 }
-
+.main-heading h4 {
+  font-family: 'Orator Std' !important;
+  color: #FFFFFF;
+  font-weight: 400 !important;
+  letter-spacing: 0px;
+  font-size: 16px;
+  margin-bottom: 0;
+}
 .sub-heading h2 {
   font-family: 'Orator Std' !important;
   color: #ffb81d;
@@ -11949,10 +11957,19 @@ body .search-modal .close:hover {
   z-index: 9999;
 }
 .trace-the-trail-well .content-well {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 20px 40px;
   margin: 20px 280px;
   border-radius: 10px;
+}
+.trace-the-trail-well .content-well.main-heading h1{
+  color:#FFF;
+}
+.desktop-padding{
+    padding: 10px 33px 33px 33px
+}
+.trace-the-trail-well .content-well p{
+    color:#FFF;
 }
 
 .content-well.bg-yellow {
@@ -11997,12 +12014,24 @@ body .search-modal .close:hover {
   letter-spacing: 0px;
   font-size: 34px;
 }
-
+.left-text{
+    text-align:left;
+}
 .jagya-thumb {
   text-align: center;
   margin-bottom: 50px;
 }
-
+.people-thumb,.religion-thumb, .connections-thumb, .animal-thumb, .photography-box, .portraits-thumb{
+    padding:20px;
+}
+.people-thumb-title, .religion-thumb-title, .connections-thumb-title,.animal-thumb-title, .people-thumb-title, .portraits-thumb-title, .photography-title{
+  font-family: 'Orator Std' !important;
+  color: #ffb81d;
+  font-weight: 400 !important;
+  letter-spacing: 0px;
+  font-size: 18px;
+  text-align: left;
+}
 .jagya-thumb-title {
   font-family: 'Orator Std' !important;
   color: #ffb81d;
@@ -12055,7 +12084,9 @@ body .search-modal .close:hover {
   -o-transform-origin: 0 0;
   transform-origin: 0 0;
 }
-
+.cinema-logo{
+    padding:60px;
+}
 .client-section .client-logo:nth-child(odd) {
 	text-align: right;
 	display: block;
@@ -12536,7 +12567,7 @@ Not supports in Firefox and IE */
     bottom: -50px;
 }
 .traditional-top img{
-    width:100px;
+    width:160px;
     height:100%;
 }
 .traditional-bottom img{
@@ -12567,37 +12598,584 @@ Not supports in Firefox and IE */
 }
 .awards-box{
     display:flex;
+    padding:12px;
 }
-.awards-img{
-    width:80%;
-    position:relative;
-}
-.awards-title{
-    width:20%;
-}
+/*.awards-img{*/
+/*    width:80%;*/
+/*    position:relative;*/
+/*}*/
+/*.awards-title{*/
+/*    width:20%;*/
+/*}*/
+/*.awards-box .awards-title-1 {*/
+/*  font-family: 'Orator Std' !important;*/
+/*  color: #ffb81d;*/
+/*  font-weight: 400 !important;*/
+/*  letter-spacing: 0px;*/
+/*  font-size: 16px;*/
+/*  rotate: 270deg;*/
+/*  position: absolute;*/
+/*  top: -117px;*/
+/*  right: -130px;*/
+/*  line-height: 1.2;*/
+/*  text-align: left;*/
+/*  display: flex;*/
+/*  justify-content: start;*/
+/*  align-items: center;*/
+/*  right: -52%;*/
+/*  width: 100%;*/
+/*  height: 40px;*/
+/*  top: 88px;*/
+/*}*/
 .awards-box .awards-title-1 {
   font-family: 'Orator Std' !important;
   color: #ffb81d;
   font-weight: 400 !important;
   letter-spacing: 0px;
   font-size: 16px;
-  rotate: 270deg;
-  position: absolute;
-  top: -117px;
-  right: -130px;
-  line-height: 1.2;
-  text-align: left;
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  right: -52%;
+  position: relative;
+}
+.jagya-footer img{
+    height:22px;
+    width:22px;
+}
+.home-footer .jagya-footer {position: absolute;}
+.jagya-footer {
+  padding: 6px 0 6px 0;
+  bottom: 0;
   width: 100%;
-  height: 40px;
-  top: 88px;
+}
+.jagya-footer p{
+    margin:0;   
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.jagya-footer .row{
+    display: flex;align-items: center;
+}
+.jagya-footer, .jagya-footer a{
+  color: #ffb81d;
+  font-family: 'Courier Prime', monospace;
+  font-size: 12px;
+}
+.foter-icon-right{
+    display:flex;
+    justify-content: end;
+}
+.foter-icon-right div{
+    margin:auto 6px;
+}
+.mob-contact{
+    display:none;
+}
+.wpcf7-form-control{
+    color: #000 !important;
+    background-color: #ffb81d;
+  border: 0;
+  padding: 6px 40px;
+  border-radius: 6px;
+  font-family: 'Courier Prime', monospace;
+}
+.form-label{color: #ffb81d;font-family: 'Courier Prime', monospace;}
+.form-control {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: 1px solid #ffb81d;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.contact-form{
+    display: flex;
+    align-items: end;
+}
+.contact-page{
+    display:flex;
+    align-items:center;
+    height:100vh;
+}
+.contact-details a{color: #ffb81d;font-family: 'Courier Prime', monospace;}
+.contact-details{
+    width:400px;
+    color: #ffb81d;font-family: 'Courier Prime', monospace;
+    margin-bottom:50px;
+    text-align: center;
+  font-size: 18px;
+}
+.home-loader-logo{
+    width: 1200px; height: 243px
+}
+.copyright-text br{
+        display:none;
+    }
+.mob-display{
+    display:none;
+}
+.traditional-desktop{
+    display:block;
+}
+.foter-icon-right-mobile, .traditional-mob{
+    display:none;
+}
+.mobile-fot-icon{
+    display:flex;
+}
+.mobile-fot-icon div{
+    margin:auto 6px;
+}
+.house-of-affection-mobile{
+    display:none;
+}
+.padding-24{
+    padding-top:24px;
+}
+.padding-odd{
+    padding: 10px 33px 33px 33px
+}
+.deceit-mobile{
+    display:none;
+}
+.white-font{
+    color:#FFFFFF !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+ .deceit-mobile{
+    display:block;
+}
+    .deceit-none{
+        display:none;
+    }
+    .the-deceit-house-row-2 {
+  margin-top: 10px;
+}
+    .padding-odd{
+        padding: 0px;
+    }
+    .innocent-harmony .pad-top{
+        padding-bottom:0;
+    }
+    .pad-0{
+        padding:0;
+    }
+    .pad-0 .img-one{
+        max-height:100% !important;
+    }
+    .pad-lr{
+        padding-left:10px;
+        padding-right:10px;
+    }
+    .pad-lr .img-one{
+        max-height:100% !important;
+    }
+    .container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      width: 100%;
+      padding-right: var(--bs-gutter-x,1rem);
+      padding-left: var(--bs-gutter-x,1rem);
+      margin-right: auto;
+      margin-left: auto;
+    }
+    .padding-24{
+        padding-top:0px;
+    }
+    .sec-mob-padding{
+        padding-top:15px;
+    }
+    .last-section{
+        margin-bottom:65px;
+    }
+    .last-section-text{
+        margin-bottom:65px;
+        margin-top:20px;
+    }
+    .sec-3-img{
+        padding:0;
+        padding-top:15px;
+    }
+    .house-of-affection-mobile{
+        display:block;
+        margin-bottom:20px;
+    }
+    .screen-l1 img {
+      display: block;
+      width: 260px;
+      max-width: 260px;
+      height: auto;
+    }
+    .screen-l1 {
+      position: absolute;
+      left: -100px;
+      top: 150px;
+    }
+    .screen-l2 {
+      position: absolute;
+      bottom: 128px;
+      left: 80px;
+      z-index: 99;
+    }
+    .screen-l3 {
+      position: absolute;
+      top: 213px;
+      left: 210px;
+    }
+    .screen-l5 {
+      position: absolute;
+      bottom: 8px;
+      right: 10px;
+    }
+    .screen-l6 {
+      position: absolute;
+      bottom: -15px;
+      right: 85px;
+    }
+    .foter-icon-right-mobile{
+        display:flex !important;
+        justify-content: space-between;
+        margin-top:16px;
+    }
+    .only-desktop{
+        display:none !important;
+    }
+    .cinema-logo-section .cinema-logo{
+        padding:0;
+        margin-bottom:20px;
+    }
+    .mt-80{
+        padding-top:80px;
+    }
+    .product-design-section .jagya-thumb-title{
+        top:-40px;
+        position: relative;
+    }
+    .myself-right-side{
+        margin-bottom:80px;
+    }
+    .mobile-off{
+        display:none;
+    }
+    .foter-icon-right-mobile, .mob-display{
+        display:block;
+    }
+    .traditional-desktop{
+        display:none;
+    }
+    .traditional-mob{
+        display:block;
+        margin-bottom:20px;
+    }
+    .people-thumb-title, .religion-thumb-title, .connections-thumb-title, .animal-thumb-title, .people-thumb-title, .portraits-thumb-title, .photography-title {
+      font-family: 'Orator Std' !important;
+      color: #ffb81d;
+      font-weight: 400 !important;
+      letter-spacing: 0px;
+      font-size: 12px;
+      text-align: left;
+    }
+    .topbar {
+      position: relative;
+      top: 0;
+      width: 100%;
+      z-index: 99;
+    }
+    .rubix-residence-well .col-xl-1 {
+        width: 33.33%;
+    }
+    .trace-the-trail-well .content-well {
+  background-color: transparent;
+  padding: 0;
+  margin: 10px;
+  border-radius: 10px;
+    }
+    .origami-house-1,.trace-the-trail-well{
+        padding-top:90px;
+    }
+    .trace-the-trail-info{
+        position:relative;
+    }
+    .desire-section .video-section-info{
+        margin-top:20px;
+        margin-bottom:20px;
+    }
+    .desire-mob{padding-top:80px;}
+    .presence-mob{
+        padding-top:80px;
+    }
+    .ribs-residence{
+        padding-top:80px;
+    }
+    .affection-two{
+        margin-top:80px;
+    }
+    .affection-section{
+        padding-top:200px;
+        top:50px;
+        display:none !important;
+    }
+    .marionette-top{
+        padding-top:80px;
+    }
+    .cen-img{
+        margin:15px auto;
+    }
+    .color-line-well{
+     padding:10px;   
+     padding-bottom:0;
+    }
+    .color-line-well .col-xl-7{
+        padding-top:70px;
+    }
+    .grid-yrgb {
+    display: block;
+        margin-bottom:50px;
+    }
+    .col-yrgb{
+        margin-top:100px;
+    }
+    .the-deceit-house-1{
+        margin-top:60px;
+    }
+    .the-deceit-house{
+        margin-bottom:60px;
+    }
+    .sec-2-img {
+      padding: 0;
+      padding-top: 15px;
+    }
+    .fp-overflow {
+      justify-content: flex-start;
+      max-height: 100%;
+    }
+    .copyright-text br{
+        display:block;
+    }
+    .home-page img{
+        width:300px;
+        height:100% !important;
+    }
+    .home-loader-logo{
+    width: 350px; height: auto;
+}
+    .screen-l7 {
+  position: absolute;
+  top: 24px;
+  left: 30px;
+}
+.screen-l12 {
+  position: absolute;
+  top: 110px;
+  right: 45px;
+}
+.screen-l8 {
+  position: absolute;
+  top: 175px;
+  left: 40px;
+}
+.screen-l11 {
+  position: absolute;
+  bottom: 75px;
+  left: 111px;
+}
+.screen-l9 {
+  position: absolute;
+  top: 260px;
+  left: 58px;
+}
+.screen-l10 {
+  position: absolute;
+  bottom: -112px;
+  left: 50px;
+  z-index:99;
+}
+.screen-l14 {
+  position: absolute;
+  top: 170px;
+  left: 30px;
+}
+.screen-l15 {
+  position: absolute;
+  top: 180px;
+  left: 150px;
+}
+.screen-l16 {
+  position: absolute;
+  top: 100px;
+  right: 33px;
+}
+.screen-l16 img {
+  display: block;
+  width: 60px;
+  max-width: 60px;
+  height: auto;
+}
+.screen-l32 {
+  position: absolute;
+  bottom: 340px;
+  right: 20px;
+}
+.screen-l34 {
+  position: absolute;
+  bottom: 280px;
+  left: 50px;
+}
+.screen-l13 {
+  position: absolute;
+  top: 236px;
+  right: 0px;
+}
+.screen-l31 {
+  position: absolute;
+  bottom: 0;
+  right: 40px;
+  top: auto;
+  z-index:999;
+}
+.screen-right {
+  position: relative;
+  height: 750px;
+}
+.screen-l33 {
+  position: absolute;
+  bottom: 10px;
+  right: 20px;
+}
+.screen-l36 {
+  position: absolute;
+  bottom: 130px;
+  left: 20px;
+}
+.screen-l37 {
+  position: absolute;
+  bottom: 160px;
+  left: 200px;
+}
+.screen-l35 {
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+}
+    .home-footer .jagya-footer {
+  position: relative;
+  margin-bottom:30px;
+  margin-top: 50px;
+}
+    .screen-logo {
+  background:transparent !important ;
+    background-color: rgb(39, 29, 20);
+  width: fit-content;
+  position: relative;
+  top: 20px;
+  right: auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: 0 auto;
+}
+    .main-wrap{
+        height:100%;
+        display:block;
+        margin-top:30px;
+    }
+    .myself-photo {
+  position: absolute;
+  top: 186px;
+  left: auto;
+  left: 40px;
+}
+.myself-cinema {
+  position: absolute;
+  top: 286px;
+  left: auto;
+  left: 40px;
+}
+.myself-right-side .screen-l15 {
+  position: absolute;
+  top: 86px;
+  left: auto;
+  right: 88px;
+}
+.myself-gulam {
+  position: absolute;
+  top: 198px;
+  right: 132px;
+}
+.myself-traveller {
+  position: absolute;
+  top: 250px;
+  right: 30px;
+}
+    .myself-section .myself-image img {
+      height: 250px !important;
+      width: 250px !important;
+      border-radius: 300px;
+      position: relative;
+      top: 0;
+      left: auto;
+      display: block;
+      max-width: 300px !important;
+      margin-top: 100px;
+      margin: 100px auto 0 auto;
+    }
+    .myself-section .content-well {
+      padding-left: 0;
+    }
+    .contact-page{
+        margin-top:100px;
+        height:100%;
+        display: block;
+    }
+    .contact-details {
+        width: 100%;
+    }
+   .jagya-footer{
+       position:relative;
+   }
+   .foter-icon-right{
+    display:flex;
+    justify-content: center;
+    }
+    .mob-contact{
+        display:block;
+    }
+    .desktop-contact{
+        display:none;
+    }
+}
+.pad-100{
+    padding-top:100px;
+}
+.caps{
+    text-transform: capitalize;
+}
+.awards-category{
+    padding-top:30px;
+}
+.awards-category div{
+    font-family: 'Orator Std' !important;
+  color: #ffb81d;
+  font-weight: 400 !important;
+  letter-spacing: 0px;
+ font-size: 26px;
+  position: relative;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+.design-module{
+    padding-left:20%;
+    padding-right:20%;
 }
 @media only screen and (min-width: 1024px) and (max-width: 1600px) {
     .the-deceit-house-box .content-well {
       margin-top: 0px;
+    }
+    .cinema-logo{
+        padding:40px;
     }
 }
 @media only screen and (min-width: 1367px) and (max-width: 1600px) {
@@ -12791,6 +13369,11 @@ Not supports in Firefox and IE */
       top: 246px;
       right: 40px;
     }
+    .screen-l6 {
+     position: absolute;
+        bottom: 55px;
+        right: 91px;
+    }
     .screen-l3 {
       position: absolute;
       top: 190px;
@@ -12910,7 +13493,7 @@ Not supports in Firefox and IE */
     .traditional-top{
     position: absolute;
     right: -80px;
-    top:-60px;
+    top:-130px;
 }
 .traditional-bottom{
     position: absolute;
@@ -12920,6 +13503,31 @@ Not supports in Firefox and IE */
     
 }
 @media only screen and (min-width: 320px) and (max-width: 599px) {
+    .jagya-thumb-title{
+        font-size:12px;
+    }
+    .awards-category div{
+        font-size:16px;
+    }
+    .awards-top-part{
+        margin-bottom:30px;
+    }
+    .jagya-thumb{
+        margin-bottom:10px;
+    }
+    .awards-box .awards-title-1{
+        font-size:12px;
+    }
+    .ribs-residence-vh {
+        height: 100%;
+        align-items: center;
+    }
+    .people-thumb, .religion-thumb, .connections-thumb, .animal-thumb, .photography-box, .portraits-thumb{
+        padding: 0px 0px 20px 0;
+    }   
+    .desktop-padding{
+        padding: 0px;
+    }
     .right-logo img {
         height: 30px;
     }
@@ -12932,12 +13540,12 @@ Not supports in Firefox and IE */
     .section-two-art{
         padding:20px 0;
     }
-    .container-fluid {
-      padding-left: 20px;
-      padding-right: 20px;
+     .container-fluid {
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
     .jagya-thumb-img{
-        padding:0px;
+        padding:10px 0px;
     }
     .client-section .client-logo .client-img img{
         height:100%;

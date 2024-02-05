@@ -27,7 +27,7 @@ Template Name: Client Module
 						<div class="client-img">
 							<?php $image = get_sub_field('repeater_image');
 							if( !empty( $image ) ): ?>
-							<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>"  class="img-fluid " title="<?php echo esc_attr($image['title']); ?>"/>	
+							<img src="<?php echo esc_url($image['url']); ?>" alt="<?php echo esc_attr($image['alt']); ?>"  class="img-fluid " title="<?php echo esc_attr($image['title']); ?>"/>
 						</div>						
 					</div>
 				<?php endif;

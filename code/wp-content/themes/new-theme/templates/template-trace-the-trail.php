@@ -88,7 +88,7 @@ Template Name: Trace The Trail
         >
           <div class="row">
             <div class="col-xl-6">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-4.jpg"
                   class="img-fluid img-shadow  img-one"
@@ -96,7 +96,7 @@ Template Name: Trace The Trail
               </div>
             </div>
             <div class="col-xl-6">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-5.jpg"
                   class="img-fluid img-shadow  img-one"
@@ -112,7 +112,7 @@ Template Name: Trace The Trail
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-6.jpg"
                   class="img-fluid img-shadow  img-one"
@@ -128,7 +128,7 @@ Template Name: Trace The Trail
         >
           <div class="row">
             <div class="col-xl-6">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-7.jpg"
                   class="img-fluid img-shadow  img-one"
@@ -152,7 +152,7 @@ Template Name: Trace The Trail
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-9.jpg"
                   class="img-fluid img-shadow  img-one"
@@ -192,7 +192,7 @@ Template Name: Trace The Trail
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-12.jpg"
                   class="img-fluid img-shadow  img-one"
@@ -208,15 +208,15 @@ Template Name: Trace The Trail
         >
           <div class="row">
             <div class="col-xl-8">
-              <div class="">
-                <img
+              <div class="sec-mob-padding">
+                <a href="https://www.youtube.com/watch?v=CJ99Slj0OQk&ab_channel=JagyaFilms" target="_blank"><img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-13.jpg"
                   class="img-fluid img-shadow  img-one"
-                />
+                /></a>
               </div>
             </div>
             <div class="col-xl-4 align-jg-center">
-              <div class="video-section-info">
+              <div class="video-section-info last-section-text">
                 <div>
                   <div class="head-title">Sincere thanks</div>
                   <div class="head-sub-title">Abhay-Darshna-Chiman-Kapila</div>

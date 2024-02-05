@@ -34,7 +34,7 @@ Template Name: Product Design Module
 <?php   if ($query->have_posts()) :
         $count = 1; ?>
 
-    <section class="section-one-art">
+    <section class="section-one-art product-design-section">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-4 d-flex align-items-lg-center">
@@ -48,7 +48,7 @@ Template Name: Product Design Module
                 // Display your custom post content here            
             ?>
                 
-                <div class="col-6 col-sm-6 col-md-6 col-lg-4 <?php echo $termsString; ?>" data-category="transition">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 <?php echo $termsString; ?>" data-category="transition">
                     <div class="jagya-thumb">
                         <div class="jagya-thumb-img">
                             <div id="lightgallery_<?php echo $count; ?>" class="myLightgallery"><?php

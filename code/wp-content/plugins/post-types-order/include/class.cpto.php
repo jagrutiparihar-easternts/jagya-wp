@@ -423,7 +423,7 @@
                     
                     global $wpdb, $userdata;
                     
-                    $post_type  =   filter_var ( $_POST['post_type'], FILTER_SANITIZE_STRING);
+                    $post_type  =   preg_replace( '/[^a-zA-Z0-9_\-]/', '', $_POST['post_type'] );
                     $paged      =   filter_var ( $_POST['paged'], FILTER_SANITIZE_NUMBER_INT);
                     $nonce      =   $_POST['archive_sort_nonce'];
                     

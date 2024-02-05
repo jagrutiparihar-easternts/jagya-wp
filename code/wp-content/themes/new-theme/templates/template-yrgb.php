@@ -45,16 +45,16 @@ Template Name: Yrgb
                 class="content-well main-heading wow fadeInRight animated"
                 data-wow-delay="600ms"
               >
-                <!-- <h1>YRGB</h1> -->
+                <h1 class="white-font">YRGB</h1>
                 <p>
                   We have encountered four major individuals who will become the
                   part of this house and after studying all of them carefully we
                   had identified four stones as material pallet with different
                   different texture and colours on it that represents each
-                  individual. From outside, all four stones entering into the
+                  individual.<span class="white-font"> From outside, all four stones entering into the
                   living space with the natural flow. Then all stones moves
                   upward into the courtyard in the form of natural landscape and
-                  stone strips enters into the identified spaces. All these four
+                  stone strips enters into the identified spaces.</span> All these four
                   materials are creating strong relationship between outside and
                   inside environment.
                 </p>
@@ -90,7 +90,7 @@ Template Name: Yrgb
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-2.jpg"
                   class="img-fluid img-shadow img-one"
@@ -106,7 +106,7 @@ Template Name: Yrgb
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-3.jpg"
                   class="img-fluid img-shadow img-one"
@@ -138,7 +138,7 @@ Template Name: Yrgb
               </div>
             </div>
           </div>
-          <div class="row" style="padding-top: 24px">
+          <div class="row padding-24">
             <div class="col-xl-6">
               <div class="sec-3-img">
                 <img
@@ -152,6 +152,38 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-5.jpg"
                   class="img-fluid img-shadow img-four"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="section4">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="sec-2-img">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-22.webp"
+                  class="img-fluid img-shadow img-one"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="section" id="section4">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="sec-2-img">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-23.webp"
+                  class="img-fluid img-shadow img-one"
                 />
               </div>
             </div>
@@ -229,7 +261,7 @@ Template Name: Yrgb
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-13.jpg"
                   class="img-fluid img-shadow img-one"
@@ -261,7 +293,7 @@ Template Name: Yrgb
               </div>
             </div>
           </div>
-          <div class="row" style="padding-top: 24px">
+          <div class="row padding-24">
             <div class="col-xl-6">
               <div class="sec-3-img">
                 <img
@@ -311,7 +343,7 @@ Template Name: Yrgb
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-20.jpg"
                   class="img-fluid img-shadow img-one"
@@ -327,11 +359,12 @@ Template Name: Yrgb
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding last-section">
+                  <a href="https://www.youtube.com/watch?v=_k-IbgJJKgk&ab_channel=JagyaFilms" target="_blank">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-21.jpg"
                   class="img-fluid img-shadow img-four"
-                />
+                /></a>
               </div>
             </div>
           </div>

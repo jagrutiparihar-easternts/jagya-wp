@@ -6,7 +6,7 @@ Template Name: Presence
 <?php get_header(); ?>
 <div id="fullpage">
       <div class="section" id="section0">
-        <div class="container-fluid">
+        <div class="container-fluid presence-mob">
           <div class="row">
             <div class="col-xl-4">
               <div class="wow fadeInRight animated" data-wow-delay="200ms">
@@ -25,8 +25,8 @@ Template Name: Presence
                 <p>
                   The imprints of all sapiens laid under our own surface where
                   we exist now, the presence of trajectories must lead us to
-                  take the inner journey; that will disconnect all the surrogate
-                  memories, and that moment give the birth to reality, which was
+                  take the inner journey; <span class="white-font">that will disconnect all the surrogate
+                  memories, and that moment give the birth to reality,</span> which was
                   hidden behind materialistic world around us.
                 </p>
               </div>
@@ -40,7 +40,7 @@ Template Name: Presence
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/presence/presence-2.jpg"
                   class="img-fluid img-shadow img-one"
@@ -56,9 +56,9 @@ Template Name: Presence
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/presence/presence-3.jpg"
+                  src="<?php echo get_template_directory_uri(); ?>/images/presence/presence-3.gif"
                   class="img-fluid img-shadow img-one"
                 />
               </div>
@@ -96,7 +96,7 @@ Template Name: Presence
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/presence/presence-6.jpg"
                   class="img-fluid img-shadow img-one"
@@ -128,7 +128,7 @@ Template Name: Presence
               </div>
             </div>
           </div>
-          <div class="row" style="padding-top: 24px">
+          <div class="row padding-24">
             <div class="col-xl-6">
               <div class="sec-3-img">
                 <img
@@ -178,7 +178,7 @@ Template Name: Presence
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/presence/presence-13.gif"
                   class="img-fluid img-shadow img-one"
@@ -194,7 +194,7 @@ Template Name: Presence
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/presence/presence-14.jpg"
                   class="img-fluid img-shadow img-one"
@@ -222,7 +222,7 @@ Template Name: Presence
                   class="img-fluid img-shadow img-five"
                 />
               </div>
-              <div class="video-section-info grid-contact">
+              <div class="video-section-info grid-contact last-section-text">
                 <div>
                   <div class="head-title">Sincere thanks</div>
                   <div class="head-sub-title">Vincy-Shyam</div>
@@ -245,8 +245,8 @@ Template Name: Presence
     </div>
 <?php get_footer(); ?>
 
-<?php get_header(); ?>
-<div id="fullpage">
+<?php //get_header(); ?>
+<!-- <div id="fullpage">
       <div class="section" id="section0">
         <div class="container-fluid">
           <div class="row">
@@ -479,5 +479,5 @@ Template Name: Presence
           </div>
         </div>
       </div>
-    </div>
-<?php get_footer(); ?>
+    </div> -->
+<?php //get_footer(); ?>

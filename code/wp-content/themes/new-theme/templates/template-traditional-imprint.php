@@ -8,7 +8,7 @@ Template Name: Traditional Imprint
 <div id="fullpage">
       <div class="section" id="section0">
         <div class="container-sm container-md container-lg container-xl container-xxl">
-          <div class="row">
+          <div class="row  pad-100">
               <div class="col-xl-3"></div>
             <div class="col-xl-6 text-center traditional-well">
               <div
@@ -17,25 +17,46 @@ Template Name: Traditional Imprint
                 style="margin-top: 0"
               >
                 <h1>Traditional imprint</h1>
+                <!-- Only for mobile -->
+                <div class="traditional-mob">
+                <div class="row">
+                  <div class="col-4 col-xl-4">
+                      <div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-11.png" class="img-fluid" />
+                      </div>
+                  </div>
+                  <div class="col-4 col-xl-4">
+                      <div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-22.png" class="img-fluid" />
+                      </div>
+                  </div>
+                  <div class="col-4 col-xl-4">
+                      <div>
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-33.png" class="img-fluid" />
+                      </div>
+                  </div>
+              </div>
+              </div>
+              <!-- Only for mobile -->
                 <p>
                   This project is an opportunity for us to design something,
                   which has Indian traditional character, and at a same time
-                  client don’t what to ignore the current modern life style. So,
+                  client don’t what to ignore the current modern life style. <span class="white-font">So,
                   its continuous reminder for oneself that who you are and where
-                  you are belonging. Client wishes the spaces to be an original
+                  you are belonging.</span> Client wishes the spaces to be an original
                   and it revives the ancient thought and the history of where we
                   are going to live. In short, the house should be the fusion of
                   Indian tradition and at a same time current modern life style.
                 </p>
                
               </div>
-               <div class="traditional-top wow zoomIn animated" data-wow-delay="3400ms">
+               <div class="traditional-desktop traditional-top wow zoomIn animated" data-wow-delay="3400ms">
                  <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-11.png"
                   class="img-fluid"
                 />
                 </div>
-                <div class="traditional-bottom wow zoomIn animated" data-wow-delay="3800ms">
+                <div class="traditional-desktop traditional-bottom wow zoomIn animated" data-wow-delay="3800ms">
                  <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-22.png"
                   class="img-fluid"
@@ -45,7 +66,27 @@ Template Name: Traditional Imprint
             <div class="col-xl-3"></div>
           </div>
           </div>
-          <div class="container-fluid">
+          <!-- Only for mobile -->
+          <!--<div class="container-fluid">-->
+          <!--    <div class="row traditional-mob">-->
+          <!--        <div class="col-4 col-xl-4">-->
+          <!--            <div>-->
+          <!--                <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-11.png" class="img-fluid" />-->
+          <!--            </div>-->
+          <!--        </div>-->
+          <!--        <div class="col-4 col-xl-4">-->
+          <!--            <div>-->
+          <!--                <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-22.png" class="img-fluid" />-->
+          <!--            </div>-->
+          <!--        </div>-->
+          <!--        <div class="col-4 col-xl-4">-->
+          <!--            <div>-->
+          <!--                <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-33.png" class="img-fluid" />-->
+          <!--            </div>-->
+          <!--        </div>-->
+          <!--    </div>-->
+          <!--</div>-->
+          <div class="container-fluid traditional-desktop">
           <div class="row traditional-imprint-well">
             <div class="traditional-imprint-img">
               <div class="wow zoomIn animated">
@@ -132,7 +173,7 @@ Template Name: Traditional Imprint
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-3.jpg"
                   class="img-fluid img-one img-shadow"
@@ -172,9 +213,25 @@ Template Name: Traditional Imprint
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-6.jpg"
+                  class="img-fluid img-one img-shadow"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+       <div class="section" id="section1">
+        <div
+          class="container-sm container-md container-lg container-xl container-xxl"
+        >
+          <div class="row">
+            <div class="col-xl-12">
+              <div class="sec-mob-padding">
+                <img
+                  src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-11.gif"
                   class="img-fluid img-one img-shadow"
                 />
               </div>
@@ -250,7 +307,7 @@ Template Name: Traditional Imprint
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="sec-2-img">
+              <div class="sec-2-img last-section">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-12.jpg"
                   class="img-fluid img-one img-shadow"

@@ -6,12 +6,12 @@ Template Name: Marionette
 
 <?php get_header(); ?>
 <div id="fullpage">
-      <div class="section" id="section0">
+      <div class="section marionette-top" id="section0">
         <div
           class="container-sm container-md container-lg container-xl container-xxl"
         >
           <div class="row">
-            <div class="col-xl-4">
+            <div class="col-6 col-xl-4">
               <div>
                 <video
                 class="img-fluid img-one"
@@ -34,7 +34,7 @@ Template Name: Marionette
                 /> -->
               </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-6 col-xl-4">
               <div>
                 <video
                 class="img-fluid img-one"
@@ -57,7 +57,7 @@ Template Name: Marionette
                 /> -->
               </div>
             </div>
-            <div class="col-xl-4">
+            <div class="col-6 col-xl-4 mobile-off">
               <div>
                 <video
                 class="img-fluid img-one"
@@ -81,52 +81,55 @@ Template Name: Marionette
               </div>
             </div>
           </div>
+          <!--<div class="row">
+            <div class="col-12 text-center content-well main-heading" style="margin-top:0;">
+                <h1>EDIFICE ENGINEERING</h1>
+                <p>demolition is an art and we master it</p>
+            </div>
+          </div> -->
         </div>
       </div>
-      <!-- <div class="section" id="section0">
-        <div class="container-fluid">
+       <div class="section" id="section0">
+        <div class="container">
           <div class="row">
             <div class="col-xl-4">
-              <div class="wow zoomIn animated" data-wow-delay="200ms">
+              <div class="sec-mob-padding">
                 <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-1.jpg"
-                  class="img-fluid img-shadow"
+                  src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-4.jpg"
+                  class="img-fluid img-shadow img-one"
                 />
               </div>
             </div>
             <div class="col-xl-4">
               <div
-                class="content-well main-heading wow fadeInUp animated text-center"
-                data-wow-delay="600ms"
-              >
+                class="content-well main-heading  text-center">
+                  <h1>EDIFICE ENGINEERING</h1>
+                  <p class="caps white-font">demolition is an art and we master it</p><br>
+
                 <p>
-                  Lake view is a residential plotted development of more than
-                  100 units of various sizes with common amenities, club house
-                  etc. and interestingly a joint venture with Thai based
-                  architecture firm. The reflection of Thai tradition house with
-                  Indian touch expressed the symphony in overall project.
+                 It’s an previladge to be design the office space for one of the biggest demolition company in the country. As firm always tries to understand the user and it’s proffession at first priority and here no need to explain the idea behind the office space as it explain itself as once can move through the layers of it.
                 </p>
-                <h1>DESIRE</h1>
+                <h1>MARIONETTE</h1>
               </div>
             </div>
             <div class="col-xl-4">
-              <div class="wow zoomIn animated" data-wow-delay="200ms">
+              <div >
                 <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-2.jpg"
-                  class="img-fluid img-shadow"
+                  src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-5.png"
+                  class="img-fluid img-one"
                 />
               </div>
             </div>
           </div>
         </div>
-      </div> -->
+      </div>
       <div class="section" id="section1">
         <div
           class="container-sm container-md container-lg container-xl container-xxl"
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-6.jpg"
                   class="img-fluid img-shadow img-one"
@@ -142,7 +145,7 @@ Template Name: Marionette
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-7.jpg"
                   class="img-fluid img-shadow img-one"
@@ -158,7 +161,7 @@ Template Name: Marionette
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-8.jpg"
                   class="img-fluid img-shadow img-one"
@@ -198,7 +201,7 @@ Template Name: Marionette
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-11.jpg"
                   class="img-fluid img-shadow img-one"
@@ -239,9 +242,9 @@ Template Name: Marionette
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-14.jpg"
+                  src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-21.webp"
                   class="img-fluid img-shadow img-one"
                 />
               </div>
@@ -304,7 +307,7 @@ Template Name: Marionette
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-19.jpg"
                   class="img-fluid img-shadow img-one"
@@ -328,7 +331,7 @@ Template Name: Marionette
               </div>
             </div>
             <div class="col-xl-4 align-jg-center">
-              <div class="video-section-info">
+              <div class="video-section-info last-section-text">
                 <div>
                   <div class="head-title">Sincere thanks</div>
                   <div class="head-sub-title">Uttkarsh-Jigar-Alpesh-Chirag</div>
