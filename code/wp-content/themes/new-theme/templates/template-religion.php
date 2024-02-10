@@ -29,6 +29,7 @@ Template Name: Religion
 					<img
 					  src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/1-see-you-soon-surat-2014.jpg"
 					  class="img-fluid"
+						 alt="see-you-soon-surat"
 					/>
 				  </div>
 				  <div class="religion-thumb-title">See you soon, Surat 2014</div>
@@ -40,6 +41,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/3-patriotism-surat-2018.jpg"
                   class="img-fluid"
+					 alt="patriotism-surat"
                 />
               </div>
               <div class="religion-thumb-title">Patriotism, Surat 2018</div>
@@ -51,6 +53,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/5-love-surat-2017.jpg"
                   class="img-fluid"
+					 alt="love-surat"
                 />
               </div>
               <div class="religion-thumb-title">Love, Surat 2017</div>
@@ -62,6 +65,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/7-hail-varanasi-2014.jpg"
                   class="img-fluid"
+					 alt="hail-varanasi"
                 />
               </div>
               <div class="religion-thumb-title">Hail, Varanasi 2014</div>
@@ -73,6 +77,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/9-cremation-varanasi-2014.jpg"
                   class="img-fluid"
+					 alt="cremation-varanasi"
                 />
               </div>
               <div class="religion-thumb-title">Cremation, Varanasi 2014</div>
@@ -84,6 +89,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/11-krishna-delhi-2019.jpg"
                   class="img-fluid"
+					 alt="krishna-delhi"
                 />
               </div>
               <div class="religion-thumb-title">Krishna, Delhi 2019</div>
@@ -95,6 +101,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/13-eid-ul-adha-surat-2015.jpg"
                   class="img-fluid"
+					 alt=eid-ul-adha
                 />
               </div>
               <div class="religion-thumb-title">Eid ul adha, Surat 2015</div>
@@ -108,6 +115,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/2-bonding-surat-2014.jpg"
                   class="img-fluid"
+					 alt="bonding-surat"
                 />
               </div>
               <div class="religion-thumb-title">Bonding, Surat 2014</div>
@@ -119,6 +127,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/4-mirror-surat-2016.jpg"
                   class="img-fluid"
+					 alt="mirror-surat"
                 />
               </div>
               <div class="religion-thumb-title">Mirror, Surat 2016</div>
@@ -130,6 +139,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/6-black-&-orange-varanasi-2014.jpg"
                   class="img-fluid"
+					 alt="black-&-orange-varanasi"
                 />
               </div>
               <div class="religion-thumb-title">Black & Orange, Varanasi 2014</div>
@@ -141,6 +151,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/8-monk-varanasi-2014.jpg"
                   class="img-fluid"
+					 alt="monk-varanasi"
                 />
               </div>
               <div class="religion-thumb-title">Monk, Varanasi 2014</div>
@@ -152,6 +163,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/10-untold-relationship-varanasi-2014.jpg"
                   class="img-fluid"
+					 alt="untold-relationship-varanasi"
                 />
               </div>
               <div class="religion-thumb-title">Untold Relationship, Varanasi 2014</div>
@@ -163,6 +175,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/12-communication-within-surat-2015.jpg"
                   class="img-fluid"
+					 alt="communication-within-surat"
                 />
               </div>
               <div class="religion-thumb-title">Communication within, Surat 2015</div>
@@ -174,6 +187,7 @@ Template Name: Religion
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/religion/14-pass-on-abu-dhabi-2015.jpg"
                   class="img-fluid"
+					 alt="pass-on-abu-dhabi"
                 />
               </div>
               <div class="religion-thumb-title">Pass on Abu Dhabi 2015</div>

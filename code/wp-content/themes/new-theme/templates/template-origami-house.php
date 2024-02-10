@@ -18,6 +18,7 @@ Template Name: Origami House
                     <img
                       src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-1.png"
                       class="img-fluid"
+						 alt="origami-house"
                     />
                   </div>
                 </div>
@@ -39,6 +40,7 @@ Template Name: Origami House
                      <img
                       src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-flower.png"
                       class="img-fluid"
+						  alt="origami-house"
                     />
                   </div>
                 </div>
@@ -57,6 +59,7 @@ Template Name: Origami House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-2.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="origami-house"
                 />
               </div>
             </div>
@@ -74,6 +77,7 @@ Template Name: Origami House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-3.jpg"
                   class="img-fluid img-shadow"
+					 alt="origami-house"
                 />
               </div>
             </div>
@@ -90,6 +94,7 @@ Template Name: Origami House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-4.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="origami-house"
                 />
               </div>
             </div>
@@ -106,6 +111,7 @@ Template Name: Origami House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-5.jpg"
                   class="img-fluid img-shadow"
+					 alt="origami-house"
                 />
               </div>
             </div>
@@ -122,6 +128,7 @@ Template Name: Origami House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-6.jpg"
                   class="img-fluid img-shadow"
+					 alt="origami-house"
                 />
               </div>
             </div>
@@ -138,6 +145,7 @@ Template Name: Origami House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-7.jpg"
                   class="img-fluid img-shadow"
+					 alt="origami-house"
                 />
               </div>
             </div>
@@ -154,6 +162,7 @@ Template Name: Origami House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-8.jpg"
                   class="img-fluid img-shadow"
+					 alt="origami-house"
                 />
               </div>
             </div>
@@ -170,6 +179,7 @@ Template Name: Origami House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-9.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="origami-house"
                 />
               </div>
             </div>
@@ -186,6 +196,7 @@ Template Name: Origami House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-10.jpg"
                   class="img-fluid img-shadow"
+					 alt="origami-house"
                 />
               </div>
             </div>
@@ -202,6 +213,7 @@ Template Name: Origami House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-11.jpg"
                   class="img-fluid img-shadow"
+					 alt="origami-house"
                 />
               </div>
             </div>
@@ -218,6 +230,7 @@ Template Name: Origami House
                 <a href="https://www.youtube.com/watch?v=UmVbABnQwZs&ab_channel=JagyaFilms" target="_blank"><img
                   src="<?php echo get_template_directory_uri(); ?>/images/origami-house/origami-house-12.png"
                   class="img-fluid img-shadow"
+				  alt="origami-house"
                 /></a>
               </div>
             </div>

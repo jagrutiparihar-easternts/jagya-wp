@@ -14,6 +14,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-1.jpg"
                   class="img-fluid img-shadow"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -37,6 +38,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-2.jpg"
                   class="img-fluid img-shadow"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -53,6 +55,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-3.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -69,6 +72,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-4.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -85,6 +89,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-5.jpg"
                   class="img-fluid img-shadow"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -93,6 +98,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-6.jpg"
                   class="img-fluid img-shadow"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -109,6 +115,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-19.gif"
                   class="img-fluid img-shadow img-one"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -125,6 +132,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-7.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -141,6 +149,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-8.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -149,6 +158,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-9.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -166,6 +176,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-10.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -182,6 +193,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-11.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -190,6 +202,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-12.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -200,6 +213,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-13.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -208,6 +222,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-14.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -224,6 +239,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-15.jpg"
                   class="img-fluid img-shadow"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -232,6 +248,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-16.jpg"
                   class="img-fluid img-shadow"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -248,6 +265,7 @@ Template Name: Desire
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-17.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="desire"
                 />
               </div>
             </div>
@@ -279,6 +297,7 @@ Template Name: Desire
                 <a href="https://www.youtube.com/watch?v=gNPz8-RasR8&ab_channel=JagyaFilms" target="_blank"><img
                   src="<?php echo get_template_directory_uri(); ?>/images/desire/desire-18.jpg"
                   class="img-fluid img-shadow"
+				  alt="desire"
                 /></a>
               </div>
             </div>

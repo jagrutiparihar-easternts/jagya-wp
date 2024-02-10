@@ -17,6 +17,7 @@ Template Name: House Of Affection
                 <!--<img-->
                 <!--  src="<?php //echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-3.png"-->
                 <!--  class="img-fluid"-->
+				<!--  alt="house-of-affection" -->
                 <!--/>-->
               </div>
             </div>
@@ -30,12 +31,14 @@ Template Name: House Of Affection
               <img
                 src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-1.png"
                 class="img-fluid"
+				   alt="house-of-affection"
               />
             </div>
             <div class="col-xl-4">
               <img
                 src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-2.png"
                 class="img-fluid"
+				   alt="house-of-affection"
               />
             </div>
           </div>
@@ -82,7 +85,7 @@ Template Name: House Of Affection
                 </div>
               </div>
               <div class="house-of-affection-mobile">
-                  <img class="img-fluid img-one img-shadow" src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-3.png);">
+                  <img class="img-fluid img-one img-shadow" src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-3.png;" alt="house-of-affection">
               </div>
             </div>
           </div>
@@ -98,6 +101,7 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-4.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -114,6 +118,7 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-5.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -122,6 +127,7 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-6.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -138,6 +144,7 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-7.jpg"
                   class="img-fluid  img-one"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -154,6 +161,7 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-22.webp"
                   class="img-fluid  img-one"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -203,6 +211,7 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-11.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -251,6 +260,7 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-23.webp"
                   class="img-fluid img-shadow  img-one"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -267,6 +277,7 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-15.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -283,12 +294,14 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-16.jpg"
                   class="img-fluid img-shadow  img-three"
+					 alt="house-of-affection"
                 />
               </div>
               <div class="sec-3-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-18.jpg"
                   class="img-fluid img-shadow  img-three"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -297,6 +310,7 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-17.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -313,6 +327,7 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-19.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -329,6 +344,7 @@ Template Name: House Of Affection
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-20.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="house-of-affection"
                 />
               </div>
             </div>
@@ -345,6 +361,7 @@ Template Name: House Of Affection
                 <a href="https://www.youtube.com/watch?v=bx5IKYfMTOA&ab_channel=JagyaFilms" target="_blank"><img
                   src="<?php echo get_template_directory_uri(); ?>/images/house-of-affection/house-of-affection-21.jpg"
                   class="img-fluid img-shadow"
+				  alt="house-of-affection"
                 /></a>
               </div>
             </div>

@@ -17,20 +17,7 @@ Template Name: Product Design Module
     );
     $query = new WP_Query($args); 
 ?>
-<!--<section class="section-one-art">-->
-<!--    <div class="container-fluid">-->
-<!--        <div class="row">-->
-<!--            <div class="col-xl-4"></div>-->
-<!--            <div class="col-xl-4">-->
-<!--                <div class="art-details">-->
-<!--                    <h1>Product Design</h1>-->
-<!--                    <?php //the_field('intro_text'); ?>                    -->
-<!--                </div>-->
-<!--            </div>-->
-<!--            <div class="col-xl-4"></div>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</section>-->
+
 <?php   if ($query->have_posts()) :
         $count = 1; ?>
 
@@ -58,14 +45,14 @@ Template Name: Product Design Module
                                         $sub_valueproject_image = get_sub_field('gallery_image'); ?>
                                         <a title="<?php the_title_attribute(); ?>" style="<?php if($gallcount != 1) echo 'display:none'?>" href="<?php echo  $sub_valueproject_image['url']; ?>" >
                                     
-                                            <img src="<?php echo  $sub_valueproject_image['sizes']['large-thumbnail']; ?>" class="img-fluid" />
+                                            <img src="<?php echo  $sub_valueproject_image['sizes']['large-thumbnail']; ?>" alt="<?php echo esc_attr($sub_valueproject_image['alt']); ?>" class="img-fluid" />
                                             <div class="jagya-thumb-title"><?php the_field('thumb_heading'); ?></div>
                                             
                                         </a><?php $gallcount++;
                                     endwhile;
                                 } else { ?>
                                     <a title="<?php the_title_attribute(); ?>" href="<?php echo get_stylesheet_directory_uri() . '/images/no-image.png'; ?>" >
-                                        <img src="<?php echo get_stylesheet_directory_uri() . '/images/no-image.png'; ?>" />
+                                        <img src="<?php echo get_stylesheet_directory_uri() . '/images/no-image.png'; ?>" alt="no-img" />
                                     </a><?php
                                 } ?>
 								<?php if( have_rows('video') ) {									

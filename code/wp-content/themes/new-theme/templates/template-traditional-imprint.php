@@ -22,17 +22,17 @@ Template Name: Traditional Imprint
                 <div class="row">
                   <div class="col-4 col-xl-4">
                       <div>
-                          <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-11.png" class="img-fluid" />
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-11.png" class="img-fluid" alt="traditional-imprint" />
                       </div>
                   </div>
                   <div class="col-4 col-xl-4">
                       <div>
-                          <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-22.png" class="img-fluid" />
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-22.png" class="img-fluid" alt="traditional-imprint"/>
                       </div>
                   </div>
                   <div class="col-4 col-xl-4">
                       <div>
-                          <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-33.png" class="img-fluid" />
+                          <img src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-33.png" class="img-fluid" alt="traditional-imprint"/>
                       </div>
                   </div>
               </div>
@@ -54,12 +54,14 @@ Template Name: Traditional Imprint
                  <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-11.png"
                   class="img-fluid"
+					  alt="traditional-imprint"
                 />
                 </div>
                 <div class="traditional-desktop traditional-bottom wow zoomIn animated" data-wow-delay="3800ms">
                  <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-22.png"
                   class="img-fluid"
+					  alt="traditional-imprint"
                 />
                 </div>
             </div>
@@ -93,12 +95,14 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/ti-8.png"
                   class="img-fluid"
+					 alt="traditional-imprint"
                 />
               </div>
               <div class="wow zoomIn animated" data-wow-delay="600ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/ti-7.png"
                   class="img-fluid"
+					 alt="traditional-imprint"
                 />
               </div>
             
@@ -106,18 +110,21 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/tt-33.png"
                   class="img-fluid odd-img"
+					 alt="traditional-imprint"
                 />
               </div>
               <div class="wow zoomIn animated" data-wow-delay="1200ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/ti-6.png"
                   class="img-fluid"
+					 alt="traditional-imprint"
                 />
               </div>
               <div class="wow zoomIn animated" data-wow-delay="1500ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/ti-5.png"
                   class="img-fluid"
+					 alt="traditional-imprint"
                 />
               </div>
             
@@ -125,6 +132,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/ti-3.png"
                   class="img-fluid"
+					 alt="traditional-imprint"
                 />
               </div>
             
@@ -132,6 +140,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/ti-4.png"
                   class="img-fluid"
+					 alt="traditional-imprint"
                 />
               </div>
             
@@ -139,12 +148,14 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/ti-9.png"
                   class="img-fluid"
+					 alt="traditional-imprint"
                 />
               </div>  
               <div class="wow zoomIn animated" data-wow-delay="2800ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/ti-1.png"
                   class="img-fluid"
+					 alt="traditional-imprint"
                 />
               </div>
           </div>
@@ -161,6 +172,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-2.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="traditional-imprint"
                 />
               </div>
             </div>
@@ -177,6 +189,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-3.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="traditional-imprint"
                 />
               </div>
             </div>
@@ -193,6 +206,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-4.jpg"
                   class="img-fluid img-shadow"
+					 alt="traditional-imprint"
                 />
               </div>
             </div>
@@ -201,6 +215,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-5.jpg"
                   class="img-fluid img-shadow"
+					 alt="traditional-imprint"
                 />
               </div>
             </div>
@@ -217,6 +232,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-6.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="traditional-imprint"
                 />
               </div>
             </div>
@@ -231,8 +247,9 @@ Template Name: Traditional Imprint
             <div class="col-xl-12">
               <div class="sec-mob-padding">
                 <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-11.gif"
+                  src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-11.gif"					 
                   class="img-fluid img-one img-shadow"
+					 alt="traditional-imprint"
                 />
               </div>
             </div>
@@ -249,6 +266,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-8.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="traditional-imprint"
                 />
               </div>
             </div>
@@ -257,6 +275,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-7.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="traditional-imprint"
                 />
               </div>
             </div>
@@ -273,6 +292,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-9.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="traditional-imprint"
                 />
               </div>
             </div>
@@ -287,6 +307,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-11.jpg"
                   class="img-fluid img-shadow"
+					 alt="traditional-imprint"
                 />
               </div>
             </div>
@@ -295,6 +316,7 @@ Template Name: Traditional Imprint
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-10.jpg"
                   class="img-fluid img-shadow"
+					 alt="traditional-imprint"
                 />
               </div>
             </div>
@@ -310,6 +332,7 @@ Template Name: Traditional Imprint
               <div class="sec-2-img last-section">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/traditional-imprint/traditional-imprint-12.jpg"
+					 alt="traditional-imprint"
                   class="img-fluid img-one img-shadow"
                 />
               </div>

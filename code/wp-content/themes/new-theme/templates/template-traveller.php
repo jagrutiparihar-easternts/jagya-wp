@@ -58,14 +58,14 @@ Template Name: Traveller
                                         $sub_valueproject_image = get_sub_field('gallery_image'); ?>
                                         <a title="<?php the_title_attribute(); ?>" style="<?php if($gallcount != 1) echo 'display:none'?>" href="<?php echo  $sub_valueproject_image['url']; ?>" >
                                     
-                                            <img src="<?php echo  $sub_valueproject_image['sizes']['large-thumbnail']; ?>" class="img-fluid" />
+                                            <img src="<?php echo  $sub_valueproject_image['sizes']['large-thumbnail']; ?>" alt="<?php echo esc_attr($sub_valueproject_image['alt']); ?>" class="img-fluid" />
                                             <div class="jagya-thumb-title"><?php the_field('thumb_heading'); ?></div>
                                             
                                         </a><?php $gallcount++;
                                     endwhile;
                                 } else { ?>
                                     <a title="<?php the_title_attribute(); ?>" href="<?php echo get_stylesheet_directory_uri() . '/images/no-image.png'; ?>" >
-                                        <img src="<?php echo get_stylesheet_directory_uri() . '/images/no-image.png'; ?>" />
+                                        <img src="<?php echo get_stylesheet_directory_uri() . '/images/no-image.png'; ?>" alt="no-image"/>
                                     </a><?php
                                 } ?>
 								<?php if( have_rows('video') ) {									

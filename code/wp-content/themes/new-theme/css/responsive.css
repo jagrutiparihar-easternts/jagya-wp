@@ -1,4 +1,3 @@
-
 @media only screen and (min-width: 1300px) {
     .container {
         max-width: 1200px;
@@ -803,6 +802,17 @@
     .rs-banner.banner-home-style2 .rs-contact .contact-wrap .content-part .title {
         font-size: 23px;
     }
+	.section-404 .error {
+		font-size: 100px;
+		line-height: 100px;
+	}
+	.section-404 .page p {
+    	font-size: 16px;
+		margin-bottom: 3px;
+	}
+	.section-404 .readon {
+		font-size: 14px;
+	}
 }
 
 @media only screen and (max-width: 480px) {

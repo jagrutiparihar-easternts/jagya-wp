@@ -22,6 +22,7 @@ Template Name: Connnections
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/7-step-by-step-penang-2016.jpg"
                   class="img-fluid img-shadow"
+					 alt="step-by-step-penang"
                 />
               </div>
               <div class="connections-thumb-title">Step by step, Penang 2016</div>
@@ -41,6 +42,7 @@ Template Name: Connnections
                         <img
                           src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/1-monsoon-love-surat-2016.jpg"
                           class="img-fluid img-shadow"
+							 alt="monsoon-love"
                          />
                     </div>
                     <div class="connections-thumb-title">Monsoon love, Surat 2016</div>
@@ -52,6 +54,7 @@ Template Name: Connnections
                         <img
                           src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/3-right-hand-jodhpur-2021.jpg"
                           class="img-fluid img-shadow"
+							 alt="right-hand-jodhpur"
                          />
                     </div>
                     <div class="connections-thumb-title">Right hand, Jodhpur 2021</div>
@@ -63,6 +66,7 @@ Template Name: Connnections
                         <img
                           src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/5-swing-malaysia-2016.jpg"
                           class="img-fluid img-shadow"
+							 alt="swing-malaysia"
                          />
                     </div>
                     <div class="connections-thumb-title">Swing, Malaysia 2016</div>
@@ -74,6 +78,7 @@ Template Name: Connnections
                         <img
                           src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/8-shiva-varanasi-2014.jpg"
                           class="img-fluid img-shadow"
+							 alt="shiva-varanasi"
                          />
                     </div>
                     <div class="connections-thumb-title">Shiva, Varanasi 2014</div>
@@ -85,6 +90,7 @@ Template Name: Connnections
                         <img
                           src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/9-cut-flying-ahmedabad-2018.jpg"
                           class="img-fluid img-shadow"
+							 alt="cut-flying-ahmedabad"
                          />
                     </div>
                     <div class="connections-thumb-title">Cut flying, Ahmedabad 2018</div>
@@ -96,6 +102,7 @@ Template Name: Connnections
                         <img
                           src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/11-fine-tune-surat-2015.jpg"
                           class="img-fluid img-shadow"
+							 alt="fine-tune-surat"
                          />
                     </div>
                     <div class="connections-thumb-title">Fine tune, Surat 2015</div>
@@ -109,6 +116,7 @@ Template Name: Connnections
                         <img
                           src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/2-61-surat-2021.jpg"
                           class="img-fluid img-shadow"
+							 alt="61-surat"
                          />
                     </div>
                     <div class="connections-thumb-title">61, Surat 2021</div>
@@ -120,6 +128,7 @@ Template Name: Connnections
                         <img
                           src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/4-call-ways-kuala-lumpur-2016.jpg"
                           class="img-fluid img-shadow"
+							 alt="call-ways-kuala-lumpur"
                          />
                     </div>
                     <div class="connections-thumb-title">Call ways, Kuala Lumpur 2016</div>
@@ -131,6 +140,7 @@ Template Name: Connnections
                         <img
                           src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/6-yellowstrip-kuala-lumpur-2016.jpg"
                           class="img-fluid img-shadow"
+							 alt="yellowstrip-kuala-lumpur"
                          />
                     </div>
                     <div class="connections-thumb-title">Yellowstrip, Kuala Lumpur 2016</div>
@@ -142,6 +152,7 @@ Template Name: Connnections
                         <img
                           src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/10-kayamat-ki-raat-bhavnagar-2018.jpg"
                           class="img-fluid img-shadow"
+							 alt="kayamat-ki-raat-bhavnagar"
                          />
                     </div>
                     <div class="connections-thumb-title">Kayamat ki raat, Bhavnagar 2018</div>
@@ -153,6 +164,7 @@ Template Name: Connnections
                         <img
                           src="<?php echo get_template_directory_uri(); ?>/images/myself/connections/12-hands-navsari-2015.jpg"
                           class="img-fluid img-shadow"
+							 alt="hands-navsari"
                          />
                     </div>
                     <div class="connections-thumb-title">Hands, Navsari 2015</div>

@@ -12,10 +12,11 @@ Template Name: Work Space
         >
           <div class="row working-space">
             <div class="col-xl-6 t-center">
-              <div class="wow fadeInRight animated" data-wow-delay="200ms">
+              <div class="content-well wow fadeInRight animated" data-wow-delay="200ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-1.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -24,7 +25,8 @@ Template Name: Work Space
                 class="content-well main-heading wow fadeInLeft animated"
                 data-wow-delay="600ms"
               >
-                <h1>OUR WORKING SPACE</h1>
+                <h1 style="margin:0">OUR WORKING SPACE</h1>
+                <h4>WE DO</h4>
                 <h4>Architecture   |   Interior  |  Urban Design   |  Landscape |   Art  </h4>
                 <div class="sub-heading">
                   <h2>'Jagya Designs'</h2>
@@ -68,6 +70,7 @@ Template Name: Work Space
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-2.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -82,6 +85,7 @@ Template Name: Work Space
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-3.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -90,6 +94,7 @@ Template Name: Work Space
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-4.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -102,10 +107,11 @@ Template Name: Work Space
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-3-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-5.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -122,6 +128,7 @@ Template Name: Work Space
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-6.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -130,6 +137,7 @@ Template Name: Work Space
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-7.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -142,10 +150,11 @@ Template Name: Work Space
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-3-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-8.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -162,6 +171,7 @@ Template Name: Work Space
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-9.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -170,6 +180,7 @@ Template Name: Work Space
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-10.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -180,6 +191,7 @@ Template Name: Work Space
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-11.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -188,6 +200,7 @@ Template Name: Work Space
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-12.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -204,6 +217,7 @@ Template Name: Work Space
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-13.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -212,6 +226,7 @@ Template Name: Work Space
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-14.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="work-space"
                 />
               </div>
             </div>
@@ -224,10 +239,11 @@ Template Name: Work Space
         >
           <div class="row">
             <div class="col-xl-12 text-center">
-              <div class="">
+              <div class="sec-3-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-15.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="work-space"
                 />
               </div>
             </div>

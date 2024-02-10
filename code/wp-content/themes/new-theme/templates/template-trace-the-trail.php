@@ -15,6 +15,7 @@ Template Name: Trace The Trail
                   <img
                     src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-1.jpg"
                     class="img-fluid img-one img-shadow"
+					alt="trace-the-trail"
                   />
                 </div>
                 <div class="trace-the-trail-info">
@@ -68,6 +69,7 @@ Template Name: Trace The Trail
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-2.jpg"
                   class="img-fluid img-shadow"
+					 alt="trace-the-trail"
                 />
               </div>
             </div>
@@ -76,6 +78,7 @@ Template Name: Trace The Trail
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-3.jpg"
                   class="img-fluid img-shadow"
+					 alt="trace-the-trail"
                 />
               </div>
             </div>
@@ -92,6 +95,7 @@ Template Name: Trace The Trail
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-4.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="trace-the-trail"
                 />
               </div>
             </div>
@@ -100,6 +104,7 @@ Template Name: Trace The Trail
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-5.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="trace-the-trail"
                 />
               </div>
             </div>
@@ -116,6 +121,7 @@ Template Name: Trace The Trail
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-6.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="trace-the-trail"
                 />
               </div>
             </div>
@@ -132,6 +138,7 @@ Template Name: Trace The Trail
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-7.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="trace-the-trail"
                 />
               </div>
             </div>
@@ -140,6 +147,7 @@ Template Name: Trace The Trail
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-8.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="trace-the-trail"
                 />
               </div>
             </div>
@@ -156,6 +164,7 @@ Template Name: Trace The Trail
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-9.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="trace-the-trail"
                 />
               </div>
             </div>
@@ -172,6 +181,7 @@ Template Name: Trace The Trail
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-10.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="trace-the-trail"
                 />
               </div>
             </div>
@@ -180,6 +190,7 @@ Template Name: Trace The Trail
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-11.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="trace-the-trail"
                 />
               </div>
             </div>
@@ -196,6 +207,7 @@ Template Name: Trace The Trail
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-12.jpg"
                   class="img-fluid img-shadow  img-one"
+					 alt="trace-the-trail"
                 />
               </div>
             </div>
@@ -212,6 +224,7 @@ Template Name: Trace The Trail
                 <a href="https://www.youtube.com/watch?v=CJ99Slj0OQk&ab_channel=JagyaFilms" target="_blank"><img
                   src="<?php echo get_template_directory_uri(); ?>/images/trace-the-trail/trace-the-trail-13.jpg"
                   class="img-fluid img-shadow  img-one"
+				  alt="trace-the-trail"
                 /></a>
               </div>
             </div>

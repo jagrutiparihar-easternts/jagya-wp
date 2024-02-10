@@ -11,29 +11,33 @@ Template Name: Yrgb
           <div class="row x-center">
             <div class="col-yrgb col-xl-12 text-center ">
               <div class="bg-postion-11">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/yrgb/bg-bg.png" class="img-fluid" />
+                <img src="<?php echo get_template_directory_uri(); ?>/images/yrgb/bg-bg.png" class="img-fluid" alt="yrgb"/>
                 <div class="b-pos wow fadeIn animated" data-wow-delay="400ms">
                   <img
                     src="<?php echo get_template_directory_uri(); ?>/images/yrgb/b-bg-line.png"
                     class="img-fluid"
+					   alt="yrgb"
                   />
                 </div>
                 <div class="g-pos wow fadeIn animated" data-wow-delay="800ms">
                   <img
                     src="<?php echo get_template_directory_uri(); ?>/images/yrgb/g-bg-line.png"
                     class="img-fluid"
+					   alt="yrgb"
                   />
                 </div>
                 <div class="r-pos wow fadeIn animated" data-wow-delay="1200ms">
                   <img
                     src="<?php echo get_template_directory_uri(); ?>/images/yrgb/y-bg-line.png"
                     class="img-fluid"
+					   alt="yrgb"
                   />
                 </div>
                 <div class="r-pos wow fadeIn animated" data-wow-delay="1600ms">
                   <img
                     src="<?php echo get_template_directory_uri(); ?>/images/yrgb/r-bg-line.png"
                     class="img-fluid"
+					   alt="yrgb"
                   />
                 </div>
               </div>
@@ -94,6 +98,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-2.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -109,6 +114,7 @@ Template Name: Yrgb
               <div class="sec-mob-padding">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-3.jpg"
+					 alt="yrgb"
                   class="img-fluid img-shadow img-one"
                 />
               </div>
@@ -126,6 +132,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-4.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -134,6 +141,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-7.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -144,6 +152,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-6.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -152,6 +161,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-5.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -166,8 +176,9 @@ Template Name: Yrgb
             <div class="col-xl-12">
               <div class="sec-2-img">
                 <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-22.webp"
+                  src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-gif-1.gif"
                   class="img-fluid img-shadow img-one"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -182,8 +193,9 @@ Template Name: Yrgb
             <div class="col-xl-12">
               <div class="sec-2-img">
                 <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-23.webp"
+                  src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-gif-2.gif"
                   class="img-fluid img-shadow img-one"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -200,6 +212,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-9.jpg"
                   class="img-fluid img-shadow"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -208,6 +221,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-8.jpg"
                   class="img-fluid img-shadow"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -224,6 +238,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-10.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -241,6 +256,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-11.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -249,6 +265,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-12.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -265,6 +282,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-13.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -281,6 +299,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-14.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -289,6 +308,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-17.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -299,6 +319,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-16.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -307,6 +328,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-15.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -323,6 +345,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-18.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -331,6 +354,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-19.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -347,6 +371,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-20.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="yrgb"
                 />
               </div>
             </div>
@@ -364,6 +389,7 @@ Template Name: Yrgb
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-21.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="yrgb"
                 /></a>
               </div>
             </div>

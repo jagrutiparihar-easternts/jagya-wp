@@ -31,6 +31,7 @@ Template Name: Marionette
                 <!-- <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-1.jpg"
                   class="img-fluid img-shadow"
+				  alt="marionette"
                 /> -->
               </div>
             </div>
@@ -54,6 +55,7 @@ Template Name: Marionette
                 <!-- <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-2.jpg"
                   class="img-fluid img-shadow"
+				  alt="marionette"
                 /> -->
               </div>
             </div>
@@ -77,6 +79,7 @@ Template Name: Marionette
                 <!-- <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-3.jpg"
                   class="img-fluid img-shadow"
+                  alt="marionette"
                 /> -->
               </div>
             </div>
@@ -97,14 +100,15 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-4.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
             <div class="col-xl-4">
               <div
                 class="content-well main-heading  text-center">
-                  <h1>EDIFICE ENGINEERING</h1>
-                  <p class="caps white-font">demolition is an art and we master it</p><br>
+                  <h1 class="white-font">EDIFICE ENGINEERING</h1>
+                  <p class="white-font">DEMOLITION IS AN ART AND WE MASTER IT</p><br>
 
                 <p>
                  It’s an previladge to be design the office space for one of the biggest demolition company in the country. As firm always tries to understand the user and it’s proffession at first priority and here no need to explain the idea behind the office space as it explain itself as once can move through the layers of it.
@@ -117,6 +121,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-5.png"
                   class="img-fluid img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -133,6 +138,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-6.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -149,6 +155,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-7.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -165,6 +172,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-8.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -181,6 +189,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-9.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -189,6 +198,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-10.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -205,6 +215,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-11.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -221,6 +232,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-12.jpg"
                   class="img-fluid img-shadow"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -229,6 +241,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-13.jpg"
                   class="img-fluid img-shadow"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -246,6 +259,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-21.webp"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -262,6 +276,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-15.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -270,6 +285,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-16.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -286,6 +302,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-17.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -294,6 +311,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-18.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -311,6 +329,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-19.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="marionette"
                 />
               </div>
             </div>
@@ -327,6 +346,7 @@ Template Name: Marionette
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/marionette/marionette-20.jpg"
                   class="img-fluid img-shadow"
+					 alt="marionette"
                 />
               </div>
             </div>

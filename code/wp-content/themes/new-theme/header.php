@@ -6,8 +6,7 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<!-- Mobile Meta -->
 	<meta http-equiv="x-ua-compatible" content="ie=edge" />
-<!-- 	<meta name="viewport" content="width=device-width,initial-scale=1"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<!-- Favicons and Icons -->
 	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-icon-touch.png">
@@ -38,7 +37,7 @@
           <div class="home-page">
             <img class="home-loder-logo"
               src="<?php echo get_template_directory_uri(); ?>/images/load.gif"
-              alt="Jagya"
+              alt="Jagya Loader"
             />
           </div>
         </div>
@@ -52,7 +51,7 @@
       <div id="loader" class="loader">
         <div class="loader-container">
           <div class="loader-icon">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/logo-jg.png" alt="Jagya" />
+            <img src="<?php echo get_template_directory_uri(); ?>/images/logo-jg.png" alt="Jagya Logo" />
           </div>
         </div>
       </div>
@@ -68,14 +67,14 @@
           <div class="col-xl-6">
             <div class="back-btn">
               <a href="#"
-                ><img src="<?php echo get_template_directory_uri(); ?>/images/Back-btn.png" class="img-fluid"
+                ><img src="<?php echo get_template_directory_uri(); ?>/images/Back-btn.png" alt="back-button" class="img-fluid"
               /></a>
             </div>
           </div>
           <div class="col-xl-6">
             <div class="right-logo">
               <a href="<?php echo esc_url( home_url( '/' ) ); ?>"
-                ><img src="<?php echo get_template_directory_uri(); ?>/images/logo-jg.png" class="img-fluid"
+                ><img src="<?php echo get_template_directory_uri(); ?>/images/logo-jg.png" alt="Jagya Designs Logo" class="img-fluid"
               /></a>
             </div>
           </div>

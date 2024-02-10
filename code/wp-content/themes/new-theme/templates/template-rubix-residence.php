@@ -15,6 +15,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-10.png"
                   class="img-fluid"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -23,6 +24,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-9.png"
                   class="img-fluid"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -31,6 +33,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-8.png"
                   class="img-fluid"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -39,6 +42,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-7.png"
                   class="img-fluid"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -47,6 +51,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-6.png"
                   class="img-fluid"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -55,6 +60,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-5.png"
                   class="img-fluid"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -63,6 +69,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-4.png"
                   class="img-fluid"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -71,6 +78,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-3.png"
                   class="img-fluid"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -79,6 +87,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-2.png"
                   class="img-fluid"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -88,6 +97,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rr-ico-1.png"
                   class="img-fluid"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -151,6 +161,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-1.png"
                   class="img-fluid"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -163,10 +174,11 @@ Template Name: Rubix Residence
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-3-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-3.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -183,6 +195,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-4.jpg"
                   class="img-fluid img-four img-shadow"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -191,6 +204,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-5.jpg"
                   class="img-fluid img-four img-shadow"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -201,6 +215,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-6.jpg"
                   class="img-fluid img-four img-shadow"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -209,6 +224,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-7.jpg"
                   class="img-fluid img-four img-shadow"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -221,10 +237,11 @@ Template Name: Rubix Residence
         >
           <div class="row">
             <div class="col-xl-12">
-              <div class="">
+              <div class="sec-3-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-16.webp"
                   class="img-fluid img-one img-shadow"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -241,6 +258,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-8.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -249,6 +267,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-9.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -259,6 +278,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-10.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -267,6 +287,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-11.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -283,6 +304,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-12.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -299,6 +321,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-13.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -315,6 +338,7 @@ Template Name: Rubix Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-14.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="rubix-residence"
                 />
               </div>
             </div>
@@ -331,6 +355,7 @@ Template Name: Rubix Residence
                 <a href="https://www.youtube.com/watch?v=BjuB9bkefVs&ab_channel=JagyaFilms" target="_blank"><img
                   src="<?php echo get_template_directory_uri(); ?>/images/rubix-residence/rubix-residence-15.jpg"
                   class="img-fluid img-shadow img-one"
+				  alt="rubix-residence"
                 /></a>
               </div>
             </div>

@@ -623,11 +623,11 @@ function email_template_header_function($atts) {
 				<table border="0" cellpadding="0" cellspacing="0" height="100%" .="100%" style="margin: 0 auto;">
 					<tr>
 						<td align="center" valign="top">
-							<div id="template_header_image" style="background-color: #fff;margin: 0 auto;width: 700px;padding: 20px 0;border-radius: 13px 13px 0 0;border-bottom: 2px solid #f57f20;">
-								<?php $image = site_url()."/wp-content/uploads/2023/01/Easternts.gif";  ?>
+							<div id="template_header_image" style="background-color: #271D14;margin: 0 auto;width: 700px;padding: 20px 0;border-radius: 13px 13px 0 0;border-bottom: 4px solid #ffb81d;">
+								<?php $image = site_url()."/wp-content/themes/new-theme/images/logo-jg.png";  ?>
 								<?php
-									echo '<p style="margin-top:0; margin-bottom:0;"><img src="' . esc_url( $image  ) .' "' . get_bloginfo( 'name', 'display' ) . '" /></p>';
-								?>
+									echo '<p style="margin-top:0; margin-bottom:0;"><img style="width:60px;height:auto;" src="' . esc_url( $image  ) .' "' . get_bloginfo( 'name', 'display' ) . '" /></p>';
+								?>  
 							</div>
 							<table border="0" cellpadding="0" cellspacing="0" width="600" id="template_container" style="background-color:#fff;box-shadow:0 1px 4px rgba(0,0,0,.1);border-radius:3px; font-size:1.24em;">
 								<tr>
@@ -656,15 +656,15 @@ function email_template_header_function($atts) {
 														<tr>
 															<td valign="top">
 																<div id="body_content_inner"><?php
-	return ob_get_clean();
+																	return ob_get_clean();
 
-}
+																}
 
-/* Email Templates - Exclude Woocommerce emails */
-add_shortcode( 'email_template_footer', 'email_template_footer_function' );
-function email_template_footer_function() {
+																/* Email Templates - Exclude Woocommerce emails */
+																add_shortcode( 'email_template_footer', 'email_template_footer_function' );
+																function email_template_footer_function() {
 
-	ob_start(); ?>
+																	ob_start(); ?>
 																</div>
 															</td>
 														</tr>
@@ -682,13 +682,13 @@ function email_template_footer_function() {
 					<tr>
 						<td align="center" valign="top" style="width: 100%;">
 							<!-- Footer -->
-							<table border="0" cellpadding="10" cellspacing="0" width="700" id="template_footer" style="background-color: #1a2e59; width:100%; color: #FFF; margin-bottom: 40px; border-radius: 0 0 12px 12px; min-width: 500px;">
+							<table border="0" cellpadding="10" cellspacing="0" width="700" id="template_footer" style="background-color: #271D14; width:100%; color: #FFF; margin-bottom: 40px; border-radius: 0 0 12px 12px; min-width: 500px;">
 								<tr>
 									<td valign="top">
 										<table border="0" align="center" cellpadding="10" cellspacing="0" width="100%" style="text-align: center;">
 											<tr align="center">
 												<td valign="middle" id="credit" align="center" style="padding-bottom: 8px; display: block; text-align: center; ">
-													<a target="_blank" href="<?php echo site_url(); ?>" style="font-weight:400;text-decoration:blink;color:#fff;font-size: 20px; text-align: center; ">Eastern Techno Soluations </a>
+													<a target="_blank" href="<?php echo site_url(); ?>" style="font-weight:400;text-decoration:blink;color:#ffb81d;font-size: 20px; text-align: center; ">Jagya Designs</a>
 												</td>
 											</tr>
 										</table>
@@ -732,11 +732,11 @@ function send_smtp_email( $phpmailer ) {
     $phpmailer->Port       = '587';
     $phpmailer->SMTPSecure = 'tls';
     $phpmailer->SMTPAuth   = true;
-    $phpmailer->Username   = 'noreply.edventure@gmail.com';
-    $phpmailer->Password   = 'atvwzeiijssinadn';
-    $phpmailer->From       = 'noreply.edventure@gmail.com';
+    $phpmailer->Username   = 'noreply.jagyadesigns@gmail.com';
+    $phpmailer->Password   = 'tiasjsipxdcliemi';
+    $phpmailer->From       = 'noreply.jagyadesigns@gmail.com';
     $phpmailer->FromName   = 'Jagya Designs';
-//     $phpmailer->addReplyTo('noreply.edventure@gmail.com', 'Information');
+//     $phpmailer->addReplyTo('noreply.jagyadesigns@gmail.com', 'Information');
 }
 
 // add_filter( 'wp_mail_content_type','set_my_mail_content_type' );

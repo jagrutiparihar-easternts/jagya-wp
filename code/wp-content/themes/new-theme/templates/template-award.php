@@ -73,7 +73,7 @@ Template Name: Awards Module
                                             <!-- edit this part -->
                                             <div class="awards-box">                                                
                                                 <div class="awards-img">
-                                                    <div><img src="<?php echo  $sub_valueproject_image['sizes']['large-thumbnail']; ?>" class="img-fluid" /></div>
+                                                    <div><img src="<?php echo  $sub_valueproject_image['sizes']['large-thumbnail']; ?>" alt="<?php echo esc_attr($sub_valueproject_image['alt']); ?>" class="img-fluid" /></div>
                                                     <div class="awards-title-1">
                                                         <?php the_field('thumb_heading'); ?>
                                                     </div>
@@ -85,7 +85,7 @@ Template Name: Awards Module
                                     endwhile;
                                 } else { ?>
                                     <a title="<?php the_title_attribute(); ?>" href="<?php echo get_stylesheet_directory_uri() . '/images/no-image.png'; ?>" >
-                                        <img src="<?php echo get_stylesheet_directory_uri() . '/images/no-image.png'; ?>" />
+                                        <img src="<?php echo get_stylesheet_directory_uri() . '/images/no-image.png'; ?>" alt="no-image"/>
                                     </a><?php
                                 } ?>	
 								<?php if( have_rows('video') ) {									

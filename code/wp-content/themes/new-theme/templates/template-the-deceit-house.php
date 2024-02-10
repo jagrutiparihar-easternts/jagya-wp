@@ -15,7 +15,7 @@ Template Name: The Deceit House
                 data-wow-delay="600ms"
               >
                 <div class="main-screen-logo-11">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/h-icon/the-deceit-house.png" class="img-fluid img-shadow"/>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/h-icon/the-deceit-house.png" class="img-fluid img-shadow" alt="the-deceit-house"/>
                 </div>
                 <div>
                   <div class="head-title">Sincere thanks</div>
@@ -39,6 +39,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-1.jpg"
                   class="img-fluid img-shadow"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -86,7 +87,7 @@ Template Name: The Deceit House
                 data-wow-delay="600ms"
               >
                 <div class="main-screen-logo-11">
-                    <img src="<?php echo get_template_directory_uri(); ?>/images/h-icon/the-deceit-house.png" class="img-fluid img-shadow"/>
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/h-icon/the-deceit-house.png" class="img-fluid img-shadow" alt="the-deceit-house"/>
                 </div>
                 <div>
                   <div class="head-title">Sincere thanks</div>
@@ -118,6 +119,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-2.jpg"
                   class="img-fluid img-shadow"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -126,6 +128,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-3.jpg"
                   class="img-fluid img-shadow"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -134,6 +137,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-4.jpg"
                   class="img-fluid img-shadow"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -142,6 +146,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-5.jpg"
                   class="img-fluid img-shadow"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -152,6 +157,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-6.jpg"
                   class="img-fluid img-shadow"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -180,6 +186,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-7.jpg"
                   class="img-fluid img-shadow"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -196,6 +203,7 @@ Template Name: The Deceit House
                 <img
                    src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-8.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -212,6 +220,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-9.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -220,6 +229,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-10.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -234,6 +244,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-11.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -242,6 +253,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-12.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -256,8 +268,9 @@ Template Name: The Deceit House
             <div class="col-xl-12">
               <div class="sec-mob-padding">
                 <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-21.webp"
+                  src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-21.gif"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -274,6 +287,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-14.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -282,6 +296,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-15.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -298,6 +313,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-16.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -314,6 +330,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-17.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -330,6 +347,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-18.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -346,6 +364,7 @@ Template Name: The Deceit House
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-19.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="the-deceit-house"
                 />
               </div>
             </div>
@@ -362,6 +381,7 @@ Template Name: The Deceit House
                 <a href="https://www.youtube.com/watch?v=ph3E3MflQsc&ab_channel=JagyaFilms" target="_blank"><img
                   src="<?php echo get_template_directory_uri(); ?>/images/the-deceit-house/the-deceit-house-20.jpg"
                   class="img-fluid img-shadow img-one"
+				  alt="the-deceit-house"
                 /></a>
               </div>
             </div>

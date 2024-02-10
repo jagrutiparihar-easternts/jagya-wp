@@ -15,6 +15,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-1.png"
                   class="img-fluid"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -23,6 +24,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-2.png"
                   class="img-fluid"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -31,6 +33,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-3.png"
                   class="img-fluid"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -39,6 +42,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-4.png"
                   class="img-fluid"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -47,6 +51,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-5.png"
                   class="img-fluid"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -55,6 +60,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-6.png"
                   class="img-fluid"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -90,6 +96,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/2.png"
                   class="img-fluid"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -106,6 +113,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/3.jpg"
                   class="img-fluid img-one img-shadow"
+						 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -122,6 +130,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/4.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -130,6 +139,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/5.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -146,6 +156,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/6.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -162,6 +173,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/7.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -178,6 +190,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/8.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -194,6 +207,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/9.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -202,6 +216,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/10.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -218,6 +233,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/11.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -232,6 +248,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/12.jpg"
                   class="img-fluid"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -240,6 +257,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/13.jpg"
                   class="img-fluid"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -256,6 +274,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/14.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -272,6 +291,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/15.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -280,6 +300,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/16.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -296,6 +317,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/17.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -309,6 +331,7 @@ Template Name: Innocent Harmony Residence
               <div class="sec-3-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/18.jpg"
+					 alt="Innocent Harmony Residence"
                   class="img-fluid"
                 />
               </div>
@@ -318,6 +341,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/19.jpg"
                   class="img-fluid"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -334,6 +358,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/20.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -350,6 +375,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/21.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -366,6 +392,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/22.jpg"
                   class="img-fluid img-four img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -374,6 +401,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/23.jpg"
                   class="img-fluid img-four img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -384,6 +412,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/24.jpg"
                   class="img-fluid img-four img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -392,6 +421,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/25.jpg"
                   class="img-fluid img-four img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -408,6 +438,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/26.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -424,6 +455,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/27.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -432,6 +464,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/28.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -448,6 +481,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/29.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -456,6 +490,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/30.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -472,6 +507,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/31.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>
@@ -488,6 +524,7 @@ Template Name: Innocent Harmony Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/32.jpg"
                   class="img-fluid img-one img-shadow"
+					 alt="Innocent Harmony Residence"
                 />
               </div>
             </div>

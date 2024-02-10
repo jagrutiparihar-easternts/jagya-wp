@@ -20,6 +20,7 @@
                     <img						
                         id="img22"
                         src="<?php echo get_template_directory_uri(); ?>/images/h-icon/innocent-harmony-residence.png"
+                        alt="innocent-harmony-residence"
                         onmouseover="loadGif22();"
                         onmouseout="loadNormalImage22();"
                     />
@@ -30,6 +31,7 @@
                     <img
                         id="img1"
                         src="<?php echo get_template_directory_uri(); ?>/images/h-icon/the-deceit-house.png"
+                        alt="the-deceit-house"
                         onmouseover="loadGif1();"
                         onmouseout="loadNormalImage1();"
                     />
@@ -40,6 +42,7 @@
 						<img
                         id="img115"
                         src="<?php echo get_template_directory_uri(); ?>/images/h-icon/yrgb.png"
+                        alt="yrgb"
                         onmouseover="loadGif115();"
                         onmouseout="loadNormalImage115();"
                     /></a>
@@ -49,6 +52,7 @@
 						<img
                         id="img114"
                         src="<?php echo get_template_directory_uri(); ?>/images/h-icon/house-of-affection.png"
+                        alt="house-of-affection"
                         onmouseover="loadGif114();"
                         onmouseout="loadNormalImage114();"
                     /></a>
@@ -58,6 +62,7 @@
                     <img
                         id="img5"
                         src="<?php echo get_template_directory_uri(); ?>/images/h-icon/colourful-lines.png"
+                        alt="colourful-lines"
                         onmouseover="loadGif5();"
                         onmouseout="loadNormalImage5();"
                     />
@@ -68,6 +73,7 @@
                     <img
                         id="img6"
                         src="<?php echo get_template_directory_uri(); ?>/images/h-icon/marionette.png"
+                        alt="marionette"
                         onmouseover="loadGif6();"
                         onmouseout="loadNormalImage6();"
                     />
@@ -82,6 +88,7 @@
                         <img
                             id="img7"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/rubix-residence.png"
+                            alt="rubix-residence"
                             onmouseover="loadGif7();"
                             onmouseout="loadNormalImage7();"
                         />
@@ -92,6 +99,7 @@
                         <img
                             id="img8"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/traditional-imprint.png"
+                            alt="traditional-imprint"
                             onmouseover="loadGif8();"
                             onmouseout="loadNormalImage8();"
                         /></a>
@@ -101,6 +109,7 @@
                         <img
                             id="img9"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/presence.png"
+                            alt="presence"
                             onmouseover="loadGif9();"
                             onmouseout="loadNormalImage9();"
                         /></a>
@@ -110,6 +119,7 @@
                         <img
                             id="img10"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/ribs-residence.png"
+                            alt="ribs-residence"
                             onmouseover="loadGif10();"
                             onmouseout="loadNormalImage10();"
                         /></a>
@@ -119,6 +129,7 @@
 						<img
                             id="img11"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/desire.png"
+                            alt="desire"
                             onmouseover="loadGif11();"
                             onmouseout="loadNormalImage11();"
                         /></a>
@@ -128,6 +139,7 @@
                         ><img
                             id="img12"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/origami-house.png"
+                            alt="origami-house"
                             onmouseover="loadGif12();"
                             onmouseout="loadNormalImage12();"
                         /></a>
@@ -137,6 +149,7 @@
                         ><img
                             id="img13"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/trace-the-trail.png"
+                            alt="trace-the-trail"
                             onmouseover="loadGif13();"
                             onmouseout="loadNormalImage13();"
                         /></a>
@@ -146,6 +159,7 @@
                         ><img
                             id="img31"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/product-design.png"
+                            alt="product-design"
                             onmouseover="loadGif31();"
                             onmouseout="loadNormalImage31();"
                         /></a>
@@ -159,6 +173,7 @@
                         ><img
                             id="img14"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/myself.png"
+                            alt="myself"
                             onmouseover="loadGif14();"
                             onmouseout="loadNormalImage14();"
                         />
@@ -169,6 +184,7 @@
                         ><img
                             id="img15"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/work-space.png"
+                            alt="work-space"
                             onmouseover="loadGif15();"
                             onmouseout="loadNormalImage15();"
                         />
@@ -179,6 +195,7 @@
                         ><img
                             id="img16"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/client.png"
+                            alt="client"
                             onmouseover="loadGif16();"
                             onmouseout="loadNormalImage16();"
                         />
@@ -189,6 +206,7 @@
                         ><img
                             id="img32"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/published.png"
+                            alt="published"
                             onmouseover="loadGif32();"
                             onmouseout="loadNormalImage32();"
                         />
@@ -199,6 +217,7 @@
                         ><img
                             id="img33"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/awards.png"
+                            alt="awards"
                             onmouseover="loadGif33();"
                             onmouseout="loadNormalImage33();"
                         />
@@ -209,6 +228,7 @@
                         ><img
                             id="img34"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/urban-design.png"
+                            alt="urban-design"
                             onmouseover="loadGif34();"
                             onmouseout="loadNormalImage34();"
                         />
@@ -219,6 +239,7 @@
                         ><img
                             id="img35"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/process-model.png"
+                            alt="process-model"
                             onmouseover="loadGif35();"
                             onmouseout="loadNormalImage35();"
                         />
@@ -229,6 +250,7 @@
                         ><img
                             id="img36"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/design-competition.png"
+                            alt="design-competition"
                             onmouseover="loadGif36();"
                             onmouseout="loadNormalImage36();"
                         />
@@ -239,6 +261,7 @@
                         ><img
                             id="img37"
                             src="<?php echo get_template_directory_uri(); ?>/images/h-icon/art.png"
+                            alt="art"
                             onmouseover="loadGif37();"
                             onmouseout="loadNormalImage37();"
                         />

@@ -31,6 +31,7 @@ Template Name: Process Model
 						<img
 						  src="<?php echo get_template_directory_uri(); ?>/images/process-model/1.jpg"
 						  class="img-fluid"
+							 alt="process-model"
 						/>
 					  </div>
 					</div>
@@ -43,6 +44,7 @@ Template Name: Process Model
 						<img
 						  src="<?php echo get_template_directory_uri(); ?>/images/process-model/2.jpg"
 						  class="img-fluid"
+							 alt="process-model"
 						/>
 					  </div>
 					</div>
@@ -55,6 +57,7 @@ Template Name: Process Model
 						<img
 						  src="<?php echo get_template_directory_uri(); ?>/images/process-model/3.jpg"
 						  class="img-fluid"
+							 alt="process-model"
 						/>
 					  </div>
 					</div>
@@ -67,6 +70,7 @@ Template Name: Process Model
 						<img
 						  src="<?php echo get_template_directory_uri(); ?>/images/process-model/4.jpg"
 						  class="img-fluid"
+							 alt="process-model"
 						/>
 					  </div>
 					</div>
@@ -86,6 +90,7 @@ Template Name: Process Model
 						<img
 						  src="<?php echo get_template_directory_uri(); ?>/images/process-model/5.jpg"
 						  class="img-fluid"
+							 alt="process-model"
 						/>
 					  </div>
 					</div>
@@ -98,6 +103,7 @@ Template Name: Process Model
 						<img
 						  src="<?php echo get_template_directory_uri(); ?>/images/process-model/6.jpg"
 						  class="img-fluid"
+							 alt="process-model"
 						/>
 					  </div>
 					</div>
@@ -110,6 +116,7 @@ Template Name: Process Model
 						<img
 						  src="<?php echo get_template_directory_uri(); ?>/images/process-model/7.jpg"
 						  class="img-fluid"
+							 alt="process-model"
 						/>
 					  </div>
 					</div>
@@ -122,6 +129,7 @@ Template Name: Process Model
 						<img
 						  src="<?php echo get_template_directory_uri(); ?>/images/process-model/8.jpg"
 						  class="img-fluid"
+							 alt="process-model"
 						/>
 					  </div>
 					</div>

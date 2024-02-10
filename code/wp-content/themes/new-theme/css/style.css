@@ -11694,8 +11694,8 @@ body .search-modal .close:hover {
 
 .screen-l37 img {
   display: block;
-  width: 60px;
-  max-width: 60px;
+  width: 80px;
+  max-width: 80px;
   height: auto;
 }
 
@@ -12100,6 +12100,15 @@ body .search-modal .close:hover {
 	padding: 20px;
     height: 150px;
     width: auto;
+}
+.client-section .client-logo .client-img img{
+	filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+	filter: gray; /* IE6-9 */
+	-webkit-filter: grayscale(100%); /* Chrome 19+ & Safari 6+ */
+}
+.client-section .client-logo .client-img img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0%);
 }
 .gulham-section .gulham-img {
 	margin-bottom: 20px;
@@ -12537,6 +12546,7 @@ Not supports in Firefox and IE */
 .myself-member-logo{
     display: flex;
     justify-content: space-between;
+    text-align:center;
     
 }
 .member-logo .img-tit{
@@ -12748,6 +12758,12 @@ Not supports in Firefox and IE */
     color:#FFFFFF !important;
 }
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
+    .trace-the-trail-well .content-well p {
+      color: #ffb81d;
+    }
+    .trace-the-trail-well .content-well.main-heading h1{
+        color: #ffb81d;
+    }
  .deceit-mobile{
     display:block;
 }
@@ -12791,6 +12807,7 @@ Not supports in Firefox and IE */
     }
     .last-section{
         margin-bottom:65px;
+		margin-top: 15px;
     }
     .last-section-text{
         margin-bottom:65px;
@@ -12852,7 +12869,7 @@ Not supports in Firefox and IE */
         padding-top:80px;
     }
     .product-design-section .jagya-thumb-title{
-        top:-40px;
+        top: 0px;
         position: relative;
     }
     .myself-right-side{
@@ -13006,13 +13023,14 @@ Not supports in Firefox and IE */
 }
 .screen-l16 {
   position: absolute;
-  top: 100px;
+  top: 60px;
   right: 33px;
 }
+
 .screen-l16 img {
   display: block;
-  width: 60px;
-  max-width: 60px;
+  width: 80px;
+  max-width: 80px;
   height: auto;
 }
 .screen-l32 {
@@ -13053,7 +13071,7 @@ Not supports in Firefox and IE */
 }
 .screen-l37 {
   position: absolute;
-  bottom: 160px;
+  bottom: 180px;
   left: 200px;
 }
 .screen-l35 {
@@ -13161,7 +13179,7 @@ Not supports in Firefox and IE */
   color: #ffb81d;
   font-weight: 400 !important;
   letter-spacing: 0px;
- font-size: 26px;
+ font-size: 18px;
   position: relative;
   text-transform: uppercase;
   line-height: 1.2;
@@ -13503,6 +13521,7 @@ Not supports in Firefox and IE */
     
 }
 @media only screen and (min-width: 320px) and (max-width: 599px) {
+    
     .jagya-thumb-title{
         font-size:12px;
     }
@@ -13526,7 +13545,7 @@ Not supports in Firefox and IE */
         padding: 0px 0px 20px 0;
     }   
     .desktop-padding{
-        padding: 0px;
+        padding: 15px 0 0;
     }
     .right-logo img {
         height: 30px;
@@ -13553,4 +13572,48 @@ Not supports in Firefox and IE */
     .urban-img.jagya-thumb-img {
         padding: 20px;
     }
+}
+.member-logo{
+    width:30%;
+}
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output, .wpcf7 form.payment-required .wpcf7-response-output {
+    color: #ffb900;
+}
+.wpcf7 form.failed .wpcf7-response-output, .wpcf7 form.aborted .wpcf7-response-output {
+    color: #dc3232;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+    color: #46b450;
+}
+.wpcf7-spinner::before {
+    background-color: #000;
+}
+.wpcf7-spinner {
+    background-color: #ffb900;
+	position: absolute;
+	margin: 6px 24px;
+}
+.section-404 {
+	padding: 230px 0;
+	text-align: center;
+}
+.section-404 .error {
+	font-size: 180px;
+    line-height: 170px;
+    font-weight: 700;
+    background: -webkit-linear-gradient(#ffb81d, #271d14);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+.section-404 .page p {
+	font-size: 20px;
+    color: #ffb81d;
+    margin-bottom: 7px;
+}
+.section-404 .readon {
+    color: #9f9f9f;
+}
+.section-404 .readon:hover {
+    color: #ffffff;
 }

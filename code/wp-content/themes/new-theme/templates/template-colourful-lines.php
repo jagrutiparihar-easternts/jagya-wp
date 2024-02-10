@@ -28,6 +28,7 @@ Template Name: Colourful Lines
                     <img
                       src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-1.jpg"
                       class="img-fluid img-shadow"
+						 alt="colourful-lines"
                     />
                   </div>
                 </div>
@@ -60,6 +61,7 @@ Template Name: Colourful Lines
                     <img
                       src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-2.jpg"
                       class="img-fluid img-shadow"
+						 alt="colourful-lines"
                     />
                   </div>
                 </div>
@@ -74,6 +76,7 @@ Template Name: Colourful Lines
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-3.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="colourful-lines"
                 />
               </div>
             </div>
@@ -90,6 +93,7 @@ Template Name: Colourful Lines
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-4.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="colourful-lines"
                 />
               </div>
             </div>
@@ -106,6 +110,7 @@ Template Name: Colourful Lines
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-5.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="colourful-lines"
                 />
               </div>
             </div>
@@ -122,6 +127,7 @@ Template Name: Colourful Lines
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-6.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="colourful-lines"
                 />
               </div>
             </div>
@@ -130,6 +136,7 @@ Template Name: Colourful Lines
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-7.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="colourful-lines"
                 />
               </div>
             </div>
@@ -140,6 +147,7 @@ Template Name: Colourful Lines
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-8.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="colourful-lines"
                 />
               </div>
             </div>
@@ -148,6 +156,7 @@ Template Name: Colourful Lines
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-9.jpg"
                   class="img-fluid img-shadow img-four"
+					 alt="colourful-lines"
                 />
               </div>
             </div>
@@ -164,6 +173,7 @@ Template Name: Colourful Lines
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-10.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="colourful-lines"
                 />
               </div>
             </div>
@@ -180,6 +190,7 @@ Template Name: Colourful Lines
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-11.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="colourful-lines"
                 />
               </div>
             </div>
@@ -188,6 +199,7 @@ Template Name: Colourful Lines
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-12.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="colourful-lines"
                 />
               </div>
             </div>
@@ -205,6 +217,7 @@ Template Name: Colourful Lines
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/colourful-lines/colourful-lines-13.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="colourful-lines"
                 />
               </div>
             </div>

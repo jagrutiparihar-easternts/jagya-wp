@@ -2,7 +2,7 @@
 
 <div class="main">
 	<?php //get_template_part('parts/page-title'); ?>
-	<div class="section" id="error-page">
+	<div class="section-404">
 		<h1 class="error">404</h1>
 		<div class="page">
 			<p><?php esc_html_e('Ooops!!! The page you are looking for is not found.', 'flexibond'); ?></p>

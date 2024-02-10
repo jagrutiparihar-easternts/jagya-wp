@@ -1,15 +1,14 @@
 <?php wp_footer(); ?>
 
 <?php
-	if (is_front_page()) {
-	    
+	if (is_front_page()) {	    
 ?>	
 <div class="jagya-footer">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-xl-2">
                 <div class="foter-icon-left">
-                    <a href="<?php echo esc_url(home_url('/contact-us')); ?>" class="desktop-contact"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/contact-icon.png"></a>
+                    <a href="<?php echo esc_url(home_url('/contact-us')); ?>" class="desktop-contact"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/contact-icon.png" alt="contact-icon"></a>
                 </div>
             </div>
             <div class="col-12 col-xl-8 text-center copyright-text">
@@ -17,20 +16,20 @@
             </div>
             <div class="col-12 col-xl-2">
                 <div class="foter-icon-right only-desktop">
-                    <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/facebook-icon.png"></a></div>
-                    <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/linkedin-icon.png"></a></div>
-                    <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/youtube-icon.png"></a></div>
-                    <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/insta-icon.png"></a></div>
+                    <div><a href="https://www.facebook.com/jagyadesign" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/facebook-icon.png" alt="facebook-icon"></a></div>
+                    <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/linkedin-icon.png" alt="linkedin-icon"></a></div>
+                    <div><a href="https://www.youtube.com/@jagyafilms7284/videos" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/youtube-icon.png" alt="youtube-icon"></a></div>
+                    <div><a href="https://www.instagram.com/jagya.designs/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/insta-icon.png" alt="insta-icon"></a></div>
                 </div>
                 <div class="foter-icon-right-mobile">
                     <div>
-                        <a href="<?php echo esc_url(home_url('/contact-us')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/contact-icon.png"></a>
+                        <a href="<?php echo esc_url(home_url('/contact-us')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/contact-icon.png" alt="contact-icon"></a>
                     </div>
                     <div class="mobile-fot-icon">
-                        <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/facebook-icon.png"></a></div>
-                        <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/linkedin-icon.png"></a></div>
-                        <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/youtube-icon.png"></a></div>
-                        <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/insta-icon.png"></a></div>
+                        <div><a href="https://www.facebook.com/jagyadesign" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/facebook-icon.png" alt="facebook-icon"></a></div>
+                        <div><a href="#" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/linkedin-icon.png" alt="linkedin-icon"></a></div>
+                        <div><a href="https://www.youtube.com/@jagyafilms7284/videos" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/youtube-icon.png" alt="youtube-icon"></a></div>
+                        <div><a href="https://www.instagram.com/jagya.designs/" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/images/footer-icon/insta-icon.png" alt="insta-icon"></a></div>
                     </div>
                 </div>
             </div>
@@ -253,24 +252,12 @@
     function loadNormalImage16() {
     var image = document.getElementById("img16");
     image.src = "<?php echo get_template_directory_uri(); ?>/images/h-icon/client.png";
-    }
-	
-	<?php if (wp_is_mobile() ) { ?>
-		function delay (URL) {
-			setTimeout( function() { window.location = URL }, 3000 );
-		}
-	<?php  } else { ?>
-		function delay (URL) {
-			setTimeout( function() { window.location = URL }, 0 );
-		}
-	<?php } ?>
-	
+    }	
 </script>
 <?php
 	} else {
 ?>
-<script type="text/javascript">	
-	
+<script type="text/javascript">		
     jQuery(document).ready(function($) {
         for (let i = 1; i < 500; i++) {
             $("#lightgallery_"+i ).lightGallery({
@@ -327,6 +314,17 @@
 <?php
 	}
 ?>
+<script>
+	<?php if (wp_is_mobile() ) { ?>
+		function delay (URL) {
+			setTimeout( function() { window.location = URL }, 3000 );
+		}
+	<?php  } else { ?>
+		function delay (URL) {
+			setTimeout( function() { window.location = URL }, 0 );
+		}
+	<?php } ?>
+</script>
 
 </div><!-- page-wrapper -->
 

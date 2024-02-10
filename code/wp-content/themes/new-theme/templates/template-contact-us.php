@@ -18,7 +18,7 @@ Template Name: Contact Us
 						</div>
 					</div>-->
 					<a href="mailto:<?php echo get_field('email', 'option'); ?>"><?php echo get_field('email', 'option'); ?></a><br>
-					<a href="<?php echo get_field('phone_number', 'option'); ?>"><?php echo get_field('phone_number', 'option'); ?></a><br>
+					<a href="tel:<?php echo get_field('phone_number', 'option'); ?>"><?php echo get_field('phone_number', 'option'); ?></a><br>
 					<?php echo get_field('address', 'option'); ?>         
                 </div>
                 <div class="">

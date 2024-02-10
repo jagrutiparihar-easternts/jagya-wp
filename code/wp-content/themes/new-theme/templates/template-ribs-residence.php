@@ -19,6 +19,7 @@ Template Name: Ribs Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/ribs-residence/ribs-residence-1.png"
                   class="img-fluid"
+					 alt="ribs-residence"
                 />
               </div>
               <div
@@ -39,6 +40,7 @@ Template Name: Ribs Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/ribs-residence/ribs-residence-2.jpg"
                   class="img-fluid img-one"
+					 alt="ribs-residence"
                 />
               </div>
             </div>
@@ -56,6 +58,7 @@ Template Name: Ribs Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/ribs-residence/ribs-residence-3.jpg"
                   class="img-fluid img-shadow"
+					 alt="ribs-residence"
                 />
               </div>
             </div>
@@ -73,6 +76,7 @@ Template Name: Ribs Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/ribs-residence/ribs-residence-4.jpg"
                   class="img-fluid img-shadow img-one"
+					 alt="ribs-residence"
                 />
               </div>
             </div>
@@ -90,6 +94,7 @@ Template Name: Ribs Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/ribs-residence/ribs-residence-5.jpg"
                   class="img-fluid img-shadow"
+					 alt="ribs-residence"
                 />
               </div>
             </div>
@@ -107,6 +112,7 @@ Template Name: Ribs Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/ribs-residence/ribs-residence-6.jpg"
                   class="img-fluid img-shadow"
+					 alt="ribs-residence"
                 />
               </div>
             </div>
@@ -124,6 +130,7 @@ Template Name: Ribs Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/ribs-residence/ribs-residence-7.jpg"
                   class="img-fluid img-shadow"
+					 alt="ribs-residence"
                 />
               </div>
             </div>
@@ -141,6 +148,7 @@ Template Name: Ribs Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/ribs-residence/ribs-residence-8.jpg"
                   class="img-fluid img-shadow"
+					 alt="ribs-residence"
                 />
               </div>
             </div>
@@ -158,6 +166,7 @@ Template Name: Ribs Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/ribs-residence/ribs-residence-9.jpg"
                   class="img-fluid img-shadow"
+					 alt="ribs-residence"
                 />
               </div>
             </div>
@@ -175,6 +184,7 @@ Template Name: Ribs Residence
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/ribs-residence/ribs-residence-10.gif"
                   class="img-fluid img-shadow"
+					 alt="ribs-residence"
                 />
               </div>
             </div>
