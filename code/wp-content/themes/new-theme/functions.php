@@ -57,6 +57,10 @@ add_filter('the_generator', function () {
 	return '';
 });
 
+
+// Disabled plugin update filter
+add_filter( 'auto_update_plugin', '__return_false' );
+
 /**
  * Remove WordPress version from scripts.
  */
@@ -660,9 +664,10 @@ function email_template_header_function($atts) {
 
 																}
 
-																/* Email Templates - Exclude Woocommerce emails */
-																add_shortcode( 'email_template_footer', 'email_template_footer_function' );
-																function email_template_footer_function() {
+
+/* Email Templates - Exclude Woocommerce emails */
+add_shortcode( 'email_template_footer', 'email_template_footer_function' );
+function email_template_footer_function() {
 
 																	ob_start(); ?>
 																</div>
@@ -743,3 +748,18 @@ function send_smtp_email( $phpmailer ) {
 function set_my_mail_content_type() {
     return "text/html";
 }
+
+
+function remove_query_strings() {
+   if(!is_admin()) {
+       add_filter('script_loader_src', 'remove_query_strings_split', 15);
+       add_filter('style_loader_src', 'remove_query_strings_split', 15);
+   }
+}
+
+function remove_query_strings_split($src){
+   $output = preg_split("/(&ver|\?ver)/", $src);
+   return $output[0];
+}
+
+add_action('init', 'remove_query_strings');
