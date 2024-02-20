@@ -80,68 +80,52 @@
 
 				var input_fields = {
 					// When did the user begin entering any input?
-					'bib': input_begin,
+					'ak_bib': input_begin,
 
 					// When was the form submitted?
-					'bfs': Date.now(),
+					'ak_bfs': Date.now(),
 
 					// How many keypresses did they make?
-					'bkpc': keypresses.length,
+					'ak_bkpc': keypresses.length,
 
 					// How quickly did they press a sample of keys, and how long between them?
-					'bkp': ak_bkp,
+					'ak_bkp': ak_bkp,
 
 					// How quickly did they click the mouse, and how long between clicks?
-					'bmc': ak_bmc,
+					'ak_bmc': ak_bmc,
 
 					// How many mouseclicks did they make?
-					'bmcc': mouseclicks.length,
+					'ak_bmcc': mouseclicks.length,
 
 					// When did they press modifier keys (like Shift or Capslock)?
-					'bmk': modifierKeys.join( ';' ),
+					'ak_bmk': modifierKeys.join( ';' ),
 
 					// When did they correct themselves? e.g., press Backspace, or use the arrow keys to move the cursor back
-					'bck': correctionKeys.join( ';' ),
+					'ak_bck': correctionKeys.join( ';' ),
 
 					// How many times did they move the mouse?
-					'bmmc': mousemoves.length,
+					'ak_bmmc': mousemoves.length,
 
 					// How many times did they move around using a touchscreen?
-					'btmc': touchmoveCount,
+					'ak_btmc': touchmoveCount,
 
 					// How many times did they scroll?
-					'bsc': scrollCount,
+					'ak_bsc': scrollCount,
 
 					// How quickly did they perform touch events, and how long between them?
-					'bte': ak_bte,
+					'ak_bte': ak_bte,
 
 					// How many touch events were there?
-					'btec' : touchEvents.length,
+					'ak_btec' : touchEvents.length,
 
 					// How quickly did they move the mouse, and how long between moves?
-					'bmm' : ak_bmm
+					'ak_bmm' : ak_bmm
 				};
-
-				var akismet_field_prefix = 'ak_';
-
-				if ( this.getElementsByClassName ) {
-					// Check to see if we've used an alternate field name prefix. We store this as an attribute of the container around some of the Akismet fields.
-					var possible_akismet_containers = this.getElementsByClassName( 'akismet-fields-container' );
-
-					for ( var containerIndex = 0; containerIndex < possible_akismet_containers.length; containerIndex++ ) {
-						var container = possible_akismet_containers.item( containerIndex );
-
-						if ( container.getAttribute( 'data-prefix' ) ) {
-							akismet_field_prefix = container.getAttribute( 'data-prefix' );
-							break;
-						}
-					}
-				}
 
 				for ( var field_name in input_fields ) {
 					var field = document.createElement( 'input' );
 					field.setAttribute( 'type', 'hidden' );
-					field.setAttribute( 'name', akismet_field_prefix + field_name );
+					field.setAttribute( 'name', field_name );
 					field.setAttribute( 'value', input_fields[ field_name ] );
 					this.appendChild( field );
 				}

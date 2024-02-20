@@ -9,6 +9,7 @@
 	<meta name="viewport" content="width=device-width,initial-scale=1">
 
 	<!-- Favicons and Icons -->
+	<link rel="apple-touch-icon" href="<?php echo get_template_directory_uri(); ?>/images/apple-icon-touch.png">
 	<link rel="icon" href="<?php echo get_template_directory_uri(); ?>/images/fav.png">
 
 	<!-- wordpress head functions -->

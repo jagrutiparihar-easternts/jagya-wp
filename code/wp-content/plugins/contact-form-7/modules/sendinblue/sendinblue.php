@@ -219,18 +219,6 @@ function wpcf7_sendinblue_collect_parameters() {
 		}
 	}
 
-	$params = array_map(
-		function ( $param ) {
-			if ( is_array( $param ) ) {
-				$param = wpcf7_array_flatten( $param );
-				$param = reset( $param );
-			}
-
-			return $param;
-		},
-		$params
-	);
-
 	$params = apply_filters(
 		'wpcf7_sendinblue_collect_parameters',
 		$params

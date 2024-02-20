@@ -264,15 +264,7 @@ class Akismet_REST_API {
 
 		$stat_totals = array();
 
-		$request_args = array(
-			'blog' => get_option( 'home' ),
-			'key' => $api_key,
-			'from' => $interval,
-		);
-
-		$request_args = apply_filters( 'akismet_request_args', $request_args, 'get-stats' );
-
-		$response = Akismet::http_post( Akismet::build_query( $request_args ), 'get-stats' );
+		$response = Akismet::http_post( Akismet::build_query( array( 'blog' => get_option( 'home' ), 'key' => $api_key, 'from' => $interval ) ), 'get-stats' );
 
 		if ( ! empty( $response[1] ) ) {
 			$stat_totals[$interval] = json_decode( $response[1] );
@@ -326,14 +318,15 @@ class Akismet_REST_API {
 	}
 
 	private static function key_is_valid( $key ) {
-		$request_args = array(
-			'key' => $key,
-			'blog' => get_option( 'home' ),
+		$response = Akismet::http_post(
+			Akismet::build_query(
+				array(
+					'key' => $key,
+					'blog' => get_option( 'home' )
+				)
+			),
+			'verify-key'
 		);
-
-		$request_args = apply_filters( 'akismet_request_args', $request_args, 'verify-key' );
-
-		$response = Akismet::http_post( Akismet::build_query( $request_args ), 'verify-key' );
 
 		if ( $response[1] == 'valid' ) {
 			return true;

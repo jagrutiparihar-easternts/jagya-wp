@@ -4,7 +4,7 @@ Donate link: http://www.nsp-code.com/donate.php
 Tags: post order, posts order, sort, post sort, posts sort, post type order, custom order, admin posts order
 Requires at least: 2.8
 Tested up to: 6.4.3
-Stable tag: 2.1.8
+Stable tag: 2.1.4
 
 Sort Posts and custom Post Type Objects (custom post types) using a Drag and Drop Sortable JavaScript AJAX interface or default WordPress dashboard. 
 
@@ -94,9 +94,6 @@ Consider upgrading to our advanced version of this plugin at a very resonable pr
 
 == Change Log ==  
 
-= 2.1.8 =
- - Fix: Media/images order, retrieve the items per page from user upload_per_page
- 
 = 2.1.4 =
  - PHP Deprecated fix: Constant FILTER_SANITIZE_STRING is deprecated
  - WordPress 6.4.3 compatibility check and tag update

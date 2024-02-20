@@ -252,14 +252,12 @@ trait WPCF7_Sendinblue_API {
 	}
 
 
-	public function get_lists( $options = '' ) {
-		$options = wp_parse_args( $options, array(
-			'limit' => 50,
-			'offset' => 0,
-		) );
-
+	public function get_lists() {
 		$endpoint = add_query_arg(
-			$options,
+			array(
+				'limit' => 50,
+				'offset' => 0,
+			),
 			'https://api.sendinblue.com/v3/contacts/lists'
 		);
 

@@ -3,7 +3,7 @@
 Plugin Name: Media Library Folders
 Plugin URI: http://maxgalleria.com
 Description: Gives you the ability to adds folders and move files in the WordPress Media Library.
-Version: 8.1.9
+Version: 8.1.7
 Author: Max Foundry
 Author URI: http://maxfoundry.com
 
@@ -75,7 +75,7 @@ class MGMediaLibraryFolders {
   
 	public function set_global_constants() {	
 		define('MAXGALLERIA_MEDIA_LIBRARY_VERSION_KEY', 'maxgalleria_media_library_version');
-		define('MAXGALLERIA_MEDIA_LIBRARY_VERSION_NUM', '8.1.9');
+		define('MAXGALLERIA_MEDIA_LIBRARY_VERSION_NUM', '8.1.7');
 		define('MAXGALLERIA_MEDIA_LIBRARY_IGNORE_NOTICE', 'maxgalleria_media_library_ignore_notice');
 		define('MAXGALLERIA_MEDIA_LIBRARY_PLUGIN_NAME', trim(dirname(plugin_basename(__FILE__)), '/'));
     if(!defined('MAXGALLERIA_MEDIA_LIBRARY_PLUGIN_DIR'))
@@ -448,7 +448,7 @@ class MGMediaLibraryFolders {
   }
   
   /* manually loads an image file */
-  public function mlfp_load_image () {    
+  public function mlfp_load_image () {
     
     if ( !wp_verify_nonce( $_POST['nonce'], MAXGALLERIA_MEDIA_LIBRARY_NONCE)) {
       exit(esc_html__('Missing nonce! Please refresh this page.','maxgalleria-media-library'));
@@ -459,37 +459,19 @@ class MGMediaLibraryFolders {
     else
       $download_file = "";
             
-    if(!empty($download_file)) { 
-      
+    if(!empty($download_file)) {      
       $file_path = $this->get_absolute_path($download_file);
-            
-      if($this->is_path_inside($this->protected_content_dir, $file_path)) {  
-        if(file_exists($file_path)) {
-          $type = pathinfo($file_path, PATHINFO_EXTENSION);
-          $data = file_get_contents($file_path);
-          $base64 = 'data:image/' . $type . ';base64,' . base64_encode($data);     
-          echo $base64;          
-        }
-      } 
+      if(file_exists($file_path)) {
+        $type = pathinfo($file_path, PATHINFO_EXTENSION);
+        $data = file_get_contents($file_path);
+        $base64 = 'data:image/' . $type . ';base64,' . base64_encode($data);     
+        echo $base64;          
+      }
     }
     
     die();
   }
   
-  public function is_path_inside($potential_parent, $potential_child) {
-    // Get the real, absolute paths
-    $parent_path = realpath($potential_parent);
-    $child_path = realpath($potential_child);
-
-    // Check if both paths are valid
-    if ($parent_path === false || $child_path === false) {
-        return false;
-    }
-
-    // Use the strncmp function to compare the first n characters of two strings
-    return strncmp($child_path, $parent_path, strlen($parent_path)) === 0;
-}
-      
   /* manually load image on the front end of the site */
   public function mlfp_load_fe_image () {
     
@@ -503,21 +485,17 @@ class MGMediaLibraryFolders {
       $download_file = "";
     
 		if ((isset($_POST['image_id'])) && (strlen(trim($_POST['image_id'])) > 0))
-      $image_id = intval(trim(sanitize_text_field($_POST['image_id'])));
+      $image_id = trim(sanitize_url($_POST['image_id']));
     else
       $image_id = "";  
                         
     if(!empty($download_file)) {
       $file_path = $this->get_absolute_path($download_file);
-      
-      if($this->is_path_inside($this->protected_content_dir, $file_path)) {  
-      
-        if(file_exists($file_path)) {
-          $type = pathinfo($file_path, PATHINFO_EXTENSION);
-          $data = file_get_contents($file_path);
-          $base64 = 'data:image/' . $type . ';base64,' . base64_encode($data);     
-          echo $base64;          
-        }
+      if(file_exists($file_path)) {
+        $type = pathinfo($file_path, PATHINFO_EXTENSION);
+        $data = file_get_contents($file_path);
+        $base64 = 'data:image/' . $type . ';base64,' . base64_encode($data);     
+        echo $base64;          
       }
     } else {
       echo null;
@@ -525,7 +503,19 @@ class MGMediaLibraryFolders {
     
     die();
   }
+  
+  public function get_attachment_author($image_id) {
     
+    global $wpdb;
+    
+    $sql = $wpdb->prepare("select post_author from $wpdb->posts where ID = %s", $image_id);
+    
+    $post_author = $wpdb->get_var($sql);
+    
+    return $post_author;
+    
+  }
+  
   public function mlfp_remove_protected_folders() {
     
     if ( !wp_verify_nonce( $_POST['nonce'], MAXGALLERIA_MEDIA_LIBRARY_NONCE)) {
@@ -902,7 +892,6 @@ class MGMediaLibraryFolders {
 						  
   public function delete_folder_attachment ($postid) {    
     global $wpdb;
-    $postid = intval($postid);
     $table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_FOLDER_TABLE;
     $where = array( 'post_id' => $postid );
     $wpdb->delete( $table, $where );    
@@ -1034,7 +1023,7 @@ public function get_parent_by_name($sub_folder) {
     }
     
     if ((isset($_POST['folder_id'])) && (strlen(trim($_POST['folder_id'])) > 0))
-      $folder_id = intval(trim(sanitize_text_field($_POST['folder_id'])));
+      $folder_id = trim(sanitize_text_field($_POST['folder_id']));
     else
       $folder_id = 0;
     
@@ -1473,10 +1462,9 @@ and pm.meta_key = '_wp_attached_file'";
         
   }
   
-  public function add_new_folder_parent($record_id, $parent_folder) {
+  private function add_new_folder_parent($record_id, $parent_folder) {
     
-    global $wpdb;
-    $record_id = intval($record_id);
+    global $wpdb;    
     $table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_FOLDER_TABLE;
     
     // check for existing record  
@@ -1571,7 +1559,6 @@ and pm.meta_key = '_wp_attached_file'";
           
   private function lookup_uploads_folder_name($current_folder_id) {
     global $wpdb;
-    $current_folder_id = intval($current_folder_id);
     $sql = "SELECT post_title FROM {$wpdb->prefix}posts where ID = $current_folder_id";
     $folder_name = $wpdb->get_var($sql);
     return $folder_name;
@@ -1731,7 +1718,7 @@ and pm.meta_key = '_wp_attached_file'";
     } 
     
     if ((isset($_POST['current_folder_id'])) && (strlen(trim($_POST['current_folder_id'])) > 0))
-      $current_folder_id = intval(trim(sanitize_text_field($_POST['current_folder_id'])));
+      $current_folder_id = trim(sanitize_text_field($_POST['current_folder_id']));
 		else
 			$current_folder_id = 0;
 		
@@ -1786,7 +1773,7 @@ and pm.meta_key = '_wp_attached_file'";
     } 
 		
     if ((isset($_POST['current_folder_id'])) && (strlen(trim($_POST['current_folder_id'])) > 0))
-      $current_folder_id = intval(trim(sanitize_text_field($_POST['current_folder_id'])));
+      $current_folder_id = trim(sanitize_text_field($_POST['current_folder_id']));
 		else
 			$current_folder_id = 0;
 		
@@ -1815,7 +1802,7 @@ and pm.meta_key = '_wp_attached_file'";
     } 
 		
     if ((isset($_POST['current_folder_id'])) && (strlen(trim($_POST['current_folder_id'])) > 0))
-      $current_folder_id = intval(trim(sanitize_text_field($_POST['current_folder_id'])));
+      $current_folder_id = trim(sanitize_text_field($_POST['current_folder_id']));
 		else
 			$current_folder_id = 0;
 				
@@ -1834,7 +1821,7 @@ and pm.meta_key = '_wp_attached_file'";
     } 
 				
     if ((isset($_POST['current_folder_id'])) && (strlen(trim($_POST['current_folder_id'])) > 0)) 
-      $current_folder_id = intval(trim(sanitize_text_field($_POST['current_folder_id'])));
+      $current_folder_id = trim(sanitize_text_field($_POST['current_folder_id']));
 		else
 		  $current_folder_id = get_option(MAXGALLERIA_MEDIA_LIBRARY_UPLOAD_FOLDER_ID );        								
 				
@@ -1850,7 +1837,6 @@ and pm.meta_key = '_wp_attached_file'";
 	public function get_folder_data($current_folder_id) {
 		
     global $wpdb;
-    $current_folder_id = intval($current_folder_id);
 				
 		$folder_parents = $this->get_parents($current_folder_id);
 		$folder_table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_FOLDER_TABLE;
@@ -2229,7 +2215,6 @@ function process_mc_data(phase, folder_id, action_name, parent_folder, serial_co
 	public function display_files($image_link, $current_folder_id, $folder_table, $display_type, $order_by, $mif_visible = false) {
     
     global $wpdb;
-    $current_folder_id = intvaL($current_folder_id); 
     $images_found = false;
     $images_pre_page = get_option(MAXGALLERIA_MLP_ITEMS_PRE_PAGE, '500');
     if(empty($images_pre_page))
@@ -2387,8 +2372,7 @@ order by $order_by limit 0, $images_pre_page";
   
   private function get_folder_path($folder_id) {
     
-    global $wpdb;
-    $folder_id = intval($folder_id);
+    global $wpdb;    
    $sql = "select meta_value as attached_file
 from {$wpdb->prefix}postmeta 
 where post_id = $folder_id
@@ -2409,7 +2393,6 @@ AND meta_key = '_wp_attached_file'";
   private function get_subfolder_path($folder_id) {
       
     global $wpdb;    
-    $folder_id = intval($folder_id);
 		
     $sql = "select meta_value as attached_file
 from {$wpdb->prefix}postmeta 
@@ -2429,8 +2412,7 @@ AND meta_key = '_wp_attached_file'";
   }
   
   private function get_folder_name($folder_id) {
-    global $wpdb;
-    $folder_id = intval($folder_id);
+    global $wpdb;    
     $sql = "select post_title from $wpdb->prefix" . "posts where ID = $folder_id";    
     $row = $wpdb->get_row($sql);
     return $row->post_title;
@@ -2439,7 +2421,7 @@ AND meta_key = '_wp_attached_file'";
   private function get_parents($current_folder_id) {
 
     global $wpdb;    
-    $folder_id = intval($current_folder_id);
+    $folder_id = $current_folder_id;    
     $parents = array();
     $folder_table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_FOLDER_TABLE;
 		$not_found = false;
@@ -2473,7 +2455,6 @@ where ID = $folder_id";
   private function get_parent($folder_id) {
     
     global $wpdb;    
-    $folder_id = intval($folder_id);
     $folder_table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_FOLDER_TABLE;
     
     $sql = "select folder_id from $folder_table where post_id = $folder_id";    
@@ -2670,7 +2651,7 @@ AND meta_key = '_wp_attached_file'";
     if ((isset($_POST['parent_id'])) && (strlen(trim($_POST['parent_id'])) > 0))
       $parent_folder = trim(sanitize_text_field($_POST['parent_id']));
 		else
-			$parent_folder = $this->uploads_folder_ID;
+			$parent_folder = "0";
 		
 		            
     foreach( $delete_ids as $delete_id) {
@@ -2845,13 +2826,13 @@ AND pm.meta_key = '_wp_attached_file'";
     $serial_gallery_image_ids = explode(',', $serial_gallery_image_ids);
         
     if ((isset($_POST['gallery_id'])) && (strlen(trim($_POST['gallery_id'])) > 0))
-      $gallery_id = intval(trim(sanitize_text_field($_POST['gallery_id'])));
+      $gallery_id = trim(sanitize_text_field($_POST['gallery_id']));
     else
       $gallery_id = 0;
     
     foreach( $serial_gallery_image_ids as $attachment_id) {
       
-      if(is_numeric($attachment_id) && wp_attachment_is_image($attachment_id)) {     
+      if(wp_attachment_is_image($attachment_id)) {     
               
         // check for image already in the gallery
         $sql = "SELECT ID FROM $wpdb->prefix" . "posts where post_parent = $gallery_id and post_type = 'attachment' and ID = $attachment_id";
@@ -3162,7 +3143,7 @@ where post_type = 'attachment' and pm.meta_key = '_wp_attached_file' and SUBSTRI
     } 
     
     if ((isset($_POST['image_id'])) && (strlen(trim($_POST['image_id'])) > 0))
-      $file_id = intval(trim(sanitize_text_field($_POST['image_id'])));
+      $file_id = trim(sanitize_text_field($_POST['image_id']));
     else
       $file_id = "";
     
@@ -3348,7 +3329,7 @@ AND pm.meta_key = '_wp_attached_file'", $file_id);
       $sort_order = "0";
     
     if ((isset($_POST['folder'])) && (strlen(trim($_POST['folder'])) > 0))
-      $current_folder_id = intval(trim(sanitize_text_field($_POST['folder'])));
+      $current_folder_id = trim(sanitize_text_field($_POST['folder']));
     else
       $current_folder_id = "";
 		        
@@ -3373,7 +3354,7 @@ AND pm.meta_key = '_wp_attached_file'", $file_id);
       $sort_type = "ASC";
     
     if ((isset($_POST['folder'])) && (strlen(trim($_POST['folder'])) > 0))
-      $current_folder_id = intval(trim(sanitize_text_field($_POST['folder'])));
+      $current_folder_id = trim(sanitize_text_field($_POST['folder']));
     else
       $current_folder_id = "";
 		        
@@ -3414,7 +3395,7 @@ AND pm.meta_key = '_wp_attached_file'", $file_id);
     }
     
     if ((isset($_POST['parent_folder'])) && (strlen(trim($_POST['parent_folder'])) > 0))
-      $parent_folder_id = intval(trim(sanitize_text_field($_POST['parent_folder'])));
+      $parent_folder_id = trim(sanitize_text_field($_POST['parent_folder']));
     
     //error_log("parent_folder_id $parent_folder_id");
             
@@ -3577,7 +3558,30 @@ AND pm.meta_key = '_wp_attached_file'", $file_id);
     }
     return $message;
   }
-		  
+		
+	public function new_folder_search($name, $uploads_folder, $uploads_length, $dir_name, $noecho) {
+		global $is_IIS;
+		$folder_found = false;
+		$upload_pos = strpos($name, $uploads_folder);
+		$url = $uploads_url . substr($name, ($upload_pos+$uploads_length));
+
+		// fix slashes if running windows
+    if ($is_IIS || strtoupper(substr(PHP_OS, 0, 3)) == 'WIN' || strtoupper(substr(PHP_OS, 0, 13)) == 'MICROSOFT-IIS' ) {
+			$url = str_replace('\\', '/', $url);      
+		}
+
+		if($this->folder_exist($url) === false) {
+			$folder_found = true;
+			if(!$noecho) {
+				echo esc_html( __('Adding','maxgalleria-media-library') . " " . esc_url($url)) . "<br>";
+			}	
+			$parent_id = $this->find_parent_id($url);
+			if($parent_id)
+			  $this->add_media_folder($dir_name, $parent_id, $url);              
+		}
+		return $folder_found;
+	}
+  
   private function find_parent_id($base_url) {
     
     global $wpdb;    
@@ -3931,7 +3935,7 @@ and meta_key = '_wp_attached_file'";
     }
     
     if ((isset($_POST['folder'])) && (strlen(trim($_POST['folder'])) > 0))
-      $current_folder_id = intval(trim(sanitize_textarea_field($_POST['folder'])));
+      $current_folder_id = trim(sanitize_textarea_field($_POST['folder']));
     else
       $current_folder_id = "";
     
@@ -4284,7 +4288,46 @@ and meta_key = '_wp_attached_file'";
 		<?php	
 		
   }
+			
+	public function wp_get_attachment( $attachment_id ) {
+
+		$attachment = get_post( $attachment_id );
+
+		$base_url = $this->upload_dir['baseurl'];
+    $attached_file = get_post_meta( $attachment_id, '_wp_attached_file', true );
+		$base_url = rtrim($base_url, '/') . '/';
+		$image_location = $base_url . ltrim($attached_file, '/');
+		
+		$available_sizes = array();
+		
+		if (wp_attachment_is_image($attachment_id)) {
+			foreach ( $this->image_sizes as $size ) {
+				$image = wp_get_attachment_image_src( $attachment_id, $size );
+								
+				if(!empty( $image ) && ( true == $image[3] || 'full' == $size )) {
+					$available_sizes[$size] = $image[1] . " x " . $image[2];
+				}	
+			}
+		} else {
+			$available_sizes["full"] = "full";
+		}
+	
+		
+		$image_data = array(
+				'id' => $attachment_id,
+				'alt' => get_post_meta( $attachment->ID, '_wp_attachment_image_alt', true ),
+				'caption' => $attachment->post_excerpt,
+				'description' => $attachment->post_content,
+				'href' => get_permalink( $attachment->ID ),
+				'src' => $image_location,
+				'title' => $attachment->post_title,
+				'available_sizes'	=> $available_sizes
+		);
+		
+		return $image_data;
+	}
 				
+	
 	public function mlpp_hide_template_ad() {
 		
     if ( !wp_verify_nonce( $_POST['nonce'], MAXGALLERIA_MEDIA_LIBRARY_NONCE)) {
@@ -4296,7 +4339,7 @@ and meta_key = '_wp_attached_file'";
 		die();
 	}
 	
-	public function mlpp_settings() {
+		public function mlpp_settings() {
 		
 		global $current_user;
 		?>	
@@ -4460,7 +4503,7 @@ and meta_key = '_wp_attached_file'";
     
     global $is_IIS;
     
-    $metadata = wp_get_attachment_metadata(intval($image_id));
+    $metadata = wp_get_attachment_metadata($image_id);
     
     if ($is_IIS || strtoupper(substr(PHP_OS, 0, 3)) == 'WIN' || strtoupper(substr(PHP_OS, 0, 13)) == 'MICROSOFT-IIS' )
       $seprator_position = strrpos($image_path, '\\');
@@ -4975,12 +5018,12 @@ order by meta_id";
     }  
     
 		if ((isset($_POST['folder_id'])) && (strlen(trim($_POST['folder_id'])) > 0))
-      $folder_id = intval(trim(sanitize_text_field($_POST['folder_id'])));
+      $folder_id = trim(sanitize_text_field($_POST['folder_id']));
     else
       $folder_id = "";
 
     // prevent hiding of the uploads folder and sub folders  
-    if($folder_id == intval($this->uploads_folder_ID)) {
+    if(intval($folder_id) == intval($this->uploads_folder_ID)) {
       echo esc_html__('The uploads folder cannot be hidden.','maxgalleria-media-library');
       die();
     }
@@ -5018,7 +5061,6 @@ and meta_key = '_wp_attached_file';";
 		die();
 	}
 		
-  // $folder_id aready forced to an inteter in hide_maxgalleria_media()
 	private function remove_children($folder_id) {
 		
     global $wpdb;
@@ -5048,8 +5090,6 @@ where folder_id = $folder_id";
 	// modifed version of wp_delete_post
 	private function mlf_delete_post( $postid = 0, $force_delete = false ) {
 		global $wpdb;
-    
-    $postid = intval($postid);
 
 		if ( !$post = $wpdb->get_row($wpdb->prepare("SELECT * FROM $wpdb->posts WHERE ID = %d", $postid)) )
 			return $post;
@@ -5135,7 +5175,7 @@ where folder_id = $folder_id";
       $scaling_status = "";
         
 		if ((isset($_POST['images_per_page'])) && (strlen(trim($_POST['images_per_page'])) > 0))
-      $images_per_page = intval(trim(sanitize_text_field($_POST['images_per_page'])));
+      $images_per_page = trim(sanitize_text_field($_POST['images_per_page']));
     else
       $images_per_page = "";
     
@@ -5211,7 +5251,6 @@ where folder_id = $folder_id";
     $user_id = get_current_user_id();
     $files_to_add = array();
     $files_count = 0;
-    $parent_folder = intval($parent_folder);
             
 		$folder_table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_FOLDER_TABLE;    
       
@@ -5223,7 +5262,7 @@ where post_type = 'attachment'
 and folder_id = '$parent_folder' 
 and pm.meta_key = '_wp_attached_file'	
 order by post_title";
-
+    
     $attachments = $wpdb->get_results($sql);
 		
     $sql = "select meta_value as attached_file
@@ -5322,7 +5361,7 @@ and meta_key = '_wp_attached_file'";
       $phase = "";
     
 		if ((isset($_POST['parent_folder'])) && (strlen(trim($_POST['parent_folder'])) > 0))
-      $parent_folder = intval(trim(sanitize_text_field($_POST['parent_folder'])));
+      $parent_folder = trim(sanitize_text_field($_POST['parent_folder']));
     else
       $parent_folder = "";
 
@@ -5351,7 +5390,7 @@ and meta_key = '_wp_attached_file'";
 		    $folders_array = get_user_meta($user_id, MAXG_SYNC_FOLDERS, true);
                 
         if(is_array($folders_array)) {
-          $next_folder = array_pop($folders_array);
+          $next_folder = array_pop($folders_array);				
         } else {
           $next_folder = $folders_array;
         }  
@@ -5459,12 +5498,12 @@ and meta_key = '_wp_attached_file'";
       $phase = "";
     
     if ((isset($_POST['folder_id'])) && (strlen(trim($_POST['folder_id'])) > 0))
-      $folder_id = intval(trim(sanitize_textarea_field($_POST['folder_id'])));
+      $folder_id = trim(sanitize_textarea_field($_POST['folder_id']));
     else
       $folder_id = "";
     
     if ((isset($_POST['current_folder'])) && (strlen(trim($_POST['current_folder'])) > 0))
-      $current_folder = intval(trim(sanitize_textarea_field($_POST['current_folder'])));
+      $current_folder = trim(sanitize_textarea_field($_POST['current_folder']));
     else
       $current_folder = "";
     
@@ -5505,13 +5544,11 @@ and meta_key = '_wp_attached_file'";
         }
 
         if($next_id != "") {
-          if(is_numeric($next_id)) {
-            if($action_name == 'copy_media') {
-              $message = $this->move_copy_file(true, $next_id, $folder_id, $current_folder, $user_id);
-            } else {
-              $message = $this->move_copy_file(false, $next_id, $folder_id, $current_folder, $user_id);
-            }  
-          }
+          if($action_name == 'copy_media') {
+            $message = $this->move_copy_file(true, $next_id, $folder_id, $current_folder, $user_id);
+          } else {
+            $message = $this->move_copy_file(false, $next_id, $folder_id, $current_folder, $user_id);
+          }  
           update_user_meta($user_id, MAXG_MC_FILES, $files_to_move);                     
         } else {
           $next_phase = null;
@@ -5539,7 +5576,6 @@ and meta_key = '_wp_attached_file'";
 		$files = "";
 		$refresh = false;
     $scaled = false;
-    $copy_id = intval($copy_id);
     
     $destination = get_user_meta($user_id, MAXG_MC_DESTINATION_FOLDER, true);
     
@@ -6113,7 +6149,7 @@ AND meta_key = '_wp_attached_file'";
     $display_fe_protected_images = $this->get_ajax_paramater('display_fe_protected_images');
     $prevent_right_click = $this->get_ajax_paramater('prevent_right_click');
     $bda_role = $this->get_ajax_paramater('bda_role');
-    $no_access_page_id = intval($this->get_ajax_paramater('no_access_page_id'));
+    $no_access_page_id = $this->get_ajax_paramater('no_access_page_id');
     $no_access_page_name = $this->get_ajax_paramater('no_access_page_name');
                   
     if($this->bda == 'off' && $activate_mlfp_bdp == 'true') {
@@ -6228,7 +6264,7 @@ AND meta_key = '_wp_attached_file'";
     if ( !wp_verify_nonce( $_POST['nonce'], MAXGALLERIA_MEDIA_LIBRARY_NONCE)) {
       exit(esc_html__('Missing nonce! Please refresh this page.','maxgalleria-media-library'));
     }
-    $no_access_page_id = intval($this->get_ajax_paramater('no_access_page_id'));
+    $no_access_page_id = $this->get_ajax_paramater('no_access_page_id');
     $no_access_page_name = $this->get_ajax_paramater('no_access_page_name');
                       
     if(!empty($no_access_page_id))      
@@ -6287,9 +6323,9 @@ AND meta_key = '_wp_attached_file'";
       exit(esc_html__('missing nonce!','maxgalleria-media-library'));
     }
     
-    $next_id = intval($this->get_ajax_paramater('file_id', ''));
+    $next_id = $this->get_ajax_paramater('file_id', '');
         
-    $current_folder = intval($this->get_ajax_paramater('current_folder', ''));
+    $current_folder = $this->get_ajax_paramater('current_folder', '');
         
     $protected = intval($this->get_ajax_paramater('protected', '0'));
                         
@@ -6314,7 +6350,6 @@ AND meta_key = '_wp_attached_file'";
 		$files = "";
 		$refresh = false;
     $scaled = false;
-    $next_id = intval($next_id);
     
     $sql = "select meta_value as attached_file
 from $wpdb->postmeta 
@@ -6530,7 +6565,6 @@ AND meta_key = '_wp_attached_file'";
   public function is_file_protected($file_id) {
 
     global $wpdb;
-    $file_id = intval($file_id);
 
     $sql = "select block from wp_mgmlp_block_access where attachment_id = $file_id";
 
@@ -6550,7 +6584,6 @@ AND meta_key = '_wp_attached_file'";
   public function file_exists($file_id) {
 
     global $wpdb;
-    $file_id = intval($file_id);
 
     $sql = "select post_title from $wpdb->posts where ID = $file_id and post_type = 'attachment'";
 
@@ -6569,7 +6602,6 @@ AND meta_key = '_wp_attached_file'";
   
   public function add_bda_record($attachment_id) {
     global $wpdb;
-    $attachment_id = intval($attachment_id);
     $block_access_table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_BLOCK_ACCESS_TABLE;
     $time = date('D n/j/Y g:i a');
     
@@ -6586,7 +6618,6 @@ AND meta_key = '_wp_attached_file'";
   
   public function remove_bda_record($attachment_id) {
     global $wpdb;
-    $attachment_id = intval($attachment_id);
     $block_access_table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_BLOCK_ACCESS_TABLE;
     $where = array('attachment_id' => $attachment_id);
     $wpdb->delete($block_access_table,$where);
@@ -6652,7 +6683,6 @@ AND meta_key = '_wp_attached_file'";
   public function is_protected_file($image_id) {
     
     global $wpdb;
-    $image_id = intval($image_id);
     
     $table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_BLOCK_ACCESS_TABLE;
     
@@ -6669,7 +6699,6 @@ AND meta_key = '_wp_attached_file'";
   public function get_hash_id($image_id) {
     
     global $wpdb;
-    $image_id = intval($image_id);
     
     $table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_BLOCK_ACCESS_TABLE;
         
@@ -6685,19 +6714,35 @@ AND meta_key = '_wp_attached_file'";
   public function get_private_link($image_id, $current_user) {
     
     $hash = $this->get_hash_id($image_id);
-        
+    
+    //$this->add_hash_id($image_id, $hash);
+    
     $download_page = get_permalink(get_option(MLFP_BDA_DOWNLOAD_PAGE));
     
     return esc_url(add_query_arg('download', $hash, $download_page));         
   }
+  
+  public function add_hash_id($image_id, $hash) {
     
+    global $wpdb;
+    
+    $table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_BLOCK_ACCESS_TABLE;
+    
+    $data = array('hash_id' => $hash);
+    
+    $where = array('attachment_id' => $image_id);
+    
+    $wpdb->update($table, $data, $where);
+        
+  }
+  
   public function mlfp_display_bda_info() {
     
     if ( !wp_verify_nonce( $_POST['nonce'], MAXGALLERIA_MEDIA_LIBRARY_NONCE)) {
       exit(esc_html__('Missing nonce! Please refresh this page.','maxgalleria-media-library'));
     }
           
-    $image_id = intval($this->get_ajax_paramater('image_id', 0));
+    $image_id = $this->get_ajax_paramater('image_id', 0);
     
     $title = $this->get_ajax_paramater('title', '');
     
@@ -6719,7 +6764,6 @@ AND meta_key = '_wp_attached_file'";
   public function get_bda_file_info($image_id, $title, $count) {
     
     global $wpdb;
-    $image_id = intval($image_id);
     
     $table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_BLOCK_ACCESS_TABLE;
 
@@ -6750,9 +6794,9 @@ AND meta_key = '_wp_attached_file'";
       exit(__('Missing nonce! Please refresh this page.','maxgalleria-media-library'));
     }
     
-    $image_id = intval($this->get_ajax_paramater('image_id', 0));
+    $image_id = $this->get_ajax_paramater('image_id', 0);
     
-    $download_limit = intval($this->get_ajax_paramater('download_limit', 0));
+    $download_limit = $this->get_ajax_paramater('download_limit', 0);
     
     $expiration_date = $this->get_ajax_paramater('expiration_date', 0);
 
@@ -6765,7 +6809,6 @@ AND meta_key = '_wp_attached_file'";
   public function update_bda_record($image_id, $download_limit, $expiration_date) {
     
     global $wpdb;
-    $image_id = intval($image_id);
     
     $table = $wpdb->prefix . MAXGALLERIA_MEDIA_LIBRARY_BLOCK_ACCESS_TABLE;
     
@@ -6977,13 +7020,11 @@ WHERE pm.meta_key = '_wp_attached_file' limit %d, %d", $offset, $items_per_page)
     $table = $wpdb->prefix . BLOCKED_IPS_TABLE;    
     
     //error_log(print_r($unblock_ips, true));
-    foreach($unblock_ips as $unblock_ip) {
-      if(filter_var($unblock_ip, FILTER_VALIDATE_IP)) {
-        $updated = true;
-        $where = array('ip_id' => $unblock_ip);
-        $wpdb->delete($table, $where);
-        $message = esc_html__('The IP addresses were unblocked.','maxgalleria-media-library');
-      }
+    foreach($unblock_ips as $unblock_ip) {  
+      $updated = true;
+      $where = array('ip_id' => $unblock_ip);
+      $wpdb->delete($table, $where);
+      $message = esc_html__('The IP addresses were unblocked.','maxgalleria-media-library');
     }
         
     $return = array('message' => $message, 'result' => $updated);
