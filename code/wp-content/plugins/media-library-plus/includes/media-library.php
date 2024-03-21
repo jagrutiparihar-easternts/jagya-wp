@@ -81,7 +81,7 @@ if($image_seo === 'on') {
   $phpversion = phpversion();		
   if($phpversion < '7.4')		
     echo wp_kses_post("<br><div>" . __('Current PHP version, ','maxgalleria-media-library') . $phpversion . __(', is outdated. Please upgrade to version 7.4.','maxgalleria-media-library') . "</div>");
-
+  
   $folder_location = $this->get_folder_path($current_folder_id);
 
   $folders_path = "";

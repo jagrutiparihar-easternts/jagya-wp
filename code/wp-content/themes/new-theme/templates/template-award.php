@@ -63,17 +63,16 @@ Template Name: Awards Module
                     <div class="jagya-thumb">
                         <div class="">
                             <!-- lightgallery start -->
-                            <div id="lightgallery_<?php echo $count; ?>" class="myLightgallery"><?php
+                            <div id="fancybox_<?php echo $count; ?>" class="myFancybox"><?php
                                 if( have_rows('my_gallery__images') ) {
                                     $gallcount = 1;
                                     while( have_rows('my_gallery__images') ) : the_row();
                                         $sub_valueproject_image = get_sub_field('gallery_image'); ?>
-                                        <a class="projects-thumb" title="<?php the_title_attribute(); ?>" style="<?php if($gallcount != 1) echo 'display:none'?>" href="<?php echo  $sub_valueproject_image['url']; ?>" >
-
+                                        <a class="projects-thumb fancybox" data-fancybox="gallery_<?php echo $count; ?>" title="<?php the_title_attribute(); ?>" style="<?php if ($gallcount != 1) echo 'display:none' ?>" href="<?php echo  $sub_valueproject_image['url']; ?>">
                                             <!-- edit this part -->
                                             <div class="awards-box">                                                
                                                 <div class="awards-img">
-                                                    <div><img src="<?php echo  $sub_valueproject_image['sizes']['large-thumbnail']; ?>" alt="<?php echo esc_attr($sub_valueproject_image['alt']); ?>" class="img-fluid" /></div>
+                                                   <div><img src="<?php echo  $sub_valueproject_image['sizes']['large-thumbnail']; ?>" alt="<?php echo esc_attr($sub_valueproject_image['alt']); ?>" class="img-fluid" /></div>
                                                     <div class="awards-title-1">
                                                         <?php the_field('thumb_heading'); ?>
                                                     </div>
@@ -91,8 +90,9 @@ Template Name: Awards Module
 								<?php if( have_rows('video') ) {									
 									while( have_rows('video') ) : the_row(); 
 										$video = get_sub_field('video_link'); ?> 
-										<a href="<?php echo $video; ?>" title="<?php the_title_attribute();?>" style="display: none;">
-											<iframe width="600" height="400" src="<?php echo $video; ?>"></iframe>
+										<a href="<?php echo $video; ?>" data-fancybox="gallery_<?php echo $count; ?>" data-caption="Caption Images 1" 
+										   title="<?php the_title_attribute();?>" style="display: none;">
+<!-- 											<iframe width="600" height="400" src="<?php echo $video; ?>"></iframe> -->
 										</a>
 								<?php endwhile;
 								} ?>

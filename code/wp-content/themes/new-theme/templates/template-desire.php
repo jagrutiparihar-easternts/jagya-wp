@@ -23,6 +23,12 @@ Template Name: Desire
                 class="content-well main-heading wow fadeInUp animated text-center"
                 data-wow-delay="600ms"
               >
+                  <img
+                  src="<?php echo get_template_directory_uri(); ?>/images/desire/home-icon-desire.png"
+                  class="img-fluid"
+					 alt="desire"
+                />
+                 
                 <p>
                   Lake view is a residential plotted development of more than
                   100 units of various sizes with common amenities, club house

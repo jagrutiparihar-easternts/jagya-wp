@@ -12,7 +12,7 @@ Template Name: Innocent Harmony Residence
           <div class="row pad-top">
             <div class="col-6 col-xl-2">
               <div class="wow zoomIn animated">
-                <img
+                <img loading="lazy"
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-1.png"
                   class="img-fluid"
 					 alt="Innocent Harmony Residence"
@@ -21,7 +21,7 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-6 col-xl-2">
               <div class="wow zoomIn animated" data-wow-delay="600ms">
-                <img
+                <img loading="lazy"
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-2.png"
                   class="img-fluid"
 					 alt="Innocent Harmony Residence"
@@ -30,7 +30,7 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-6 col-xl-2">
               <div class="wow zoomIn animated" data-wow-delay="900ms">
-                <img
+                <img loading="lazy"
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-3.png"
                   class="img-fluid"
 					 alt="Innocent Harmony Residence"
@@ -39,7 +39,7 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-6 col-xl-2">
               <div class="wow zoomIn animated" data-wow-delay="1200ms">
-                <img
+                <img loading="lazy"
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-4.png"
                   class="img-fluid"
 					 alt="Innocent Harmony Residence"
@@ -48,7 +48,7 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-6 col-xl-2">
               <div class="wow zoomIn animated" data-wow-delay="1500ms">
-                <img
+                <img loading="lazy"
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-5.png"
                   class="img-fluid"
 					 alt="Innocent Harmony Residence"
@@ -57,7 +57,7 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-6 col-xl-2">
               <div class="wow zoomIn animated" data-wow-delay="1800ms">
-                <img
+                <img loading="lazy"
                   src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/i/ihr-6.png"
                   class="img-fluid"
 					 alt="Innocent Harmony Residence"
@@ -93,8 +93,8 @@ Template Name: Innocent Harmony Residence
                 class="wow fadeInUp animated"
                 data-wow-delay="2500ms"
               >
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/2.png"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/2.webp"
                   class="img-fluid"
 					 alt="Innocent Harmony Residence"
                 />
@@ -110,8 +110,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/3.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/3.webp"
                   class="img-fluid img-one img-shadow"
 						 alt="Innocent Harmony Residence"
                 />
@@ -127,8 +127,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/4.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/4.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -136,8 +136,8 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/5.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/5.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -153,8 +153,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/6.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/6.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -170,8 +170,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/7.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/7.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -187,8 +187,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/8.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/8.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -204,8 +204,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/9.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/9.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -213,8 +213,8 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/10.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/10.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -230,8 +230,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/11.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/11.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -245,8 +245,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/12.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/12.webp"
                   class="img-fluid"
 					 alt="Innocent Harmony Residence"
                 />
@@ -254,8 +254,8 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/13.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/13.webp"
                   class="img-fluid"
 					 alt="Innocent Harmony Residence"
                 />
@@ -271,8 +271,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/14.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/14.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -288,8 +288,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/15.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/15.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -297,8 +297,8 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/16.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/16.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -314,8 +314,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/17.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/17.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -329,8 +329,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/18.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/18.webp"
 					 alt="Innocent Harmony Residence"
                   class="img-fluid"
                 />
@@ -338,8 +338,8 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/19.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/19.webp"
                   class="img-fluid"
 					 alt="Innocent Harmony Residence"
                 />
@@ -355,8 +355,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/20.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/20.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -372,8 +372,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/21.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/21.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -389,8 +389,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/22.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/22.webp"
                   class="img-fluid img-four img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -398,8 +398,8 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/23.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/23.webp"
                   class="img-fluid img-four img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -409,8 +409,8 @@ Template Name: Innocent Harmony Residence
           <div class="row padding-24">
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/24.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/24.webp"
                   class="img-fluid img-four img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -418,8 +418,8 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/25.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/25.webp"
                   class="img-fluid img-four img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -435,8 +435,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/26.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/26.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -452,8 +452,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/27.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/27.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -461,8 +461,8 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/28.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/28.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -478,8 +478,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/29.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/29.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -487,8 +487,8 @@ Template Name: Innocent Harmony Residence
             </div>
             <div class="col-xl-6">
               <div class="sec-3-img">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/30.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/30.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -504,8 +504,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/31.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/31.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />
@@ -521,8 +521,8 @@ Template Name: Innocent Harmony Residence
           <div class="row">
             <div class="col-xl-12">
               <div class="sec-mob-padding last-section">
-                <img
-                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/32.jpg"
+                <img loading="lazy"
+                  src="<?php echo get_template_directory_uri(); ?>/images/Innocent-harmony-residence/webp/32.webp"
                   class="img-fluid img-one img-shadow"
 					 alt="Innocent Harmony Residence"
                 />

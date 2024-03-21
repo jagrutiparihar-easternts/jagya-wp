@@ -26,8 +26,7 @@
 --------------------------------------------------------*/
 /* -----------------------------------
     01. General CSS
--------------------------------------*/
-html,
+-------------------------------------*/html,
 body {
   font-size: 14px;
   color: #454545;
@@ -11356,7 +11355,7 @@ body .search-modal .close:hover {
 }
 
 .screen-logo {
-  background: #271d14;
+  background: transparent !important;
   width: fit-content;
   position: absolute;
   top: -66px;
@@ -11453,6 +11452,7 @@ body .search-modal .close:hover {
   position: absolute;
   bottom: 8px;
   right: 50px;
+  z-index: 1;
 }
 
 .screen-l5 img {
@@ -11464,14 +11464,14 @@ body .search-modal .close:hover {
 
 .screen-l6 {
   position: absolute;
-  bottom: -15px;
-  right: 125px;
+  bottom: -25px;
+  right: 118px;
 }
 
 .screen-l6 img {
   display: block;
-  width: 212px;
-  max-width: 212px;
+  width: 220px;
+  max-width: 220px;
   height: auto;
 }
 
@@ -11880,8 +11880,17 @@ body .search-modal .close:hover {
 .grid-yrgb-1 {
   display: grid;
   justify-content: end;
+  position:relative;
 }
-
+.yrgb-home-icon{
+    position: absolute;
+  right: 20px;
+  top: -20px;
+}
+.yrgb-home-icon img{
+    width:55px;
+    height:auto;
+}
 .grid-yrgb {
   display: grid;
   justify-content: end;
@@ -12040,14 +12049,16 @@ body .search-modal .close:hover {
   font-size: 18px;
   text-align: center;
 }
-
+.cinema-well .jagya-thumb-title{
+      text-align: left;
+}
 .jagya-thumb-img {
   padding: 0px;
   padding-bottom: 0;
 }
-.urban-img.jagya-thumb-img {
-    padding: 20px;
-}
+/*.urban-img.jagya-thumb-img {*/
+/*    padding: 20px;*/
+/*}*/
 
 .jagya-thumb-img img {
   height: 100%;
@@ -12644,6 +12655,8 @@ Not supports in Firefox and IE */
   letter-spacing: 0px;
   font-size: 16px;
   position: relative;
+  text-align: left;
+  line-height:1.2;
 }
 .jagya-footer img{
     height:22px;
@@ -12715,7 +12728,7 @@ Not supports in Firefox and IE */
 }
 .contact-details a{color: #ffb81d;font-family: 'Courier Prime', monospace;}
 .contact-details{
-    width:400px;
+    width:100%;
     color: #ffb81d;font-family: 'Courier Prime', monospace;
     margin-bottom:50px;
     text-align: center;
@@ -12757,7 +12770,24 @@ Not supports in Firefox and IE */
 .white-font{
     color:#FFFFFF !important;
 }
+.origami-house-11{
+    margin-top:98px;
+}
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
+    .working-space-top{
+        margin-top:90px;
+    }
+    .wow {
+         visibility: visible !important;
+         -webkit-animation: none !important;
+         -moz-animation: none !important;
+         -o-animation: none !important;
+         -ms-animation: none !important;
+         animation: none !important;
+        }
+    .origami-house-11{
+    margin-top:0;    
+    }
     .trace-the-trail-well .content-well p {
       color: #ffb81d;
     }
@@ -12850,8 +12880,8 @@ Not supports in Firefox and IE */
     }
     .screen-l6 {
       position: absolute;
-      bottom: -15px;
-      right: 85px;
+      bottom: -25px;
+      right: 75px;
     }
     .foter-icon-right-mobile{
         display:flex !important;
@@ -13173,6 +13203,7 @@ Not supports in Firefox and IE */
 }
 .awards-category{
     padding-top:30px;
+    margin-left:10px;
 }
 .awards-category div{
     font-family: 'Orator Std' !important;
@@ -13184,9 +13215,12 @@ Not supports in Firefox and IE */
   text-transform: uppercase;
   line-height: 1.2;
 }
-.design-module{
+.design-module,.urban-design,.traveller-block{
     padding-left:20%;
     padding-right:20%;
+}
+.published-tit{
+    margin-right:20px;
 }
 @media only screen and (min-width: 1024px) and (max-width: 1600px) {
     .the-deceit-house-box .content-well {
@@ -13209,6 +13243,10 @@ Not supports in Firefox and IE */
     }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+    .design-module,.urban-design,.traveller-block{
+        padding-left:16%;
+        padding-right:16%;
+    }
     
     .screen-l14 img {
       display: block;
@@ -13338,8 +13376,8 @@ Not supports in Firefox and IE */
     }
     .screen-l6 img {
       display: block;
-      width: 182px;
-      max-width: 182px;
+      width: 192px;
+      max-width: 192px;
       height: auto;
     }
     .screen-l2 img {
@@ -13389,8 +13427,8 @@ Not supports in Firefox and IE */
     }
     .screen-l6 {
      position: absolute;
-        bottom: 55px;
-        right: 91px;
+        bottom: 45px;
+        right: 82px;
     }
     .screen-l3 {
       position: absolute;
@@ -13518,9 +13556,18 @@ Not supports in Firefox and IE */
     right: -100px;
     bottom: -50px;
 }
-    
 }
+.color-line-icon-1{
+    display: flex;
+   justify-content: end;
+   margin-right: 10px;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 599px) {
+    .client-section .client-logo .client-img img{
+        padding:10px;
+    }
+    
     
     .jagya-thumb-title{
         font-size:12px;
@@ -13616,4 +13663,10 @@ Not supports in Firefox and IE */
 }
 .section-404 .readon:hover {
     color: #ffffff;
+}
+.fancybox-is-open .fancybox-bg {
+    opacity:1 !important;
+}
+.fancybox-bg {
+    background: #050505 !important; 
 }

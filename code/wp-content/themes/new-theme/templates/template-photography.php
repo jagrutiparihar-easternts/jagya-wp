@@ -21,7 +21,7 @@ Template Name: Photography
 <section class="section-two-art">
 	<div class="container-fluid">
 		<div class="row">  
-			<div class="col-12 col-xl-4">
+			<div class="col-6 col-xl-4">
                 <div class="photography-box">   
                     <a href="<?php echo esc_url(home_url('/portraits')); ?>">
                     <div class="photography-cover">       
@@ -30,6 +30,8 @@ Template Name: Photography
                     <div class="photography-title">Portraits</div>
                     </a>
                 </div>
+                </div>
+            <div class="col-6 col-xl-4">
                  <div class="photography-box">   
                     <a href="<?php echo esc_url(home_url('/people')); ?>">
                     <div class="photography-cover">       
@@ -39,7 +41,7 @@ Template Name: Photography
                     </a>
                 </div>
             </div>
-			<div class="col-12 col-xl-4">
+			<div class="col-6 col-xl-4">
                 <div class="photography-box">   
                     <a href="<?php echo esc_url(home_url('/religion')); ?>">
                     <div class="photography-cover">       
@@ -48,6 +50,8 @@ Template Name: Photography
                     <div class="photography-title">Religion</div>
                     </a>
                 </div>
+            </div>
+            <div class="col-6 col-xl-4">
                  <div class="photography-box">   
                     <a href="<?php echo esc_url(home_url('/connections')); ?>">
                     <div class="photography-cover">       
@@ -57,19 +61,17 @@ Template Name: Photography
                     </a>
                 </div>
             </div>			
-			<div class="col-12 col-xl-4">
+			<div class="col-6 col-xl-4">
                 <div class="photography-box">   
                     <a href="<?php echo esc_url(home_url('/animal')); ?>">
                     <div class="photography-cover">       
-                         <img src="<?php echo get_template_directory_uri(); ?>/images/myself/animal/7-green-sundarban-kolkata-2014.jpg" class="img-fluid img-shadow" alt="green-sundarban-kolkata"/>
+                         <img src="<?php echo get_template_directory_uri(); ?>/images/myself/animal/2-musical-note-udaipur-2013.jpg" class="img-fluid img-shadow" alt="green-sundarban-kolkata"/>
                     </div>
                     <div class="photography-title">Animal</div>
                     </a>
                 </div>
-            </div>
-            
-             
-            <div class="col-12 col-xl-4">
+                </div>
+            <div class="col-6 col-xl-4">
                 <div class="photography-box">   
                 <a href="<?php echo esc_url(home_url('/experiments')); ?>">
                     <div class="photography-cover">       
@@ -79,6 +81,8 @@ Template Name: Photography
                     </a>
                 </div>
             </div>
+            
+         
 		</div>
 	</div>
 </section>

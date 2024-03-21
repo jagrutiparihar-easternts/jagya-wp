@@ -46,6 +46,16 @@ Template Name: Origami House
                 </div>
               </div>
             </div>
+            <div class="col-xl-2">
+                <div class="wow zoomIn animated origami-house-11" data-wow-delay="200ms">
+                    <img
+                    style="width:100px;height:auto;"
+                      src="<?php echo get_template_directory_uri(); ?>/images/h-icon/origami-house.png"
+                      class="img-fluid"
+						 alt="origami-house"
+                    />
+                  </div>
+            </div>
           </div>
         </div>
       </div>

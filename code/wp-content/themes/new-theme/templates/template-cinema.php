@@ -18,7 +18,7 @@ Template Name: Cinema
 <!--        </div>-->
 <!--    </div>-->
 <!--</section>-->
-<section class="section-one-art ">
+<section class="section-one-art cinema-well">
 	<div class="container-xxl">
 		<div class="row cinema-logo-section">
 			

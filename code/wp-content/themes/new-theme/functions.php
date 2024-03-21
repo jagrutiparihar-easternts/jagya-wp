@@ -57,6 +57,10 @@ add_filter('the_generator', function () {
 	return '';
 });
 
+
+// Disabled plugin update filter
+add_filter( 'auto_update_plugin', '__return_false' );
+
 /**
  * Remove WordPress version from scripts.
  */
@@ -78,13 +82,16 @@ function enqueue_scripts_function()
 	if (!is_admin()) {
 		// wp_enqueue_script('jquery');
 		// wp_enqueue_style('bootstrapcss', 'https://cdn.jsdelivr.net/npm/bootstrap@4.1.1/dist/css/bootstrap.min.css');
-		wp_enqueue_style ( 'lightgallery', 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css' );
+// 		wp_enqueue_style ( 'lightgallery', 'https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.12/css/lightgallery.min.css' );
 		wp_enqueue_style('bootstrapcss', get_stylesheet_directory_uri() . '/css/bootstrap.min.css');
 		wp_enqueue_style('fontawesome', get_stylesheet_directory_uri() . '/css/font-awesome.min.css');
 		wp_enqueue_style('animate', get_stylesheet_directory_uri() . '/css/animate.css');
 		wp_enqueue_style('style', get_stylesheet_directory_uri() . '/css/style.css');
 		wp_enqueue_style('responsive', get_stylesheet_directory_uri() . '/css/responsive.css');		
 		wp_enqueue_style('fullpage', get_stylesheet_directory_uri() . '/css/fullpage.css');		
+		
+		wp_enqueue_style ( 'fancybox-css', 'https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css');
+
 	}
 
 	// This also removes some inline CSS variables for colors since 5.9 - global-styles-inline-css
@@ -123,21 +130,21 @@ function add_js_footer_function()
 		wp_enqueue_script('fullpage', get_stylesheet_directory_uri() . '/js/fullpage.js');
 		wp_enqueue_script('jquery', get_stylesheet_directory_uri() . '/js/jquery.min.js');
 		wp_enqueue_script('bootstrap', get_stylesheet_directory_uri() . '/js/bootstrap.min.js');
-
 		wp_enqueue_script('isotop-js','https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.1/isotope.pkgd.min.js');
-
 		// wp_enqueue_script('jquerynav', get_stylesheet_directory_uri() . '/js/jquery.nav.js');
 		// wp_enqueue_script('owl', get_stylesheet_directory_uri() . '/js/owl.carousel.min.js');
 		wp_enqueue_script('wow', get_stylesheet_directory_uri() . '/js/wow.min.js');
 		wp_enqueue_script('main', get_stylesheet_directory_uri() . '/js/main.js');
+// 		wp_enqueue_script( 'light-gallery-all', get_stylesheet_directory_uri() . '/js/light_gallery/lightgallery-all.min.js' );
+// 		wp_enqueue_script( 'lg-video', get_stylesheet_directory_uri() . '/js/light_gallery/lg-video.min.js' );
+// 		wp_enqueue_script( 'lg-auto-play-video', get_stylesheet_directory_uri() . '/js/light_gallery/lg-autoplay.min.js' );
+// 		wp_enqueue_script( 'lg-zoom-min', get_stylesheet_directory_uri() . '/js/light_gallery/lg-zoom.min.js' );
+// 		wp_enqueue_script( 'lg-hash', get_stylesheet_directory_uri() . '/js/light_gallery/lg-hash.min.js' );
+// 		wp_enqueue_script( 'lg-pager-min', get_stylesheet_directory_uri() . '/js/light_gallery/lg-pager.min.js' );
+// 		wp_enqueue_script( 'mousewheel', get_stylesheet_directory_uri() . '/js/light_gallery/jquery.mousewheel.min.js' );
 
-		wp_enqueue_script( 'light-gallery-all', get_stylesheet_directory_uri() . '/js/light_gallery/lightgallery-all.min.js' );
-		wp_enqueue_script( 'lg-video', get_stylesheet_directory_uri() . '/js/light_gallery/lg-video.min.js' );
-		wp_enqueue_script( 'lg-auto-play-video', get_stylesheet_directory_uri() . '/js/light_gallery/lg-autoplay.min.js' );
-		wp_enqueue_script( 'lg-zoom-min', get_stylesheet_directory_uri() . '/js/light_gallery/lg-zoom.min.js' );
-		wp_enqueue_script( 'lg-hash', get_stylesheet_directory_uri() . '/js/light_gallery/lg-hash.min.js' );
-		wp_enqueue_script( 'lg-pager-min', get_stylesheet_directory_uri() . '/js/light_gallery/lg-pager.min.js' );
-		wp_enqueue_script( 'mousewheel', get_stylesheet_directory_uri() . '/js/light_gallery/jquery.mousewheel.min.js' );
+		wp_enqueue_script('fancybox-js','https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js');
+
 	}
 }
 
@@ -660,9 +667,10 @@ function email_template_header_function($atts) {
 
 																}
 
-																/* Email Templates - Exclude Woocommerce emails */
-																add_shortcode( 'email_template_footer', 'email_template_footer_function' );
-																function email_template_footer_function() {
+
+/* Email Templates - Exclude Woocommerce emails */
+add_shortcode( 'email_template_footer', 'email_template_footer_function' );
+function email_template_footer_function() {
 
 																	ob_start(); ?>
 																</div>
@@ -743,3 +751,18 @@ function send_smtp_email( $phpmailer ) {
 function set_my_mail_content_type() {
     return "text/html";
 }
+
+
+function remove_query_strings() {
+   if(!is_admin()) {
+       add_filter('script_loader_src', 'remove_query_strings_split', 15);
+       add_filter('style_loader_src', 'remove_query_strings_split', 15);
+   }
+}
+
+function remove_query_strings_split($src){
+   $output = preg_split("/(&ver|\?ver)/", $src);
+   return $output[0];
+}
+
+add_action('init', 'remove_query_strings');
