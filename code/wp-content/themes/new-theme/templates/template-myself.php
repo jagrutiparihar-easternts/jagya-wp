@@ -34,17 +34,44 @@ Template Name: My Self
             </div>
              <div class="col-12 col-sm-12 col-md-8 col-lg-4 col-xl-4">
                  <div class="main-div">
-              <div
-                class="myself-right-side"
-              >
-                  
+                     <!-- My Self old section hover on icon animated --> 
+         <!--     <div class="myself-right-side">-->
+         <!--           <div class="myself-photo">-->
+         <!--               <a href="javascript:delay('<?php echo esc_url(home_url('/photography')); ?>')"><img id="imguser1" onmouseover="loadGif555();"-->
+         <!--                   onmouseout="loadNormalImage555();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-photo.png" alt="myself-photo"/></a>-->
+         <!--           </div>-->
+         <!--           <div class="myself-cinema">-->
+         <!--               <a href="javascript:delay('<?php echo esc_url(home_url('/cinema')); ?>')"><img id="imguser2" onmouseover="loadGif666();"-->
+         <!--                   onmouseout="loadNormalImage666();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-movie.png" alt="myself-movie"/></a>-->
+         <!--           </div>-->
+         <!--           <div class="screen-l15">-->
+         <!--               <a href="javascript:delay('<?php echo esc_url(home_url('/work-space')); ?>')"-->
+         <!--               ><img-->
+         <!--                   id="img15"-->
+         <!--                   src="<?php echo get_template_directory_uri(); ?>/images/h-icon/work-space.png"-->
+         <!--                   onmouseover="loadGif15();"-->
+         <!--                   onmouseout="loadNormalImage15();"-->
+							  <!--alt="work-space"-->
+         <!--               />-->
+         <!--               </a>-->
+         <!--           </div>-->
+         <!--           <div class="myself-gulam">-->
+         <!--               <a href="javascript:delay('<?php echo esc_url(home_url('/gulham')); ?>')"><img id="imguser3" onmouseover="loadGif777();"-->
+         <!--                   onmouseout="loadNormalImage777();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-pen.png" alt="myself-pen"/></a>-->
+         <!--           </div>-->
+         <!--           <div class="myself-traveller">-->
+         <!--               <a href="javascript:delay('<?php echo esc_url(home_url('/traveller')); ?>')"><img id="imguser4" onmouseover="loadGif888();"-->
+         <!--                   onmouseout="loadNormalImage888();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-traveller.png" alt="myself-traveller"/></a>-->
+         <!--           </div>-->
+         <!--       <div>-->
+         <!--       </div>-->
+         <!--     </div>-->
+            <div class="myself-right-side">
                     <div class="myself-photo">
-                        <a href="javascript:delay('<?php echo esc_url(home_url('/photography')); ?>')"><img id="imguser1" onmouseover="loadGif555();"
-                            onmouseout="loadNormalImage555();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-photo.png" alt="myself-photo"/></a>
+                        <a href="<?php echo esc_url(home_url('/photography')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-photo.gif" alt="myself-photo"/></a>
                     </div>
                     <div class="myself-cinema">
-                        <a href="javascript:delay('<?php echo esc_url(home_url('/cinema')); ?>')"><img id="imguser2" onmouseover="loadGif666();"
-                            onmouseout="loadNormalImage666();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-movie.png" alt="myself-movie"/></a>
+                        <a href="<?php echo esc_url(home_url('/cinema')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-movie.gif" alt="myself-movie"/></a>
                     </div>
                     <div class="screen-l15">
                         <a href="javascript:delay('<?php echo esc_url(home_url('/work-space')); ?>')"
@@ -58,18 +85,13 @@ Template Name: My Self
                         </a>
                     </div>
                     <div class="myself-gulam">
-                        <a href="javascript:delay('<?php echo esc_url(home_url('/gulham')); ?>')"><img id="imguser3" onmouseover="loadGif777();"
-                            onmouseout="loadNormalImage777();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-pen.png" alt="myself-pen"/></a>
+                        <a href="<?php echo esc_url(home_url('/gulham')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-pen.gif" alt="myself-pen"/></a>
                     </div>
                     <div class="myself-traveller">
-                        <a href="javascript:delay('<?php echo esc_url(home_url('/traveller')); ?>')"><img id="imguser4" onmouseover="loadGif888();"
-                            onmouseout="loadNormalImage888();" src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-traveller.png" alt="myself-traveller"/></a>
+                        <a href="<?php echo esc_url(home_url('/traveller')); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/myself/myself-traveller.gif" alt="myself-traveller"/></a>
                     </div>
-               
                 <div>
-
                 </div>
-               
               </div>
                <div class="myself-right-footer">
                 <div class="head-title">Qualification</div>

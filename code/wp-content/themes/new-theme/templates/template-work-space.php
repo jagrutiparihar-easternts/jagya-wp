@@ -12,7 +12,7 @@ Template Name: Work Space
         >
           <div class="row working-space">
             <div class="col-xl-6 t-center">
-              <div class="content-well wow fadeInRight animated" data-wow-delay="200ms">
+              <div class="content-well wow fadeInRight animated working-space-top" data-wow-delay="200ms">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-1.jpg"
                   class="img-fluid img-shadow img-one"
@@ -239,7 +239,7 @@ Template Name: Work Space
         >
           <div class="row">
             <div class="col-xl-12 text-center">
-              <div class="sec-3-img">
+              <div class="sec-3-img last-section">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/work-space/work-space-15.jpg"
                   class="img-fluid img-shadow img-one"

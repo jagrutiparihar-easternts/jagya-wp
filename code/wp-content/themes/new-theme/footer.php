@@ -259,23 +259,39 @@
 ?>
 <script type="text/javascript">		
     jQuery(document).ready(function($) {
-        for (let i = 1; i < 500; i++) {
-            $("#lightgallery_"+i ).lightGallery({
-            download: false,
-            counter: false,
-            hash: true,
-            galleryId: i,	
-			thumbnail:false
-            });			
-        }
-        new WOW().init();
+//         for (let i = 1; i < 500; i++) {
+//             $("#lightgallery_"+i ).lightGallery({
+//             download: false,
+//             counter: false,
+//             hash: true,
+            
+//             galleryId: i,
+// 			thumbnail:false
+//             });			
+//         }
+//         new WOW().init();
 		
-		var gallery = $('#imagelightgallery'); 
-		gallery.lightGallery({ 
-			selector: '.zoom',
-			thumbnail:false,
-			download: false
-		});
+// 		var gallery = $('#imagelightgallery'); 
+// 		gallery.lightGallery({ 
+// 			selector: '.zoom',
+// 			thumbnail:false,
+// 			download: false
+// 		});
+
+		// Fancybox Config
+        $('[data-fancybox="awardsgallery"]').fancybox({
+          buttons: [
+            "slideShow",
+            "thumbs",
+            "zoom",
+            "fullScreen",
+            "share",
+            "close"
+          ],
+          loop: false,
+          protect: true
+        });
+	
     });
 	
 // 	jQuery(document).keydown(function(event) {

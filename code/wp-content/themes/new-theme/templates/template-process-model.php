@@ -18,14 +18,14 @@ Template Name: Process Model
        </div>
    </div>
 </section>
-<div id="imagelightgallery" class="myLightgallery">			
+<div>			
 <section class="section-two-art">
 	  <div class="container">
 		<div class="row">
 		  <div class="col-xl-2"></div>
 		  <div class="col-xl-8">
 			  <div class="process-model-box">
-				  <a class="projects-thumb zoom" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/1.jpg" >
+				  <a class="projects-thumb fancybox" data-fancybox="gallery" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/1.jpg" >
 					<div class="animal-thumb">
 					  <div class="animal-thumb-img">
 						<img
@@ -38,7 +38,7 @@ Template Name: Process Model
 				  </a>
 			  </div>
 			  <div class="process-model-box">
-				  <a class="projects-thumb zoom" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/2.jpg" >
+				  <a class="projects-thumb fancybox" data-fancybox="gallery" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/2.jpg" >
 					<div class="animal-thumb">
 					  <div class="animal-thumb-img">
 						<img
@@ -51,7 +51,7 @@ Template Name: Process Model
 				  </a>
 			  </div>
 			   <div class="process-model-box">
-				  <a class="projects-thumb zoom" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/3.jpg" >
+				  <a class="projects-thumb fancybox" data-fancybox="gallery" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/3.jpg" >
 					<div class="animal-thumb">
 					  <div class="animal-thumb-img">
 						<img
@@ -64,7 +64,7 @@ Template Name: Process Model
 				  </a>
 			  </div>
 			   <div class="process-model-box">
-				  <a class="projects-thumb zoom" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/4.jpg" >
+				  <a class="projects-thumb fancybox" data-fancybox="gallery" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/4.jpg" >
 					<div class="animal-thumb">
 					  <div class="animal-thumb-img">
 						<img
@@ -84,7 +84,7 @@ Template Name: Process Model
 		  <div class="col-xl-2"></div>
 		  <div class="col-xl-8">
 		  <div class="process-model-box">
-				  <a class="projects-thumb zoom" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/5.jpg" >
+				  <a class="projects-thumb fancybox" data-fancybox="gallery" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/5.jpg" >
 					<div class="animal-thumb">
 					  <div class="animal-thumb-img">
 						<img
@@ -97,7 +97,7 @@ Template Name: Process Model
 				  </a>
 			  </div>
 			  <div class="process-model-box">
-				  <a class="projects-thumb zoom" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/6.jpg" >
+				  <a class="projects-thumb fancybox" data-fancybox="gallery" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/6.jpg" >
 					<div class="animal-thumb">
 					  <div class="animal-thumb-img">
 						<img
@@ -110,7 +110,7 @@ Template Name: Process Model
 				  </a>
 			  </div>
 			  <div class="process-model-box">
-				  <a class="projects-thumb zoom" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/7.jpg" >
+				  <a class="projects-thumb fancybox" data-fancybox="gallery" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/7.jpg" >
 					<div class="animal-thumb">
 					  <div class="animal-thumb-img">
 						<img
@@ -123,7 +123,7 @@ Template Name: Process Model
 				  </a>
 			  </div>
 			   <div class="process-model-box">
-				  <a class="projects-thumb zoom" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/8.jpg" >
+				  <a class="projects-thumb fancybox" data-fancybox="gallery" title="Love triangle, Surat 2013" href="<?php echo get_template_directory_uri(); ?>/images/process-model/8.jpg" >
 					<div class="animal-thumb">
 					  <div class="animal-thumb-img">
 						<img

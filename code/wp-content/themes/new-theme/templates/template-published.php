@@ -56,12 +56,12 @@ Template Name: Published Module
                     <div class="jagya-thumb">
                         <div class="jagya-thumb-img">
                             <!-- lightgallery start -->
-                            <div id="lightgallery_<?php echo $count; ?>" class="myLightgallery"><?php
+                            <div id="fancybox_<?php echo $count; ?>" class="myFancybox"><?php
                                 if( have_rows('my_gallery__images') ) {
                                     $gallcount = 1;
                                     while( have_rows('my_gallery__images') ) : the_row();
                                         $sub_valueproject_image = get_sub_field('gallery_image'); ?>
-                                        <a title="<?php the_title_attribute(); ?>" style="<?php if($gallcount != 1) echo 'display:none'?>" href="<?php echo  $sub_valueproject_image['url']; ?>" >
+                                        <a class="fancybox" title="<?php the_title_attribute(); ?>" data-fancybox="gallery_<?php echo $count; ?>" style="<?php if($gallcount != 1) echo 'display:none'?>" href="<?php echo  $sub_valueproject_image['url']; ?>" >
 
                                             <!-- edit this part -->
                                             <img src="<?php echo  $sub_valueproject_image['sizes']['large-thumbnail']; ?>" alt="<?php echo esc_attr($sub_valueproject_image['alt']); ?>" class="img-fluid" />

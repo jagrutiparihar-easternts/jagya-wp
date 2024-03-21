@@ -32,7 +32,14 @@ Template Name: Colourful Lines
                     />
                   </div>
                 </div>
-                <div class="col-xl-8"></div>
+                <div class="col-xl-8">
+                    <div class="color-line-icon-1">
+                    <img style="height:auto;width:60px;"
+                      src="<?php echo get_template_directory_uri(); ?>/images/h-icon/colourful-lines.png"
+                      class="img-shadow"
+						 alt="colourful-lines"
+                    /></div>
+                </div>
               </div>
               <div class="row">
                 <div class="col-xl-4"></div>

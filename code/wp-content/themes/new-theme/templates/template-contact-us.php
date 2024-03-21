@@ -9,7 +9,7 @@ Template Name: Contact Us
     <div class="container-fluid">
         <div class="row">
             <div class="col-xl-3"></div>
-            <div class="col-xl-3">
+            <div class="col-xl-4 col-xxl-3">
                 <div class="contact-details">
 					<!--<div class="">
 						<div class="screen-logo">
@@ -22,10 +22,14 @@ Template Name: Contact Us
 					<?php echo get_field('address', 'option'); ?>         
                 </div>
                 <div class="">
-					<?php echo get_field('location', 'option'); ?>
+					<a href="https://maps.app.goo.gl/AhvKzWhJ1FsyUSWz9" target="_blank"><img
+                      src="<?php echo get_template_directory_uri(); ?>/images/contact-us-map.webp"
+                      class="img-fluid"
+						 alt="Google-map"
+                    /></a>
                 </div>
             </div>
-            <div class="col-xl-2"></div>
+            <div class="col-xl-1"></div>
             <div class="col-xl-4 contact-form">
 				<?php echo do_shortcode('[contact-form-7 id="d31a754" title="Contact Us"]'); ?>				
 			</div>

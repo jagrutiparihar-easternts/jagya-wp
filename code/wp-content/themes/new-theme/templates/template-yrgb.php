@@ -50,6 +50,9 @@ Template Name: Yrgb
                 data-wow-delay="600ms"
               >
                 <h1 class="white-font">YRGB</h1>
+                    <div class="yrgb-home-icon">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/yrgb/yrgb-home-icon.png" alt="yrgb"/>
+                    </div>
                 <p>
                   We have encountered four major individuals who will become the
                   part of this house and after studying all of them carefully we

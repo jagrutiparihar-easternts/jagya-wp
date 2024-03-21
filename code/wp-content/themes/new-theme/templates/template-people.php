@@ -4,13 +4,13 @@ Template Name: People
 */
 ?>
 <?php get_header();?>
-<div id="imagelightgallery" class="myLightgallery">
+<div>
 <section class="section-one-art">
-    <div class="container-fluid">
+    <div class="container">
         <div class="row align-items-center">
             <div class="col-xl-8">
             <div class="people-thumb">
-              <a class="zoom" title="Peek A Boo, Pushkar 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/15-peek-a-boo-pushkar-2015.jpg" >
+              <a class="fancybox" data-fancybox="gallery" title="Peek A Boo, Pushkar 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/15-peek-a-boo-pushkar-2015.jpg" >
 				  <div class="people-thumb-img">
 					<img
 					  src="<?php echo get_template_directory_uri(); ?>/images/myself/people/15-peek-a-boo-pushkar-2015.jpg"
@@ -33,11 +33,11 @@ Template Name: People
 </section>
 
     <section class="section-two-art">
-      <div class="container-fluid">
+      <div class="container">
 	  <div class="row">
 		<div class="col-xl-6">
 			<div class="people-thumb">
-			<a class="zoom" title="S2, Surat 2018" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/1-s2-surat-2018.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="S2, Surat 2018" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/1-s2-surat-2018.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/1-s2-surat-2018.jpg"
@@ -49,7 +49,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Apple, Mumbai 2017" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/3-apple-mumbai-2017.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Apple, Mumbai 2017" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/3-apple-mumbai-2017.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/3-apple-mumbai-2017.jpg"
@@ -61,7 +61,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Ismail bhai, Surat 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/5-ismailbhai-surat-2015.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Ismail bhai, Surat 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/5-ismailbhai-surat-2015.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/5-ismailbhai-surat-2015.jpg"
@@ -73,7 +73,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Cut, Surat 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/7-cut-surat-2015.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Cut, Surat 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/7-cut-surat-2015.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/7-cut-surat-2015.jpg"
@@ -85,7 +85,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Tikki, Surat 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/9-tikki-surat-2015.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Tikki, Surat 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/9-tikki-surat-2015.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/9-tikki-surat-2015.jpg"
@@ -97,7 +97,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Ravana, Surat 2018" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/11-ravana-surat-2018.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Ravana, Surat 2018" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/11-ravana-surat-2018.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/11-ravana-surat-2018.jpg"
@@ -109,7 +109,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Diversity, Dubai 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/13-diversity-dubai-2015.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Diversity, Dubai 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/13-diversity-dubai-2015.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/13-diversity-dubai-2015.jpg"
@@ -121,7 +121,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Peek A Boo, Pushkar 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/15-peek-a-boo-pushkar-2015.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Peek A Boo, Pushkar 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/15-peek-a-boo-pushkar-2015.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/15-peek-a-boo-pushkar-2015.jpg"
@@ -133,7 +133,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Thread on watch, Surat 2016" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/17-thread-on-watch-surat-2016.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Thread on watch, Surat 2016" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/17-thread-on-watch-surat-2016.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/17-thread-on-watch-surat-2016.jpg"
@@ -145,7 +145,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Puranpoli, Malegaon 2016" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/19-puranpoli-malegaon-2016.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Puranpoli, Malegaon 2016" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/19-puranpoli-malegaon-2016.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/19-puranpoli-malegaon-2016.jpg"
@@ -160,7 +160,7 @@ Template Name: People
 	  
 	  <div class="col-xl-6">
 	  <div class="people-thumb">
-	  <a class="zoom" title="Cotton Cloud, Bhavnagar 2017" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/2-cotton-cloud-bhavnagar-2017.jpg" >
+	  <a class="fancybox" data-fancybox="gallery" title="Cotton Cloud, Bhavnagar 2017" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/2-cotton-cloud-bhavnagar-2017.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/2-cotton-cloud-bhavnagar-2017.jpg"
@@ -172,7 +172,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Love Ritual, Banaras 2014" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/4-love-ritual-banaras-2014.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Love Ritual, Banaras 2014" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/4-love-ritual-banaras-2014.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/4-love-ritual-banaras-2014.jpg"
@@ -184,7 +184,7 @@ Template Name: People
 			  </a>
             </div>
 			 <div class="people-thumb">
-			 <a class="zoom" title="Flying Kid, Mumbai 2017" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/6-flying-kid-mumbai-2017.jpg" >
+			 <a class="fancybox" data-fancybox="gallery" title="Flying Kid, Mumbai 2017" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/6-flying-kid-mumbai-2017.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/6-flying-kid-mumbai-2017.jpg"
@@ -196,7 +196,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Amul, Kota 2018" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/8-amul-kota-2018.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Amul, Kota 2018" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/8-amul-kota-2018.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/8-amul-kota-2018.jpg"
@@ -208,7 +208,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Back bone, Surat 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/10-back-bone-surat-2015.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Back bone, Surat 2015" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/10-back-bone-surat-2015.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/10-back-bone-surat-2015.jpg"
@@ -220,7 +220,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Uff, Agra 2019" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/12-uff-agra-2019.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Uff, Agra 2019" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/12-uff-agra-2019.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/12-uff-agra-2019.jpg"
@@ -232,7 +232,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Sculpture, Surat 2019" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/14-sculpture-surat-2019.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Sculpture, Surat 2019" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/14-sculpture-surat-2019.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/14-sculpture-surat-2019.jpg"
@@ -244,7 +244,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Watermelon, Surat 2021" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/16-watermelon-surat-2021.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Watermelon, Surat 2021" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/16-watermelon-surat-2021.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/16-watermelon-surat-2021.jpg"
@@ -256,7 +256,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Barber, Dharavi 2016" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/18-barber-dharavi-2016.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Barber, Dharavi 2016" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/18-barber-dharavi-2016.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/18-barber-dharavi-2016.jpg"
@@ -268,7 +268,7 @@ Template Name: People
 			  </a>
             </div>
 			<div class="people-thumb">
-			<a class="zoom" title="Prakash, Mathura 2016" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/20-prakash-mathura-2016.jpg" >
+			<a class="fancybox" data-fancybox="gallery" title="Prakash, Mathura 2016" href="<?php echo get_template_directory_uri(); ?>/images/myself/people/20-prakash-mathura-2016.jpg" >
               <div class="people-thumb-img">
                 <img
                   src="<?php echo get_template_directory_uri(); ?>/images/myself/people/20-prakash-mathura-2016.jpg"
